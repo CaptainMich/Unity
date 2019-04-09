@@ -71,7 +71,9 @@
     <Compile Include="Assets\Scripts\HealthMonitor.cs" />
     <Compile Include="Assets\Scripts\HeartCollect.cs" />
     <Compile Include="Assets\Scripts\PlayerCasting.cs" />
+    <Compile Include="Assets\Scripts\Quest\Quest001Buttons.cs" />
     <Compile Include="Assets\Scripts\Quest\Quest001Take.cs" />
+    <Compile Include="Assets\Scripts\QuestManager.cs" />
     <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>D:/Università/Laurea Magistrale/Computers Graphics Architecture/II semestre/Unity/RPG/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
