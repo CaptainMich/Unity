@@ -4,36 +4,36 @@ using UnityEngine;
 
 public class HealthMonitor : MonoBehaviour
 {
-    public static int HealthValue;
-    public int InternalHealth;
-    public GameObject Hearth1;
-    public GameObject Hearth2;
-    public GameObject Hearth3;
+    public static int healthValue;
+    public int internalHealth;
+    public GameObject hearth1;
+    public GameObject hearth2;
+    public GameObject hearth3;
 
     // Start is called before the first frame update
     void Start()
     {
-        HealthValue = 1;
+        healthValue = 1;
     }
 
     // Update is called once per frame
     void Update()
     {
-        InternalHealth = HealthValue;
+        internalHealth = healthValue;
 
-        if (HealthValue == 1)
+        if (healthValue == 1)
         {
-            Hearth1.SetActive(true);
+            hearth1.SetActive(true);
         }
 
-        if (HealthValue == 2)
+        if (healthValue == 2)
         {
-            Hearth2.SetActive(true);
+            hearth2.SetActive(true);
         }
 
-        if (HealthValue == 3)
+        if (healthValue == 3)
         {
-            Hearth3.SetActive(true);
+            hearth3.SetActive(true);
         }
     }
 }

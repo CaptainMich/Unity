@@ -5,50 +5,50 @@ using UnityEngine.UI;
 
 public class Quest001Buttons : MonoBehaviour
 {
-    public GameObject Player;
-    public GameObject NoticeCamera;
-    public GameObject UIQuest;
-    public GameObject ActiveQuestBox;
-    public GameObject Objective01;
-    public GameObject Objective02;
-    public GameObject Objective03;
+    public GameObject player;
+    public GameObject noticeCamera;
+    public GameObject questUI;
+    public GameObject activeQuestBox;
+    public GameObject objective01;
+    public GameObject objective02;
+    public GameObject objective03;
 
     public void AcceptQuest()
     {
-        Player.SetActive(true);
-        NoticeCamera.SetActive(false);
-        UIQuest.SetActive(false);
+        player.SetActive(true);
+        noticeCamera.SetActive(false);
+        questUI.SetActive(false);
         StartCoroutine(SetQuestUI());
     }
 
     IEnumerator SetQuestUI()
     {
-        ActiveQuestBox.GetComponent<Text>().text = "My first Weapon";
-        Objective01.GetComponent<Text>().text = "Reach the clearing in the wood";
-        Objective02.GetComponent<Text>().text = "Open the cheast";
-        Objective03.GetComponent<Text>().text = "Retrieve the weapon";
+        activeQuestBox.GetComponent<Text>().text = "My first Weapon";
+        objective01.GetComponent<Text>().text = "Reach the clearing in the wood";
+        objective02.GetComponent<Text>().text = "Open the cheast";
+        objective03.GetComponent<Text>().text = "Retrieve the weapon";
 
-        QuestManager.ActiveQuestNumber = 1;
+        QuestManager.activeQuestNumber = 1;
 
         yield return new WaitForSeconds(0.5f);
-        ActiveQuestBox.SetActive(true);
+        activeQuestBox.SetActive(true);
         yield return new WaitForSeconds(1);
-        Objective01.SetActive(true);
+        objective01.SetActive(true);
         yield return new WaitForSeconds(0.5f);
-        Objective02.SetActive(true);
+        objective02.SetActive(true);
         yield return new WaitForSeconds(0.5f);
-        Objective03.SetActive(true);
+        objective03.SetActive(true);
         yield return new WaitForSeconds(9);
-        ActiveQuestBox.SetActive(false);
-        Objective01.SetActive(false);
-        Objective02.SetActive(false);
-        Objective03.SetActive(false);
+        activeQuestBox.SetActive(false);
+        objective01.SetActive(false);
+        objective02.SetActive(false);
+        objective03.SetActive(false);
     }
 
     public void DeclineQuest()
     {
-        Player.SetActive(true);
-        NoticeCamera.SetActive(false);
-        UIQuest.SetActive(false);
+        player.SetActive(true);
+        noticeCamera.SetActive(false);
+        questUI.SetActive(false);
     }
 }

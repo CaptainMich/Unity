@@ -308,9 +308,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab02332f251d75346ba69353935edf21, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RotateSpeed: 2
-  CollectSound: {fileID: 161441187}
-  Heart: {fileID: 138412969}
+  rotateSpeed: 2
+  collectSound: {fileID: 161441187}
+  heart: {fileID: 138412969}
 --- !u!65 &138412971
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -908,7 +908,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01681a31f4e5b3248b32c1c908ac88f5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  ToTarget: 0
+  toTarget: 0
 --- !u!1 &488341749
 GameObject:
   m_ObjectHideFlags: 0
@@ -1063,7 +1063,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 534669902}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &534669904
 Camera:
   m_ObjectHideFlags: 0
@@ -1618,7 +1618,7 @@ AudioListener:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 882294404}
-  m_Enabled: 1
+  m_Enabled: 0
 --- !u!20 &882294407
 Camera:
   m_ObjectHideFlags: 0
@@ -1771,10 +1771,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c07e904a3a36c0e4cbabd6caa43befd3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  InternalHealth: 1
-  Hearth1: {fileID: 2117995421}
-  Hearth2: {fileID: 630750513}
-  Hearth3: {fileID: 1802585587}
+  internalHealth: 1
+  hearth1: {fileID: 2117995421}
+  hearth2: {fileID: 630750513}
+  hearth3: {fileID: 1802585587}
 --- !u!4 &951865011
 Transform:
   m_ObjectHideFlags: 0
@@ -1927,12 +1927,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f9359757deeb7e4f88a6581522eac74, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Distance: 0
-  ActionDisplay: {fileID: 1311743704}
-  ActionText: {fileID: 1232760731}
-  UIQuest: {fileID: 616389070}
-  Player: {fileID: 447856091}
-  NoticeCamera: {fileID: 882294404}
+  distance: 0
+  actionDisplay: {fileID: 1311743704}
+  actionText: {fileID: 1232760731}
+  questUI: {fileID: 616389070}
+  player: {fileID: 447856091}
+  noticeCamera: {fileID: 882294404}
 --- !u!65 &1075650549
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -2912,7 +2912,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8200000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
       propertyPath: m_Volume
-      value: 0.196
+      value: 0.1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 3}
@@ -3207,13 +3207,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 93d3ff4d1ee75ce4d95ebfd53c2478bb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Player: {fileID: 447856091}
-  NoticeCamera: {fileID: 882294404}
-  UIQuest: {fileID: 616389070}
-  ActiveQuestBox: {fileID: 113835254}
-  Objective01: {fileID: 1782663642}
-  Objective02: {fileID: 572575189}
-  Objective03: {fileID: 1350704988}
+  player: {fileID: 447856091}
+  noticeCamera: {fileID: 882294404}
+  questUI: {fileID: 616389070}
+  activeQuestBox: {fileID: 113835254}
+  objective01: {fileID: 1782663642}
+  objective02: {fileID: 572575189}
+  objective03: {fileID: 1350704988}
 --- !u!1 &1954404460
 GameObject:
   m_ObjectHideFlags: 0
@@ -3496,9 +3496,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab02332f251d75346ba69353935edf21, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  RotateSpeed: 2
-  CollectSound: {fileID: 161441187}
-  Heart: {fileID: 2050607154}
+  rotateSpeed: 2
+  collectSound: {fileID: 161441187}
+  heart: {fileID: 2050607154}
 --- !u!65 &2050607159
 BoxCollider:
   m_ObjectHideFlags: 0

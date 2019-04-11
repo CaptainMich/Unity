@@ -5,11 +5,11 @@ using UnityEngine;
 public class QuestManager : MonoBehaviour
 {
     // assign to each quest in the game a number 
-    public static int ActiveQuestNumber;
-    public int InternalQuestNumber;
+    public static int activeQuestNumber;
+    public int internalQuestNumber;
 
     void Update()
     {
-        InternalQuestNumber = ActiveQuestNumber;
+        internalQuestNumber = activeQuestNumber;
     }
 }

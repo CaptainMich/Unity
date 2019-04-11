@@ -4,48 +4,48 @@ using UnityEngine;
 
 public class Quest001Take : MonoBehaviour
 {
-    public float Distance;
-    public GameObject ActionDisplay; // E key
-    public GameObject ActionText;
-    public GameObject UIQuest; // quest on screen readable in a full
-    public GameObject Player;
-    public GameObject NoticeCamera; // different camera to view the quest
+    public float distance;
+    public GameObject actionDisplay; // E key
+    public GameObject actionText;
+    public GameObject questUI; // quest on screen readable in a full
+    public GameObject player;
+    public GameObject noticeCamera; // different camera to view the quest
 
     // Update is called once per frame
     void Update()
     {
         // constantly monitor the distance
-        Distance = PlayerCasting.DistanceFromTarget;
+        distance = PlayerCasting.distanceFromTarget;
     }
 
     void OnMouseOver()
     {
         // check if we are gonna activate the trigger 
-        if (Distance <= 3)
+        if (distance <= 3)
         {
-            ActionDisplay.SetActive(true);
-            ActionText.SetActive(true);
+            actionDisplay.SetActive(true);
+            actionText.SetActive(true);
         }
 
         // behaviour of pressing E key 
         if (Input.GetButtonDown("Action"))
         {
-            if (Distance <= 3) // check if the player is in range 
+            if (distance <= 3) // check if the player is in range 
             {
                 Cursor.lockState = CursorLockMode.None;
                 Cursor.visible = true;
-                ActionDisplay.SetActive(false);
-                ActionText.SetActive(false);
-                UIQuest.SetActive(true);
-                NoticeCamera.SetActive(true);
-                Player.SetActive(false);
+                actionDisplay.SetActive(false);
+                actionText.SetActive(false);
+                questUI.SetActive(true);
+                noticeCamera.SetActive(true);
+                player.SetActive(false);
             }
         }
     }
 
     void OnMouseExit()
     {
-        ActionDisplay.SetActive(false);
-        ActionText.SetActive(false);
+        actionDisplay.SetActive(false);
+        actionText.SetActive(false);
     }
 }
