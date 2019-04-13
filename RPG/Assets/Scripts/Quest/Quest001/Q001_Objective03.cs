@@ -14,6 +14,8 @@ public class Q001_Objective03 : MonoBehaviour
     public GameObject objective;
     public int closeObjective; // to check if the objective is close or not
     public GameObject chestBlock;
+    public GameObject questComplete;
+    public GameObject exMark;
 
     // Update is called once per frame
     void Update()
@@ -55,6 +57,8 @@ public class Q001_Objective03 : MonoBehaviour
                 closeObjective = 3;
                 actionText.SetActive(false);
                 actionDisplay.SetActive(false);
+                exMark.SetActive(true);
+                questComplete.SetActive(true);
             }
         }
     }

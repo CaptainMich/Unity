@@ -68,6 +68,7 @@
     <Compile Include="Assets\SampleScenes\Scripts\ParticleSceneControls.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
     <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
+    <Compile Include="Assets\Scripts\GlobalExp.cs" />
     <Compile Include="Assets\Scripts\HealthMonitor.cs" />
     <Compile Include="Assets\Scripts\HeartCollect.cs" />
     <Compile Include="Assets\Scripts\PlayerCasting.cs" />
@@ -75,6 +76,7 @@
     <Compile Include="Assets\Scripts\Quest\Quest001\Q001_Objective02.cs" />
     <Compile Include="Assets\Scripts\Quest\Quest001\Q001_Objective03.cs" />
     <Compile Include="Assets\Scripts\Quest\Quest001Buttons.cs" />
+    <Compile Include="Assets\Scripts\Quest\Quest001Complete.cs" />
     <Compile Include="Assets\Scripts\Quest\Quest001Take.cs" />
     <Compile Include="Assets\Scripts\QuestManager.cs" />
     <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
