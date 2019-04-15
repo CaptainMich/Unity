@@ -38,7 +38,7 @@ public class PlayerMovement : MonoBehaviour
         isGrounded = true;
         isCrouching = false;
         isRunning = false;
-        isJumping = false;
+        isJumping = false; 
     }
 
     // Update is called once per frame
@@ -110,7 +110,6 @@ public class PlayerMovement : MonoBehaviour
         transform.Translate(0, 0, moveZ);
         transform.Rotate(0, moveY, 0);
 
-
         if (Input.GetKeyDown(KeyCode.R))
         {
             print("Press R");
@@ -146,29 +145,35 @@ public class PlayerMovement : MonoBehaviour
 
     IEnumerator FromBackToHand()
     {
-        backShield.SetActive(false);
-        backSword.SetActive(false);
+        if (backShield.activeSelf && backSword.activeSelf)
+        {
+            backShield.SetActive(false);
+            backSword.SetActive(false);
 
-        yield return new WaitForSeconds(0.3f);
-        handShield.SetActive(true);
-        handSword.SetActive(true);
+            yield return new WaitForSeconds(0.3f);
+            handShield.SetActive(true);
+            handSword.SetActive(true);
 
-        combatMode = true;
+            combatMode = true;
+        }
     }
 
     IEnumerator FromHandToBack()
     {
-        handShield.SetActive(false);
-        handSword.SetActive(false);
+        if (handShield.activeSelf && handSword.activeSelf)
+        {
+            handShield.SetActive(false);
+            handSword.SetActive(false);
 
-        yield return new WaitForSeconds(0.3f);
-        backShield.SetActive(true);
-        backSword.SetActive(true);
+            yield return new WaitForSeconds(0.3f);
+            backShield.SetActive(true);
+            backSword.SetActive(true);
 
-        yield return new WaitForSeconds(1.3f);
-        anim.Play("IDLE", -1, 0f);
+            yield return new WaitForSeconds(1.3f);
+            anim.Play("IDLE", -1, 0f);
 
-        combatMode = false;
+            combatMode = false;
+        }
     }
 
     void OnCollisionEnter()

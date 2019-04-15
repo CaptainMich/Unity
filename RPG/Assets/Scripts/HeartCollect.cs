@@ -14,7 +14,7 @@ public class HeartCollect : MonoBehaviour
         transform.Rotate(0, rotateSpeed, 0, Space.World);
     }
 
-    void OnTriggerEnter()
+    void OnCollisionEnter()
     {
         collectSound.Play();
         HealthMonitor.healthValue += 1;

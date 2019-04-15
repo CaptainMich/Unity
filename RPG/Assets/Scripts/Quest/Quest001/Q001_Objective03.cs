@@ -16,6 +16,7 @@ public class Q001_Objective03 : MonoBehaviour
     public GameObject chestBlock;
     public GameObject questComplete;
     public GameObject exMark;
+    public GameObject light;
 
     // Update is called once per frame
     void Update()
@@ -44,6 +45,7 @@ public class Q001_Objective03 : MonoBehaviour
             actionText.GetComponent<Text>().text = "Take Sword";
             actionText.SetActive(true);
             actionDisplay.SetActive(true);
+            light.SetActive(true);
         }
 
         if (Input.GetButtonDown("Action"))
@@ -67,6 +69,7 @@ public class Q001_Objective03 : MonoBehaviour
     {
         actionDisplay.SetActive(false);
         actionText.SetActive(false);
+        light.SetActive(false);
     }
 
 }

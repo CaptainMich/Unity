@@ -66,7 +66,9 @@
     <Compile Include="Assets\Envinronment\Medieval Mega Pack\MakeSomeNoise.cs" />
     <Compile Include="Assets\Envinronment\Medieval Mega Pack\Rotator2.cs" />
     <Compile Include="Assets\Envinronment\Medieval Mega Pack\TextureScroll.cs" />
+    <Compile Include="Assets\Player\PlayerCasting.cs" />
     <Compile Include="Assets\Player\PlayerMovement.cs" />
+    <Compile Include="Assets\Player\ThirdPersonCam.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\PauseMenu.cs" />
     <Compile Include="Assets\SampleScenes\Menu\Scripts\SceneAndURLLoader.cs" />
@@ -78,7 +80,6 @@
     <Compile Include="Assets\Scripts\GlobalExp.cs" />
     <Compile Include="Assets\Scripts\HealthMonitor.cs" />
     <Compile Include="Assets\Scripts\HeartCollect.cs" />
-    <Compile Include="Assets\Scripts\PlayerCasting.cs" />
     <Compile Include="Assets\Scripts\Quest\Quest001\Q001_Objective01.cs" />
     <Compile Include="Assets\Scripts\Quest\Quest001\Q001_Objective02.cs" />
     <Compile Include="Assets\Scripts\Quest\Quest001\Q001_Objective03.cs" />
