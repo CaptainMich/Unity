@@ -68,29 +68,23 @@
     <Compile Include="Assets\Standard Assets\Editor\Water\Water4\SpecularLightingEditor.cs" />
     <Compile Include="Assets\Standard Assets\Editor\Water\Water4\WaterBaseEditor.cs" />
     <Compile Include="Assets\Standard Assets\Editor\Water\Water4\WaterEditorUtility.cs" />
-    <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/Università/Laurea Magistrale/Computers Graphics Architecture/II semestre/Unity/RPG/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>D:/Università/Laurea Magistrale/Computers Graphics Architecture/II semestre/Unity/RPG/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>D:/Università/Laurea Magistrale/Computers Graphics Architecture/II semestre/Unity/RPG/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/Università/Laurea Magistrale/Computers Graphics Architecture/II semestre/Unity/RPG/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>D:/Università/Laurea Magistrale/Computers Graphics Architecture/II semestre/Unity/RPG/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>D:/Università/Laurea Magistrale/Computers Graphics Architecture/II semestre/Unity/RPG/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.multiplayer-hlapi.Editor">
       <HintPath>D:/Università/Laurea Magistrale/Computers Graphics Architecture/II semestre/Unity/RPG/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>D:/Università/Laurea Magistrale/Computers Graphics Architecture/II semestre/Unity/RPG/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PackageManagerUI.Editor">
+      <HintPath>D:/Università/Laurea Magistrale/Computers Graphics Architecture/II semestre/Unity/RPG/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Timeline">
       <HintPath>D:/Università/Laurea Magistrale/Computers Graphics Architecture/II semestre/Unity/RPG/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.CollabProxy.Editor">
+      <HintPath>D:/Università/Laurea Magistrale/Computers Graphics Architecture/II semestre/Unity/RPG/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.multiplayer-weaver.Editor">
       <HintPath>D:/Università/Laurea Magistrale/Computers Graphics Architecture/II semestre/Unity/RPG/Library/ScriptAssemblies/com.unity.multiplayer-weaver.Editor.dll</HintPath>
@@ -103,6 +97,12 @@
     </Reference>
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>D:/Università/Laurea Magistrale/Computers Graphics Architecture/II semestre/Unity/RPG/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>D:/Università/Laurea Magistrale/Computers Graphics Architecture/II semestre/Unity/RPG/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.DataPrivacy">
+      <HintPath>D:/Università/Laurea Magistrale/Computers Graphics Architecture/II semestre/Unity/RPG/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.XR.LegacyInputHelpers">
       <HintPath>D:/Università/Laurea Magistrale/Computers Graphics Architecture/II semestre/Unity/RPG/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>

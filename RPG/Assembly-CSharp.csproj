@@ -62,12 +62,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Envinronment\Medieval Mega Pack\Aquarius Max Character\DemoCharacter.cs" />
-    <Compile Include="Assets\Envinronment\Medieval Mega Pack\Aquarius Max Character\TextureScroll.cs" />
-    <Compile Include="Assets\Envinronment\Medieval Mega Pack\Demo Scenes\MakeSomeNoise.cs" />
-    <Compile Include="Assets\Envinronment\Medieval Mega Pack\MakeSomeNoise.cs" />
-    <Compile Include="Assets\Envinronment\Medieval Mega Pack\Rotator2.cs" />
-    <Compile Include="Assets\Envinronment\Medieval Mega Pack\TextureScroll.cs" />
     <Compile Include="Assets\Player\PlayerCasting.cs" />
     <Compile Include="Assets\Player\PlayerMovement.cs" />
     <Compile Include="Assets\Player\ThirdPersonCam.cs" />
@@ -95,32 +89,25 @@
     <None Include="Assets\Player\MEDIEVAL_ANIMATIONS_MEGA_PACK_new\Wisard's\Wizard_motiondata.xml" />
     <None Include="Assets\Player\MEDIEVAL_ANIMATIONS_MEGA_PACK_new\Horseman\Horseman_motiondata.xml" />
     <None Include="Assets\Player\HERO\motiondata.xml" />
-    <None Include="Assets\Envinronment\Medieval Mega Pack\Rock_Cover_Standard.shader" />
     <None Include="Assets\Player\HERO\Hero_notes.txt" />
     <None Include="Assets\SampleScenes\Shaders\Skybox-Procedural.shader" />
-    <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>D:/Università/Laurea Magistrale/Computers Graphics Architecture/II semestre/Unity/RPG/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>D:/Università/Laurea Magistrale/Computers Graphics Architecture/II semestre/Unity/RPG/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.CollabProxy.Editor">
-      <HintPath>D:/Università/Laurea Magistrale/Computers Graphics Architecture/II semestre/Unity/RPG/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.TextMeshPro">
-      <HintPath>D:/Università/Laurea Magistrale/Computers Graphics Architecture/II semestre/Unity/RPG/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Analytics.DataPrivacy">
-      <HintPath>D:/Università/Laurea Magistrale/Computers Graphics Architecture/II semestre/Unity/RPG/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
-    </Reference>
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>D:/Università/Laurea Magistrale/Computers Graphics Architecture/II semestre/Unity/RPG/Library/ScriptAssemblies/Unity.Timeline.Editor.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.multiplayer-hlapi.Editor">
       <HintPath>D:/Università/Laurea Magistrale/Computers Graphics Architecture/II semestre/Unity/RPG/Library/ScriptAssemblies/com.unity.multiplayer-hlapi.Editor.dll</HintPath>
     </Reference>
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>D:/Università/Laurea Magistrale/Computers Graphics Architecture/II semestre/Unity/RPG/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PackageManagerUI.Editor">
+      <HintPath>D:/Università/Laurea Magistrale/Computers Graphics Architecture/II semestre/Unity/RPG/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.Timeline">
       <HintPath>D:/Università/Laurea Magistrale/Computers Graphics Architecture/II semestre/Unity/RPG/Library/ScriptAssemblies/Unity.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.CollabProxy.Editor">
+      <HintPath>D:/Università/Laurea Magistrale/Computers Graphics Architecture/II semestre/Unity/RPG/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
     </Reference>
     <Reference Include="com.unity.multiplayer-weaver.Editor">
       <HintPath>D:/Università/Laurea Magistrale/Computers Graphics Architecture/II semestre/Unity/RPG/Library/ScriptAssemblies/com.unity.multiplayer-weaver.Editor.dll</HintPath>
@@ -133,6 +120,12 @@
     </Reference>
     <Reference Include="UnityEngine.SpatialTracking">
       <HintPath>D:/Università/Laurea Magistrale/Computers Graphics Architecture/II semestre/Unity/RPG/Library/ScriptAssemblies/UnityEngine.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>D:/Università/Laurea Magistrale/Computers Graphics Architecture/II semestre/Unity/RPG/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.DataPrivacy">
+      <HintPath>D:/Università/Laurea Magistrale/Computers Graphics Architecture/II semestre/Unity/RPG/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
     </Reference>
     <Reference Include="UnityEditor.XR.LegacyInputHelpers">
       <HintPath>D:/Università/Laurea Magistrale/Computers Graphics Architecture/II semestre/Unity/RPG/Library/ScriptAssemblies/UnityEditor.XR.LegacyInputHelpers.dll</HintPath>
