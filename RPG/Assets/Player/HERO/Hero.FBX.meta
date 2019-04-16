@@ -11,297 +11,875 @@ labels:
 - lord
 - footman
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: Bip01 skirt_left02
-    100002: Bip01 skirt_front
-    100004: Bip01 R Finger01
-    100006: Bip01 R Finger02
-    100008: Bip01 R UpperArm
-    100010: Bip01 R Clavicle
-    100012: Bip01 L ForeTwist1
-    100014: Bip01 L ForeTwist
-    100016: Bip01 sheld_hand_mount
-    100018: Bip01 weapon_hand_left
-    100020: Bip01 L Finger12
-    100022: Bip01 L Finger11
-    100024: Bip01 L Finger02
-    100026: Bip01 L Finger01
-    100028: Bip01 L UpperArm
-    100030: Bip01 L Clavicle
-    100032: Bip01 skirt_back
-    100034: Bip01 skirt_right
-    100036: Bip01 skirt_right02
-    100038: //RootNode
-    100040: ap_leg_armor_metal
-    100042: Bip01 R ForeTwist
-    100044: Bip01 skirt_back02
-    100046: Bip01 skirt_front02
-    100048: Bip01 skirt_left
-    100050: Bip01 back_left_Wmount
-    100052: shuoldes_metal_01
-    100054: Bip01 R ForeTwist1
-    100056: Bip01 weapon_hand_right
-    100058: Bip01 R Finger12
-    100060: Bip01 back_center_Wmount
-    100062: Bip01 back_right_Wmount
-    100064: Bip01 R Finger11
-    100066: kite_shield01
-    100068: shuoldes_metal
-    100070: Bip01 L Finger1
-    100072: Bip01 L Finger0
-    100074: Bip01 L Hand
-    100076: Bip01 L Forearm
-    100078: mastages
-    100080: right_earring
-    100082: left_earring
-    100084: helmet_metal
-    100086: Bip01 eyes
-    100088: beard
-    100090: Bip01 Jaw
-    100092: Bip01 Head
-    100094: Bip01 Neck
-    100096: Bip01 Spine2
-    100098: Bip01 Spine1
-    100100: Bip01 Spine
-    100102: Bip01 Pelvis
-    100104: Bip01
-    100106: Bip01 R Finger0
-    100108: Bip01 R Finger1
-    100110: Bip01 R Hand
-    100112: shirt_mail
-    100114: rerebrace_metal
-    100116: vambrace_metal
-    100118: knee_metal
-    100120: hair
-    100122: belt_leather
-    100124: coif_mail
-    100126: boots_metal
-    100128: hero_body
-    100130: gloves_metal
-    100132: cuirass_metal
-    100134: greave_metal_01
-    100136: Bip01 R Toe0
-    100138: Bip01 R Foot
-    100140: Bip01 R Calf
-    100142: Bip01 R Thigh
-    100144: greave_metal
-    100146: Bip01 L Toe0
-    100148: Bip01 L Foot
-    100150: Bip01 L Calf
-    100152: Bip01 L Thigh
-    100154: pendant
-    100156: 1H_sword
-    100158: kite_shield
-    100160: 1H_sword01
-    100162: Cru_helmet
-    400000: Bip01 skirt_left02
-    400002: Bip01 skirt_front
-    400004: Bip01 R Finger01
-    400006: Bip01 R Finger02
-    400008: Bip01 R UpperArm
-    400010: Bip01 R Clavicle
-    400012: Bip01 L ForeTwist1
-    400014: Bip01 L ForeTwist
-    400016: Bip01 sheld_hand_mount
-    400018: Bip01 weapon_hand_left
-    400020: Bip01 L Finger12
-    400022: Bip01 L Finger11
-    400024: Bip01 L Finger02
-    400026: Bip01 L Finger01
-    400028: Bip01 L UpperArm
-    400030: Bip01 L Clavicle
-    400032: Bip01 skirt_back
-    400034: Bip01 skirt_right
-    400036: Bip01 skirt_right02
-    400038: //RootNode
-    400040: ap_leg_armor_metal
-    400042: Bip01 R ForeTwist
-    400044: Bip01 skirt_back02
-    400046: Bip01 skirt_front02
-    400048: Bip01 skirt_left
-    400050: Bip01 back_left_Wmount
-    400052: shuoldes_metal_01
-    400054: Bip01 R ForeTwist1
-    400056: Bip01 weapon_hand_right
-    400058: Bip01 R Finger12
-    400060: Bip01 back_center_Wmount
-    400062: Bip01 back_right_Wmount
-    400064: Bip01 R Finger11
-    400066: kite_shield01
-    400068: shuoldes_metal
-    400070: Bip01 L Finger1
-    400072: Bip01 L Finger0
-    400074: Bip01 L Hand
-    400076: Bip01 L Forearm
-    400078: mastages
-    400080: right_earring
-    400082: left_earring
-    400084: helmet_metal
-    400086: Bip01 eyes
-    400088: beard
-    400090: Bip01 Jaw
-    400092: Bip01 Head
-    400094: Bip01 Neck
-    400096: Bip01 Spine2
-    400098: Bip01 Spine1
-    400100: Bip01 Spine
-    400102: Bip01 Pelvis
-    400104: Bip01
-    400106: Bip01 R Finger0
-    400108: Bip01 R Finger1
-    400110: Bip01 R Hand
-    400112: shirt_mail
-    400114: rerebrace_metal
-    400116: vambrace_metal
-    400118: knee_metal
-    400120: hair
-    400122: belt_leather
-    400124: coif_mail
-    400126: boots_metal
-    400128: hero_body
-    400130: gloves_metal
-    400132: cuirass_metal
-    400134: greave_metal_01
-    400136: Bip01 R Toe0
-    400138: Bip01 R Foot
-    400140: Bip01 R Calf
-    400142: Bip01 R Thigh
-    400144: greave_metal
-    400146: Bip01 L Toe0
-    400148: Bip01 L Foot
-    400150: Bip01 L Calf
-    400152: Bip01 L Thigh
-    400154: pendant
-    400156: 1H_sword
-    400158: kite_shield
-    400160: 1H_sword01
-    400162: Cru_helmet
-    2300000: shuoldes_metal_01
-    2300002: shuoldes_metal
-    2300004: mastages
-    2300006: right_earring
-    2300008: left_earring
-    2300010: helmet_metal
-    2300012: beard
-    2300014: greave_metal_01
-    2300016: greave_metal
-    2300018: pendant
-    2300020: 1H_sword
-    2300022: kite_shield
-    2300024: kite_shield01
-    2300026: 1H_sword01
-    2300028: Cru_helmet
-    3300000: shuoldes_metal_01
-    3300002: shuoldes_metal
-    3300004: mastages
-    3300006: right_earring
-    3300008: left_earring
-    3300010: helmet_metal
-    3300012: beard
-    3300014: greave_metal_01
-    3300016: greave_metal
-    3300018: pendant
-    3300020: 1H_sword
-    3300022: kite_shield
-    3300024: kite_shield01
-    3300026: 1H_sword01
-    3300028: Cru_helmet
-    4300000: beard
-    4300002: helmet_metal
-    4300004: left_earring
-    4300006: right_earring
-    4300008: mastages
-    4300010: shuoldes_metal
-    4300012: shuoldes_metal_01
-    4300014: kite_shield
-    4300016: 1H_sword
-    4300018: pendant
-    4300020: greave_metal
-    4300022: greave_metal_01
-    4300024: hero_body
-    4300026: coif_mail
-    4300028: belt_leather
-    4300030: boots_metal
-    4300032: cuirass_metal
-    4300034: gloves_metal
-    4300036: knee_metal
-    4300038: shirt_mail
-    4300040: ap_leg_armor_metal
-    4300042: rerebrace_metal
-    4300044: vambrace_metal
-    4300046: hair
-    4300048: 1H_sword01
-    4300050: kite_shield01
-    4300052: Cru_helmet
-    7400100: hero_looking_around
-    7400102: hero_Drinking
-    7400104: hero_Eating
-    7400106: hero_Explanation
-    7400108: hero_boring
-    7400110: hero_making_item
-    7400112: hero_pick_object
-    7400114: hero_salute
-    7400116: hero_Say_No
-    7400118: hero_Standing_Free
-    7400120: hero_Talking
-    7400122: hero_sit_down
-    7400124: hero_sitting
-    7400126: hero_came_up
-    7400128: hero_Run
-    7400130: hero_Climbing_ladder
-    7400132: hero_Crouching
-    7400134: hero_Sneaking
-    7400136: hero_Swimming
-    7400138: hero_walk
-    7400140: hero_Jump_runing
-    7400142: Hero_walking_back
-    7400144: hero_War_COMBAT_MODE
-    7400146: hero_War_backwards
-    7400148: hero_War_below_high_swing
-    7400150: hero_War_dodge_to_left
-    7400152: hero_War_dodge_to_right
-    7400154: hero_War_moving_left
-    7400156: hero_War_moving_right
-    7400158: hero_War_parry_from_stright_down
-    7400160: hero_War_parry_front
-    7400162: hero_War_shield_block
-    7400164: hero_War_shield_blow
-    7400166: hero_War_specal_attack_A
-    7400168: hero_War_specal_attack_B
-    7400170: hero_War_swing_high_straight_down
-    7400172: hero_War_swing_left
-    7400174: hero_War_swing_right
-    7400176: hero_War_thrust_mid
-    7400178: hero_War_taking_hit
-    7400180: hero_ThrowingAxe_throwing
-    7400182: hero_ThrowingSpear_throwing
-    7400184: hero_War_Dying
-    7400186: hero_War_charging
-    7400188: hero_War_run_swing_left
-    7400190: hero_War_run_swing_right
-    7400192: hero_War_run_swing_up_down
-    7400194: Hero_War_retreat
-    7400196: hero_walk_trust
-    7400198: hero_walk_right_swing
-    7400200: hero_walk_left_swing
-    7400202: hero_strafe_right
-    7400204: hero_strafe_left
-    9500000: //RootNode
-    11100000: //RootNode
-    13700000: ap_leg_armor_metal
-    13700002: shirt_mail
-    13700004: rerebrace_metal
-    13700006: vambrace_metal
-    13700008: knee_metal
-    13700010: hair
-    13700012: belt_leather
-    13700014: coif_mail
-    13700016: boots_metal
-    13700018: hero_body
-    13700020: gloves_metal
-    13700022: cuirass_metal
-    2186277476908879412: ImportLogs
+  serializedVersion: 25
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Bip01 skirt_left02
+  - first:
+      1: 100002
+    second: Bip01 skirt_front
+  - first:
+      1: 100004
+    second: Bip01 R Finger01
+  - first:
+      1: 100006
+    second: Bip01 R Finger02
+  - first:
+      1: 100008
+    second: Bip01 R UpperArm
+  - first:
+      1: 100010
+    second: Bip01 R Clavicle
+  - first:
+      1: 100012
+    second: Bip01 L ForeTwist1
+  - first:
+      1: 100014
+    second: Bip01 L ForeTwist
+  - first:
+      1: 100016
+    second: Bip01 sheld_hand_mount
+  - first:
+      1: 100018
+    second: Bip01 weapon_hand_left
+  - first:
+      1: 100020
+    second: Bip01 L Finger12
+  - first:
+      1: 100022
+    second: Bip01 L Finger11
+  - first:
+      1: 100024
+    second: Bip01 L Finger02
+  - first:
+      1: 100026
+    second: Bip01 L Finger01
+  - first:
+      1: 100028
+    second: Bip01 L UpperArm
+  - first:
+      1: 100030
+    second: Bip01 L Clavicle
+  - first:
+      1: 100032
+    second: Bip01 skirt_back
+  - first:
+      1: 100034
+    second: Bip01 skirt_right
+  - first:
+      1: 100036
+    second: Bip01 skirt_right02
+  - first:
+      1: 100038
+    second: //RootNode
+  - first:
+      1: 100040
+    second: ap_leg_armor_metal
+  - first:
+      1: 100042
+    second: Bip01 R ForeTwist
+  - first:
+      1: 100044
+    second: Bip01 skirt_back02
+  - first:
+      1: 100046
+    second: Bip01 skirt_front02
+  - first:
+      1: 100048
+    second: Bip01 skirt_left
+  - first:
+      1: 100050
+    second: Bip01 back_left_Wmount
+  - first:
+      1: 100052
+    second: shuoldes_metal_01
+  - first:
+      1: 100054
+    second: Bip01 R ForeTwist1
+  - first:
+      1: 100056
+    second: Bip01 weapon_hand_right
+  - first:
+      1: 100058
+    second: Bip01 R Finger12
+  - first:
+      1: 100060
+    second: Bip01 back_center_Wmount
+  - first:
+      1: 100062
+    second: Bip01 back_right_Wmount
+  - first:
+      1: 100064
+    second: Bip01 R Finger11
+  - first:
+      1: 100066
+    second: kite_shield01
+  - first:
+      1: 100068
+    second: shuoldes_metal
+  - first:
+      1: 100070
+    second: Bip01 L Finger1
+  - first:
+      1: 100072
+    second: Bip01 L Finger0
+  - first:
+      1: 100074
+    second: Bip01 L Hand
+  - first:
+      1: 100076
+    second: Bip01 L Forearm
+  - first:
+      1: 100078
+    second: mastages
+  - first:
+      1: 100080
+    second: right_earring
+  - first:
+      1: 100082
+    second: left_earring
+  - first:
+      1: 100084
+    second: helmet_metal
+  - first:
+      1: 100086
+    second: Bip01 eyes
+  - first:
+      1: 100088
+    second: beard
+  - first:
+      1: 100090
+    second: Bip01 Jaw
+  - first:
+      1: 100092
+    second: Bip01 Head
+  - first:
+      1: 100094
+    second: Bip01 Neck
+  - first:
+      1: 100096
+    second: Bip01 Spine2
+  - first:
+      1: 100098
+    second: Bip01 Spine1
+  - first:
+      1: 100100
+    second: Bip01 Spine
+  - first:
+      1: 100102
+    second: Bip01 Pelvis
+  - first:
+      1: 100104
+    second: Bip01
+  - first:
+      1: 100106
+    second: Bip01 R Finger0
+  - first:
+      1: 100108
+    second: Bip01 R Finger1
+  - first:
+      1: 100110
+    second: Bip01 R Hand
+  - first:
+      1: 100112
+    second: shirt_mail
+  - first:
+      1: 100114
+    second: rerebrace_metal
+  - first:
+      1: 100116
+    second: vambrace_metal
+  - first:
+      1: 100118
+    second: knee_metal
+  - first:
+      1: 100120
+    second: hair
+  - first:
+      1: 100122
+    second: belt_leather
+  - first:
+      1: 100124
+    second: coif_mail
+  - first:
+      1: 100126
+    second: boots_metal
+  - first:
+      1: 100128
+    second: hero_body
+  - first:
+      1: 100130
+    second: gloves_metal
+  - first:
+      1: 100132
+    second: cuirass_metal
+  - first:
+      1: 100134
+    second: greave_metal_01
+  - first:
+      1: 100136
+    second: Bip01 R Toe0
+  - first:
+      1: 100138
+    second: Bip01 R Foot
+  - first:
+      1: 100140
+    second: Bip01 R Calf
+  - first:
+      1: 100142
+    second: Bip01 R Thigh
+  - first:
+      1: 100144
+    second: greave_metal
+  - first:
+      1: 100146
+    second: Bip01 L Toe0
+  - first:
+      1: 100148
+    second: Bip01 L Foot
+  - first:
+      1: 100150
+    second: Bip01 L Calf
+  - first:
+      1: 100152
+    second: Bip01 L Thigh
+  - first:
+      1: 100154
+    second: pendant
+  - first:
+      1: 100156
+    second: 1H_sword
+  - first:
+      1: 100158
+    second: kite_shield
+  - first:
+      1: 100160
+    second: 1H_sword01
+  - first:
+      1: 100162
+    second: Cru_helmet
+  - first:
+      4: 400000
+    second: Bip01 skirt_left02
+  - first:
+      4: 400002
+    second: Bip01 skirt_front
+  - first:
+      4: 400004
+    second: Bip01 R Finger01
+  - first:
+      4: 400006
+    second: Bip01 R Finger02
+  - first:
+      4: 400008
+    second: Bip01 R UpperArm
+  - first:
+      4: 400010
+    second: Bip01 R Clavicle
+  - first:
+      4: 400012
+    second: Bip01 L ForeTwist1
+  - first:
+      4: 400014
+    second: Bip01 L ForeTwist
+  - first:
+      4: 400016
+    second: Bip01 sheld_hand_mount
+  - first:
+      4: 400018
+    second: Bip01 weapon_hand_left
+  - first:
+      4: 400020
+    second: Bip01 L Finger12
+  - first:
+      4: 400022
+    second: Bip01 L Finger11
+  - first:
+      4: 400024
+    second: Bip01 L Finger02
+  - first:
+      4: 400026
+    second: Bip01 L Finger01
+  - first:
+      4: 400028
+    second: Bip01 L UpperArm
+  - first:
+      4: 400030
+    second: Bip01 L Clavicle
+  - first:
+      4: 400032
+    second: Bip01 skirt_back
+  - first:
+      4: 400034
+    second: Bip01 skirt_right
+  - first:
+      4: 400036
+    second: Bip01 skirt_right02
+  - first:
+      4: 400038
+    second: //RootNode
+  - first:
+      4: 400040
+    second: ap_leg_armor_metal
+  - first:
+      4: 400042
+    second: Bip01 R ForeTwist
+  - first:
+      4: 400044
+    second: Bip01 skirt_back02
+  - first:
+      4: 400046
+    second: Bip01 skirt_front02
+  - first:
+      4: 400048
+    second: Bip01 skirt_left
+  - first:
+      4: 400050
+    second: Bip01 back_left_Wmount
+  - first:
+      4: 400052
+    second: shuoldes_metal_01
+  - first:
+      4: 400054
+    second: Bip01 R ForeTwist1
+  - first:
+      4: 400056
+    second: Bip01 weapon_hand_right
+  - first:
+      4: 400058
+    second: Bip01 R Finger12
+  - first:
+      4: 400060
+    second: Bip01 back_center_Wmount
+  - first:
+      4: 400062
+    second: Bip01 back_right_Wmount
+  - first:
+      4: 400064
+    second: Bip01 R Finger11
+  - first:
+      4: 400066
+    second: kite_shield01
+  - first:
+      4: 400068
+    second: shuoldes_metal
+  - first:
+      4: 400070
+    second: Bip01 L Finger1
+  - first:
+      4: 400072
+    second: Bip01 L Finger0
+  - first:
+      4: 400074
+    second: Bip01 L Hand
+  - first:
+      4: 400076
+    second: Bip01 L Forearm
+  - first:
+      4: 400078
+    second: mastages
+  - first:
+      4: 400080
+    second: right_earring
+  - first:
+      4: 400082
+    second: left_earring
+  - first:
+      4: 400084
+    second: helmet_metal
+  - first:
+      4: 400086
+    second: Bip01 eyes
+  - first:
+      4: 400088
+    second: beard
+  - first:
+      4: 400090
+    second: Bip01 Jaw
+  - first:
+      4: 400092
+    second: Bip01 Head
+  - first:
+      4: 400094
+    second: Bip01 Neck
+  - first:
+      4: 400096
+    second: Bip01 Spine2
+  - first:
+      4: 400098
+    second: Bip01 Spine1
+  - first:
+      4: 400100
+    second: Bip01 Spine
+  - first:
+      4: 400102
+    second: Bip01 Pelvis
+  - first:
+      4: 400104
+    second: Bip01
+  - first:
+      4: 400106
+    second: Bip01 R Finger0
+  - first:
+      4: 400108
+    second: Bip01 R Finger1
+  - first:
+      4: 400110
+    second: Bip01 R Hand
+  - first:
+      4: 400112
+    second: shirt_mail
+  - first:
+      4: 400114
+    second: rerebrace_metal
+  - first:
+      4: 400116
+    second: vambrace_metal
+  - first:
+      4: 400118
+    second: knee_metal
+  - first:
+      4: 400120
+    second: hair
+  - first:
+      4: 400122
+    second: belt_leather
+  - first:
+      4: 400124
+    second: coif_mail
+  - first:
+      4: 400126
+    second: boots_metal
+  - first:
+      4: 400128
+    second: hero_body
+  - first:
+      4: 400130
+    second: gloves_metal
+  - first:
+      4: 400132
+    second: cuirass_metal
+  - first:
+      4: 400134
+    second: greave_metal_01
+  - first:
+      4: 400136
+    second: Bip01 R Toe0
+  - first:
+      4: 400138
+    second: Bip01 R Foot
+  - first:
+      4: 400140
+    second: Bip01 R Calf
+  - first:
+      4: 400142
+    second: Bip01 R Thigh
+  - first:
+      4: 400144
+    second: greave_metal
+  - first:
+      4: 400146
+    second: Bip01 L Toe0
+  - first:
+      4: 400148
+    second: Bip01 L Foot
+  - first:
+      4: 400150
+    second: Bip01 L Calf
+  - first:
+      4: 400152
+    second: Bip01 L Thigh
+  - first:
+      4: 400154
+    second: pendant
+  - first:
+      4: 400156
+    second: 1H_sword
+  - first:
+      4: 400158
+    second: kite_shield
+  - first:
+      4: 400160
+    second: 1H_sword01
+  - first:
+      4: 400162
+    second: Cru_helmet
+  - first:
+      23: 2300000
+    second: shuoldes_metal_01
+  - first:
+      23: 2300002
+    second: shuoldes_metal
+  - first:
+      23: 2300004
+    second: mastages
+  - first:
+      23: 2300006
+    second: right_earring
+  - first:
+      23: 2300008
+    second: left_earring
+  - first:
+      23: 2300010
+    second: helmet_metal
+  - first:
+      23: 2300012
+    second: beard
+  - first:
+      23: 2300014
+    second: greave_metal_01
+  - first:
+      23: 2300016
+    second: greave_metal
+  - first:
+      23: 2300018
+    second: pendant
+  - first:
+      23: 2300020
+    second: 1H_sword
+  - first:
+      23: 2300022
+    second: kite_shield
+  - first:
+      23: 2300024
+    second: kite_shield01
+  - first:
+      23: 2300026
+    second: 1H_sword01
+  - first:
+      23: 2300028
+    second: Cru_helmet
+  - first:
+      33: 3300000
+    second: shuoldes_metal_01
+  - first:
+      33: 3300002
+    second: shuoldes_metal
+  - first:
+      33: 3300004
+    second: mastages
+  - first:
+      33: 3300006
+    second: right_earring
+  - first:
+      33: 3300008
+    second: left_earring
+  - first:
+      33: 3300010
+    second: helmet_metal
+  - first:
+      33: 3300012
+    second: beard
+  - first:
+      33: 3300014
+    second: greave_metal_01
+  - first:
+      33: 3300016
+    second: greave_metal
+  - first:
+      33: 3300018
+    second: pendant
+  - first:
+      33: 3300020
+    second: 1H_sword
+  - first:
+      33: 3300022
+    second: kite_shield
+  - first:
+      33: 3300024
+    second: kite_shield01
+  - first:
+      33: 3300026
+    second: 1H_sword01
+  - first:
+      33: 3300028
+    second: Cru_helmet
+  - first:
+      43: 4300000
+    second: beard
+  - first:
+      43: 4300002
+    second: helmet_metal
+  - first:
+      43: 4300004
+    second: left_earring
+  - first:
+      43: 4300006
+    second: right_earring
+  - first:
+      43: 4300008
+    second: mastages
+  - first:
+      43: 4300010
+    second: shuoldes_metal
+  - first:
+      43: 4300012
+    second: shuoldes_metal_01
+  - first:
+      43: 4300014
+    second: kite_shield
+  - first:
+      43: 4300016
+    second: 1H_sword
+  - first:
+      43: 4300018
+    second: pendant
+  - first:
+      43: 4300020
+    second: greave_metal
+  - first:
+      43: 4300022
+    second: greave_metal_01
+  - first:
+      43: 4300024
+    second: hero_body
+  - first:
+      43: 4300026
+    second: coif_mail
+  - first:
+      43: 4300028
+    second: belt_leather
+  - first:
+      43: 4300030
+    second: boots_metal
+  - first:
+      43: 4300032
+    second: cuirass_metal
+  - first:
+      43: 4300034
+    second: gloves_metal
+  - first:
+      43: 4300036
+    second: knee_metal
+  - first:
+      43: 4300038
+    second: shirt_mail
+  - first:
+      43: 4300040
+    second: ap_leg_armor_metal
+  - first:
+      43: 4300042
+    second: rerebrace_metal
+  - first:
+      43: 4300044
+    second: vambrace_metal
+  - first:
+      43: 4300046
+    second: hair
+  - first:
+      43: 4300048
+    second: 1H_sword01
+  - first:
+      43: 4300050
+    second: kite_shield01
+  - first:
+      43: 4300052
+    second: Cru_helmet
+  - first:
+      74: 7400100
+    second: hero_looking_around
+  - first:
+      74: 7400102
+    second: hero_Drinking
+  - first:
+      74: 7400104
+    second: hero_Eating
+  - first:
+      74: 7400106
+    second: hero_Explanation
+  - first:
+      74: 7400108
+    second: hero_boring
+  - first:
+      74: 7400110
+    second: hero_making_item
+  - first:
+      74: 7400112
+    second: hero_pick_object
+  - first:
+      74: 7400114
+    second: hero_salute
+  - first:
+      74: 7400116
+    second: hero_Say_No
+  - first:
+      74: 7400118
+    second: hero_Standing_Free
+  - first:
+      74: 7400120
+    second: hero_Talking
+  - first:
+      74: 7400122
+    second: hero_sit_down
+  - first:
+      74: 7400124
+    second: hero_sitting
+  - first:
+      74: 7400126
+    second: hero_came_up
+  - first:
+      74: 7400128
+    second: hero_Run
+  - first:
+      74: 7400130
+    second: hero_Climbing_ladder
+  - first:
+      74: 7400132
+    second: hero_Crouching
+  - first:
+      74: 7400134
+    second: hero_Sneaking
+  - first:
+      74: 7400136
+    second: hero_Swimming
+  - first:
+      74: 7400138
+    second: hero_walk
+  - first:
+      74: 7400140
+    second: hero_Jump_runing
+  - first:
+      74: 7400142
+    second: Hero_walking_back
+  - first:
+      74: 7400144
+    second: hero_War_COMBAT_MODE
+  - first:
+      74: 7400146
+    second: hero_War_backwards
+  - first:
+      74: 7400148
+    second: hero_War_below_high_swing
+  - first:
+      74: 7400150
+    second: hero_War_dodge_to_left
+  - first:
+      74: 7400152
+    second: hero_War_dodge_to_right
+  - first:
+      74: 7400154
+    second: hero_War_moving_left
+  - first:
+      74: 7400156
+    second: hero_War_moving_right
+  - first:
+      74: 7400158
+    second: hero_War_parry_from_stright_down
+  - first:
+      74: 7400160
+    second: hero_War_parry_front
+  - first:
+      74: 7400162
+    second: hero_War_shield_block
+  - first:
+      74: 7400164
+    second: hero_War_shield_blow
+  - first:
+      74: 7400166
+    second: hero_War_specal_attack_A
+  - first:
+      74: 7400168
+    second: hero_War_specal_attack_B
+  - first:
+      74: 7400170
+    second: hero_War_swing_high_straight_down
+  - first:
+      74: 7400172
+    second: hero_War_swing_left
+  - first:
+      74: 7400174
+    second: hero_War_swing_right
+  - first:
+      74: 7400176
+    second: hero_War_thrust_mid
+  - first:
+      74: 7400178
+    second: hero_War_taking_hit
+  - first:
+      74: 7400180
+    second: hero_ThrowingAxe_throwing
+  - first:
+      74: 7400182
+    second: hero_ThrowingSpear_throwing
+  - first:
+      74: 7400184
+    second: hero_War_Dying
+  - first:
+      74: 7400186
+    second: hero_War_charging
+  - first:
+      74: 7400188
+    second: hero_War_run_swing_left
+  - first:
+      74: 7400190
+    second: hero_War_run_swing_right
+  - first:
+      74: 7400192
+    second: hero_War_run_swing_up_down
+  - first:
+      74: 7400194
+    second: Hero_War_retreat
+  - first:
+      74: 7400196
+    second: hero_walk_trust
+  - first:
+      74: 7400198
+    second: hero_walk_right_swing
+  - first:
+      74: 7400200
+    second: hero_walk_left_swing
+  - first:
+      74: 7400202
+    second: hero_strafe_right
+  - first:
+      74: 7400204
+    second: hero_strafe_left
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      111: 11100000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: ap_leg_armor_metal
+  - first:
+      137: 13700002
+    second: shirt_mail
+  - first:
+      137: 13700004
+    second: rerebrace_metal
+  - first:
+      137: 13700006
+    second: vambrace_metal
+  - first:
+      137: 13700008
+    second: knee_metal
+  - first:
+      137: 13700010
+    second: hair
+  - first:
+      137: 13700012
+    second: belt_leather
+  - first:
+      137: 13700014
+    second: coif_mail
+  - first:
+      137: 13700016
+    second: boots_metal
+  - first:
+      137: 13700018
+    second: hero_body
+  - first:
+      137: 13700020
+    second: gloves_metal
+  - first:
+      137: 13700022
+    second: cuirass_metal
+  - first:
+      41386430: 2186277476908879412
+    second: ImportLogs
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -439,6 +1017,7 @@ ModelImporter:
     - serializedVersion: 16
       name: hero_looking_around
       takeName: 
+      internalID: 7400100
       firstFrame: 1
       lastFrame: 176
       wrapMode: 2
@@ -467,6 +1046,7 @@ ModelImporter:
     - serializedVersion: 16
       name: hero_Drinking
       takeName: 
+      internalID: 7400102
       firstFrame: 177
       lastFrame: 232
       wrapMode: 2
@@ -495,6 +1075,7 @@ ModelImporter:
     - serializedVersion: 16
       name: hero_Eating
       takeName: 
+      internalID: 7400104
       firstFrame: 233
       lastFrame: 353
       wrapMode: 2
@@ -523,6 +1104,7 @@ ModelImporter:
     - serializedVersion: 16
       name: hero_Explanation
       takeName: 
+      internalID: 7400106
       firstFrame: 354
       lastFrame: 399
       wrapMode: 2
@@ -551,6 +1133,7 @@ ModelImporter:
     - serializedVersion: 16
       name: hero_boring
       takeName: 
+      internalID: 7400108
       firstFrame: 400
       lastFrame: 525
       wrapMode: 2
@@ -579,6 +1162,7 @@ ModelImporter:
     - serializedVersion: 16
       name: hero_making_item
       takeName: 
+      internalID: 7400110
       firstFrame: 527
       lastFrame: 556
       wrapMode: 2
@@ -607,6 +1191,7 @@ ModelImporter:
     - serializedVersion: 16
       name: hero_pick_object
       takeName: 
+      internalID: 7400112
       firstFrame: 558
       lastFrame: 597
       wrapMode: 2
@@ -635,6 +1220,7 @@ ModelImporter:
     - serializedVersion: 16
       name: hero_salute
       takeName: 
+      internalID: 7400114
       firstFrame: 598
       lastFrame: 658
       wrapMode: 2
@@ -663,6 +1249,7 @@ ModelImporter:
     - serializedVersion: 16
       name: hero_Say_No
       takeName: 
+      internalID: 7400116
       firstFrame: 659
       lastFrame: 719
       wrapMode: 2
@@ -691,6 +1278,7 @@ ModelImporter:
     - serializedVersion: 16
       name: hero_Standing_Free
       takeName: 
+      internalID: 7400118
       firstFrame: 720
       lastFrame: 820
       wrapMode: 2
@@ -719,6 +1307,7 @@ ModelImporter:
     - serializedVersion: 16
       name: hero_Talking
       takeName: 
+      internalID: 7400120
       firstFrame: 821
       lastFrame: 866
       wrapMode: 2
@@ -747,6 +1336,7 @@ ModelImporter:
     - serializedVersion: 16
       name: hero_sit_down
       takeName: 
+      internalID: 7400122
       firstFrame: 867
       lastFrame: 893
       wrapMode: 1
@@ -775,6 +1365,7 @@ ModelImporter:
     - serializedVersion: 16
       name: hero_sitting
       takeName: 
+      internalID: 7400124
       firstFrame: 894
       lastFrame: 944
       wrapMode: 2
@@ -803,6 +1394,7 @@ ModelImporter:
     - serializedVersion: 16
       name: hero_came_up
       takeName: 
+      internalID: 7400126
       firstFrame: 945
       lastFrame: 971
       wrapMode: 1
@@ -831,6 +1423,7 @@ ModelImporter:
     - serializedVersion: 16
       name: hero_Run
       takeName: 
+      internalID: 7400128
       firstFrame: 976
       lastFrame: 998
       wrapMode: 2
@@ -859,6 +1452,7 @@ ModelImporter:
     - serializedVersion: 16
       name: hero_Climbing_ladder
       takeName: 
+      internalID: 7400130
       firstFrame: 1003
       lastFrame: 1033
       wrapMode: 2
@@ -887,6 +1481,7 @@ ModelImporter:
     - serializedVersion: 16
       name: hero_Crouching
       takeName: 
+      internalID: 7400132
       firstFrame: 1038
       lastFrame: 1138
       wrapMode: 2
@@ -915,6 +1510,7 @@ ModelImporter:
     - serializedVersion: 16
       name: hero_Sneaking
       takeName: 
+      internalID: 7400134
       firstFrame: 1143
       lastFrame: 1193
       wrapMode: 2
@@ -943,6 +1539,7 @@ ModelImporter:
     - serializedVersion: 16
       name: hero_Swimming
       takeName: 
+      internalID: 7400136
       firstFrame: 1198
       lastFrame: 1228
       wrapMode: 2
@@ -971,6 +1568,7 @@ ModelImporter:
     - serializedVersion: 16
       name: hero_walk
       takeName: 
+      internalID: 7400138
       firstFrame: 1234
       lastFrame: 1278
       wrapMode: 2
@@ -999,6 +1597,7 @@ ModelImporter:
     - serializedVersion: 16
       name: hero_Jump_runing
       takeName: 
+      internalID: 7400140
       firstFrame: 1283
       lastFrame: 1323
       wrapMode: 1
@@ -1009,9 +1608,9 @@ ModelImporter:
       hasAdditiveReferencePose: 0
       loopTime: 0
       loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
       keepOriginalOrientation: 1
       keepOriginalPositionY: 1
       keepOriginalPositionXZ: 1
@@ -1027,6 +1626,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Hero_walking_back
       takeName: 
+      internalID: 7400142
       firstFrame: 1328
       lastFrame: 1363
       wrapMode: 2
@@ -1055,6 +1655,7 @@ ModelImporter:
     - serializedVersion: 16
       name: hero_War_COMBAT_MODE
       takeName: 
+      internalID: 7400144
       firstFrame: 1369
       lastFrame: 1418
       wrapMode: 2
@@ -1083,6 +1684,7 @@ ModelImporter:
     - serializedVersion: 16
       name: hero_War_backwards
       takeName: 
+      internalID: 7400146
       firstFrame: 1419
       lastFrame: 1454
       wrapMode: 2
@@ -1111,6 +1713,7 @@ ModelImporter:
     - serializedVersion: 16
       name: hero_War_below_high_swing
       takeName: 
+      internalID: 7400148
       firstFrame: 1455
       lastFrame: 1490
       wrapMode: 2
@@ -1139,6 +1742,7 @@ ModelImporter:
     - serializedVersion: 16
       name: hero_War_dodge_to_left
       takeName: 
+      internalID: 7400150
       firstFrame: 1491
       lastFrame: 1526
       wrapMode: 2
@@ -1167,6 +1771,7 @@ ModelImporter:
     - serializedVersion: 16
       name: hero_War_dodge_to_right
       takeName: 
+      internalID: 7400152
       firstFrame: 1527
       lastFrame: 1562
       wrapMode: 2
@@ -1195,6 +1800,7 @@ ModelImporter:
     - serializedVersion: 16
       name: hero_War_moving_left
       takeName: 
+      internalID: 7400154
       firstFrame: 1563
       lastFrame: 1583
       wrapMode: 2
@@ -1223,6 +1829,7 @@ ModelImporter:
     - serializedVersion: 16
       name: hero_War_moving_right
       takeName: 
+      internalID: 7400156
       firstFrame: 1584
       lastFrame: 1604
       wrapMode: 2
@@ -1251,6 +1858,7 @@ ModelImporter:
     - serializedVersion: 16
       name: hero_War_parry_from_stright_down
       takeName: 
+      internalID: 7400158
       firstFrame: 1605
       lastFrame: 1640
       wrapMode: 2
@@ -1279,6 +1887,7 @@ ModelImporter:
     - serializedVersion: 16
       name: hero_War_parry_front
       takeName: 
+      internalID: 7400160
       firstFrame: 1641
       lastFrame: 1676
       wrapMode: 2
@@ -1307,6 +1916,7 @@ ModelImporter:
     - serializedVersion: 16
       name: hero_War_shield_block
       takeName: 
+      internalID: 7400162
       firstFrame: 1677
       lastFrame: 1717
       wrapMode: 2
@@ -1542,6 +2152,7 @@ ModelImporter:
     - serializedVersion: 16
       name: hero_War_shield_blow
       takeName: 
+      internalID: 7400164
       firstFrame: 1718
       lastFrame: 1753
       wrapMode: 2
@@ -1777,6 +2388,7 @@ ModelImporter:
     - serializedVersion: 16
       name: hero_War_specal_attack_A
       takeName: 
+      internalID: 7400166
       firstFrame: 1754
       lastFrame: 1794
       wrapMode: 2
@@ -1805,6 +2417,7 @@ ModelImporter:
     - serializedVersion: 16
       name: hero_War_specal_attack_B
       takeName: 
+      internalID: 7400168
       firstFrame: 1795
       lastFrame: 1840
       wrapMode: 2
@@ -1833,6 +2446,7 @@ ModelImporter:
     - serializedVersion: 16
       name: hero_War_swing_high_straight_down
       takeName: 
+      internalID: 7400170
       firstFrame: 1841
       lastFrame: 1876
       wrapMode: 2
@@ -1861,6 +2475,7 @@ ModelImporter:
     - serializedVersion: 16
       name: hero_War_swing_left
       takeName: 
+      internalID: 7400172
       firstFrame: 1877
       lastFrame: 1912
       wrapMode: 2
@@ -1889,6 +2504,7 @@ ModelImporter:
     - serializedVersion: 16
       name: hero_War_swing_right
       takeName: 
+      internalID: 7400174
       firstFrame: 1913
       lastFrame: 1948
       wrapMode: 2
@@ -1917,6 +2533,7 @@ ModelImporter:
     - serializedVersion: 16
       name: hero_War_thrust_mid
       takeName: 
+      internalID: 7400176
       firstFrame: 1949
       lastFrame: 1984
       wrapMode: 2
@@ -1945,6 +2562,7 @@ ModelImporter:
     - serializedVersion: 16
       name: hero_War_taking_hit
       takeName: 
+      internalID: 7400178
       firstFrame: 1984.9999
       lastFrame: 2020.0001
       wrapMode: 2
@@ -1973,6 +2591,7 @@ ModelImporter:
     - serializedVersion: 16
       name: hero_ThrowingAxe_throwing
       takeName: 
+      internalID: 7400180
       firstFrame: 2021
       lastFrame: 2056
       wrapMode: 2
@@ -2001,6 +2620,7 @@ ModelImporter:
     - serializedVersion: 16
       name: hero_ThrowingSpear_throwing
       takeName: 
+      internalID: 7400182
       firstFrame: 2057
       lastFrame: 2092
       wrapMode: 2
@@ -2029,6 +2649,7 @@ ModelImporter:
     - serializedVersion: 16
       name: hero_War_Dying
       takeName: 
+      internalID: 7400184
       firstFrame: 2097
       lastFrame: 2162
       wrapMode: 1
@@ -2057,6 +2678,7 @@ ModelImporter:
     - serializedVersion: 16
       name: hero_War_charging
       takeName: 
+      internalID: 7400186
       firstFrame: 2167
       lastFrame: 2189
       wrapMode: 2
@@ -2292,6 +2914,7 @@ ModelImporter:
     - serializedVersion: 16
       name: hero_War_run_swing_left
       takeName: 
+      internalID: 7400188
       firstFrame: 2194
       lastFrame: 2237
       wrapMode: 2
@@ -2320,6 +2943,7 @@ ModelImporter:
     - serializedVersion: 16
       name: hero_War_run_swing_right
       takeName: 
+      internalID: 7400190
       firstFrame: 2242
       lastFrame: 2285
       wrapMode: 2
@@ -2348,6 +2972,7 @@ ModelImporter:
     - serializedVersion: 16
       name: hero_War_run_swing_up_down
       takeName: 
+      internalID: 7400192
       firstFrame: 2290
       lastFrame: 2333
       wrapMode: 2
@@ -2376,6 +3001,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Hero_War_retreat
       takeName: 
+      internalID: 7400194
       firstFrame: 2338
       lastFrame: 2373
       wrapMode: 2
@@ -2404,6 +3030,7 @@ ModelImporter:
     - serializedVersion: 16
       name: hero_walk_trust
       takeName: 
+      internalID: 7400196
       firstFrame: 2378
       lastFrame: 2413
       wrapMode: 2
@@ -2432,6 +3059,7 @@ ModelImporter:
     - serializedVersion: 16
       name: hero_walk_right_swing
       takeName: 
+      internalID: 7400198
       firstFrame: 2414
       lastFrame: 2449
       wrapMode: 2
@@ -2460,6 +3088,7 @@ ModelImporter:
     - serializedVersion: 16
       name: hero_walk_left_swing
       takeName: 
+      internalID: 7400200
       firstFrame: 2450
       lastFrame: 2485
       wrapMode: 2
@@ -2488,6 +3117,7 @@ ModelImporter:
     - serializedVersion: 16
       name: hero_strafe_right
       takeName: 
+      internalID: 7400202
       firstFrame: 2490
       lastFrame: 2524
       wrapMode: 2
@@ -2516,6 +3146,7 @@ ModelImporter:
     - serializedVersion: 16
       name: hero_strafe_left
       takeName: 
+      internalID: 7400204
       firstFrame: 2527
       lastFrame: 2561
       wrapMode: 2
@@ -2555,18 +3186,19 @@ ModelImporter:
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 0
-    previousCalculatedGlobalScale: 0.01
-    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -2575,10 +3207,11 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human:
     - boneName: Bip01 Pelvis
       humanName: Hips
@@ -3288,6 +3921,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 0.01
     rootMotionBoneName: Bip01
     hasTranslationDoF: 0
     hasExtraRoot: 0

@@ -14,266 +14,785 @@ labels:
 - Weapon
 - Sword
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: Bip01 RUpArmTwist1
-    100002: //RootNode
-    100004: Bip01 L ForeTwist1
-    100006: Bip01 L UpperArm
-    100008: Bip01 R Hand
-    100010: Bip01 R Finger02
-    100012: Bip01 L Finger21
-    100014: Bip01 R Finger42
-    100016: Bip01 back_shield_mount
-    100018: Bip01 R Finger1
-    100020: Bip01 R Finger32
-    100022: Bip01 RUpArmTwist
-    100024: Bip01 R Finger21
-    100026: Bip01 back_left_Wmount
-    100028: Bip01 shield_mount
-    100030: Bip01 L Finger22
-    100032: Bip01 zJaw
-    100034: Bip01 R UpperArm
-    100036: Bip01 zz_eye_right_lookA
-    100038: Bip01 R Finger11
-    100040: Bip01 L Finger32
-    100042: Bip01 Neck
-    100044: Bip01 zeye_left
-    100046: Man_Sword_Back
-    100048: Bip01 right_Wmount
-    100050: Bip01 L Finger11
-    100052: Bip01 left_Wmount
-    100054: Bip01 L Clavicle
-    100056: Bip01 R ForeTwist1
-    100058: Bip01 L Finger42
-    100060: Bip01 L Finger02
-    100062: Bip01 R Finger2
-    100064: Bip01 R Finger12
-    100066: Bip01 R Finger01
-    100068: Bip01 R Clavicle
-    100070: Bip01 Rhand_WeaponOpp
-    100072: Bip01 Spine1
-    100074: Bip01 LUpArmTwist1
-    100076: Bip01 zz_eye_left_lookAt
-    100078: Man_Shield_Back
-    100080: Bip01 L Finger12
-    100082: Bip01 R Forearm
-    100084: Bip01 LUpArmTwist
-    100086: Bip01 R ForeTwist
-    100088: Bip01 L ForeTwist
-    100090: Man_Sword_hand
-    100092: Bip01 back_center_Wmount
-    100094: Bip01 zeye_right
-    100096: Bip01 Head
-    100098: Bip01 R Finger4
-    100100: Bip01 L Forearm
-    100102: Bip01 L Hand
-    100104: Bip01 L Finger0
-    100106: Bip01 R Thigh
-    100108: Bip01 L Finger2
-    100110: Bip01 L Thigh
-    100112: Bip01 L Foot
-    100114: Bip01 L Toe0
-    100116: Bip01 R Foot
-    100118: Bip01 R Toe0
-    100120: Bip01 L Calf
-    100122: Bip01 R Calf
-    100124: Bip01 L Finger1
-    100126: Bip01 R Finger31
-    100128: Bip01 L Finger41
-    100130: Bip01 Spine
-    100132: Bip01
-    100134: Bip01 L Finger31
-    100136: Bip01 R Finger0
-    100138: Adam_body
-    100140: Bip01 R Finger3
-    100142: Bip01 R Finger41
-    100144: Bip01 Pelvis
-    100146: Bip01 R Finger22
-    100148: Man_Shield_Hand
-    100150: Bip01 L Finger4
-    100152: Bip01 L Finger3
-    100154: Bip01 Rhand_Weapon
-    100156: Bip01 L Finger01
-    100158: Bip01 back_right_Wmount
-    100160: Helmet_Man
-    400000: Bip01 RUpArmTwist1
-    400002: //RootNode
-    400004: Bip01 L ForeTwist1
-    400006: Bip01 L UpperArm
-    400008: Bip01 R Hand
-    400010: Bip01 R Finger02
-    400012: Bip01 L Finger21
-    400014: Bip01 R Finger42
-    400016: Bip01 back_shield_mount
-    400018: Bip01 R Finger1
-    400020: Bip01 R Finger32
-    400022: Bip01 RUpArmTwist
-    400024: Bip01 R Finger21
-    400026: Bip01 back_left_Wmount
-    400028: Bip01 shield_mount
-    400030: Bip01 L Finger22
-    400032: Bip01 zJaw
-    400034: Bip01 R UpperArm
-    400036: Bip01 zz_eye_right_lookA
-    400038: Bip01 R Finger11
-    400040: Bip01 L Finger32
-    400042: Bip01 Neck
-    400044: Bip01 zeye_left
-    400046: Man_Sword_Back
-    400048: Bip01 right_Wmount
-    400050: Bip01 L Finger11
-    400052: Bip01 left_Wmount
-    400054: Bip01 L Clavicle
-    400056: Bip01 R ForeTwist1
-    400058: Bip01 L Finger42
-    400060: Bip01 L Finger02
-    400062: Bip01 R Finger2
-    400064: Bip01 R Finger12
-    400066: Bip01 R Finger01
-    400068: Bip01 R Clavicle
-    400070: Bip01 Rhand_WeaponOpp
-    400072: Bip01 Spine1
-    400074: Bip01 LUpArmTwist1
-    400076: Bip01 zz_eye_left_lookAt
-    400078: Man_Shield_Back
-    400080: Bip01 L Finger12
-    400082: Bip01 R Forearm
-    400084: Bip01 LUpArmTwist
-    400086: Bip01 R ForeTwist
-    400088: Bip01 L ForeTwist
-    400090: Man_Sword_hand
-    400092: Bip01 back_center_Wmount
-    400094: Bip01 zeye_right
-    400096: Bip01 Head
-    400098: Bip01 R Finger4
-    400100: Bip01 L Forearm
-    400102: Bip01 L Hand
-    400104: Bip01 L Finger0
-    400106: Bip01 R Thigh
-    400108: Bip01 L Finger2
-    400110: Bip01 L Thigh
-    400112: Bip01 L Foot
-    400114: Bip01 L Toe0
-    400116: Bip01 R Foot
-    400118: Bip01 R Toe0
-    400120: Bip01 L Calf
-    400122: Bip01 R Calf
-    400124: Bip01 L Finger1
-    400126: Bip01 R Finger31
-    400128: Bip01 L Finger41
-    400130: Bip01 Spine
-    400132: Bip01
-    400134: Bip01 L Finger31
-    400136: Bip01 R Finger0
-    400138: Adam_body
-    400140: Bip01 R Finger3
-    400142: Bip01 R Finger41
-    400144: Bip01 Pelvis
-    400146: Bip01 R Finger22
-    400148: Man_Shield_Hand
-    400150: Bip01 L Finger4
-    400152: Bip01 L Finger3
-    400154: Bip01 Rhand_Weapon
-    400156: Bip01 L Finger01
-    400158: Bip01 back_right_Wmount
-    400160: Helmet_Man
-    2300000: Man_Sword_Back
-    2300002: Man_Shield_Back
-    2300004: Man_Sword_hand
-    2300006: Man_Shield_Hand
-    2300008: Helmet_Man
-    3300000: Man_Sword_Back
-    3300002: Man_Shield_Back
-    3300004: Man_Sword_hand
-    3300006: Man_Shield_Hand
-    3300008: Helmet_Man
-    4300000: Adam_body
-    4300002: Man_Sword_Back
-    4300004: Man_Shield_Back
-    4300006: Man_Sword_hand
-    4300008: Man_Shield_Hand
-    4300010: Helmet_Man
-    7400000: Take 001
-    7400002: MECANIM
-    7400004: 1H_banging_shield
-    7400006: 1H_COMBAT_mode
-    7400008: 1H_PutWeapon_Back
-    7400010: IDLE
-    7400012: 1H_TookWeaponOut
-    7400014: 1H_5X_Combo
-    7400016: 1H_5X_Combo_move_forward
-    7400018: 1H_360_Jump_swing
-    7400020: 1H_360_left_Jump_Smash
-    7400022: 1H_360_Right_Jump_Smash
-    7400024: 1H_Dodge_Jump_Backward
-    7400026: 1H_Dodge_Jump_Left
-    7400028: 1H_Dodge_Jump_Right
-    7400030: 1H_dodge_backwards
-    7400032: 1H_dodge_to_left
-    7400034: 1H_dodge_to_right
-    7400036: 1H_duck_below_high_swing
-    7400038: 1H_Heavy Smash
-    7400040: 1H_Hit_from_back
-    7400042: 1H_Hit_from_front
-    7400044: 1H_Jump_Swing
-    7400046: 1H_moveTOblock
-    7400048: 1H_shield_block_keeping
-    7400050: 1H_moveFROMblock
-    7400052: 1H_shield_block_high_left
-    7400054: 1H_shield_block_high_right
-    7400056: 1H_sword_parry_from_stright_down
-    7400058: 1H_sword_parry_high_left
-    7400060: 1H_sword_parry_high_right
-    7400062: 1H_sword_parry_low_front
-    7400064: 1H_sword_shield_blow
-    7400066: 1H_sword_swing_high_left
-    7400068: 1H_sword_swing_high_right
-    7400070: 1H_sword_swing_high_straight_down
-    7400072: 1H_sword_swing_low_left
-    7400074: 1H_sword_swing_low_right
-    7400076: 1H_sword_thrust_high
-    7400078: 1H_sword_thrust_low
-    7400080: 1H_sword_thrust_mid
-    7400082: 1H_Wide_Slash_Combo
-    7400084: 1H_Knocked_backward_Fly
-    7400086: 1H_Knocked_backward_onPlace
-    7400088: 1H_Down_back
-    7400090: 1H_Recover_from_knocked_backward
-    7400092: 1H_Knocked_forward
-    7400094: 1H_Down_forward
-    7400096: 1H_Recover_from_knocked_forward
-    7400098: 1H_Casual_walk
-    7400100: 1H_Cautious_walk
-    7400102: 1H_walk_left_swing
-    7400104: 1H_walk_right_swing
-    7400106: 1H_walk_trust
-    7400108: 1H_combat_run
-    7400110: 1H_run
-    7400112: 1H_Die_fall_backward
-    7400114: 1H_Die_fall_forward
-    7400116: 1H_Die_knocked_backward
-    7400118: 1H_Die_knocked_forward
-    7400120: RM_1H_5X_Combo_move_forward
-    7400122: RM_1H_Casual_walk
-    7400124: RM_1H_Cautious_walk
-    7400126: RM_1H_walk_left_swing
-    7400128: RM_1H_walk_right_swing
-    7400130: RM_1H_walk_trust
-    7400132: RM_1H_combat_run
-    7400134: RM_1H_run
-    7400136: RM_1H_Dodge_Jump_Backward
-    7400138: RM_1H_Dodge_Jump_Left
-    7400140: RM_1H_Dodge_Jump_Right
-    7400142: RM_1H_Knocked_backward_Fly
-    7400144: RM_1H_Die_knocked_backward
-    7400146: RM_1H_Die_knocked_forward
-    7400148: MECANIM
-    9500000: //RootNode
-    11100000: //RootNode
-    13700000: Bip01 Pelvis
-    13700002: Adam_body
-    2186277476908879412: ImportLogs
+  serializedVersion: 25
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Bip01 RUpArmTwist1
+  - first:
+      1: 100002
+    second: //RootNode
+  - first:
+      1: 100004
+    second: Bip01 L ForeTwist1
+  - first:
+      1: 100006
+    second: Bip01 L UpperArm
+  - first:
+      1: 100008
+    second: Bip01 R Hand
+  - first:
+      1: 100010
+    second: Bip01 R Finger02
+  - first:
+      1: 100012
+    second: Bip01 L Finger21
+  - first:
+      1: 100014
+    second: Bip01 R Finger42
+  - first:
+      1: 100016
+    second: Bip01 back_shield_mount
+  - first:
+      1: 100018
+    second: Bip01 R Finger1
+  - first:
+      1: 100020
+    second: Bip01 R Finger32
+  - first:
+      1: 100022
+    second: Bip01 RUpArmTwist
+  - first:
+      1: 100024
+    second: Bip01 R Finger21
+  - first:
+      1: 100026
+    second: Bip01 back_left_Wmount
+  - first:
+      1: 100028
+    second: Bip01 shield_mount
+  - first:
+      1: 100030
+    second: Bip01 L Finger22
+  - first:
+      1: 100032
+    second: Bip01 zJaw
+  - first:
+      1: 100034
+    second: Bip01 R UpperArm
+  - first:
+      1: 100036
+    second: Bip01 zz_eye_right_lookA
+  - first:
+      1: 100038
+    second: Bip01 R Finger11
+  - first:
+      1: 100040
+    second: Bip01 L Finger32
+  - first:
+      1: 100042
+    second: Bip01 Neck
+  - first:
+      1: 100044
+    second: Bip01 zeye_left
+  - first:
+      1: 100046
+    second: Man_Sword_Back
+  - first:
+      1: 100048
+    second: Bip01 right_Wmount
+  - first:
+      1: 100050
+    second: Bip01 L Finger11
+  - first:
+      1: 100052
+    second: Bip01 left_Wmount
+  - first:
+      1: 100054
+    second: Bip01 L Clavicle
+  - first:
+      1: 100056
+    second: Bip01 R ForeTwist1
+  - first:
+      1: 100058
+    second: Bip01 L Finger42
+  - first:
+      1: 100060
+    second: Bip01 L Finger02
+  - first:
+      1: 100062
+    second: Bip01 R Finger2
+  - first:
+      1: 100064
+    second: Bip01 R Finger12
+  - first:
+      1: 100066
+    second: Bip01 R Finger01
+  - first:
+      1: 100068
+    second: Bip01 R Clavicle
+  - first:
+      1: 100070
+    second: Bip01 Rhand_WeaponOpp
+  - first:
+      1: 100072
+    second: Bip01 Spine1
+  - first:
+      1: 100074
+    second: Bip01 LUpArmTwist1
+  - first:
+      1: 100076
+    second: Bip01 zz_eye_left_lookAt
+  - first:
+      1: 100078
+    second: Man_Shield_Back
+  - first:
+      1: 100080
+    second: Bip01 L Finger12
+  - first:
+      1: 100082
+    second: Bip01 R Forearm
+  - first:
+      1: 100084
+    second: Bip01 LUpArmTwist
+  - first:
+      1: 100086
+    second: Bip01 R ForeTwist
+  - first:
+      1: 100088
+    second: Bip01 L ForeTwist
+  - first:
+      1: 100090
+    second: Man_Sword_hand
+  - first:
+      1: 100092
+    second: Bip01 back_center_Wmount
+  - first:
+      1: 100094
+    second: Bip01 zeye_right
+  - first:
+      1: 100096
+    second: Bip01 Head
+  - first:
+      1: 100098
+    second: Bip01 R Finger4
+  - first:
+      1: 100100
+    second: Bip01 L Forearm
+  - first:
+      1: 100102
+    second: Bip01 L Hand
+  - first:
+      1: 100104
+    second: Bip01 L Finger0
+  - first:
+      1: 100106
+    second: Bip01 R Thigh
+  - first:
+      1: 100108
+    second: Bip01 L Finger2
+  - first:
+      1: 100110
+    second: Bip01 L Thigh
+  - first:
+      1: 100112
+    second: Bip01 L Foot
+  - first:
+      1: 100114
+    second: Bip01 L Toe0
+  - first:
+      1: 100116
+    second: Bip01 R Foot
+  - first:
+      1: 100118
+    second: Bip01 R Toe0
+  - first:
+      1: 100120
+    second: Bip01 L Calf
+  - first:
+      1: 100122
+    second: Bip01 R Calf
+  - first:
+      1: 100124
+    second: Bip01 L Finger1
+  - first:
+      1: 100126
+    second: Bip01 R Finger31
+  - first:
+      1: 100128
+    second: Bip01 L Finger41
+  - first:
+      1: 100130
+    second: Bip01 Spine
+  - first:
+      1: 100132
+    second: Bip01
+  - first:
+      1: 100134
+    second: Bip01 L Finger31
+  - first:
+      1: 100136
+    second: Bip01 R Finger0
+  - first:
+      1: 100138
+    second: Adam_body
+  - first:
+      1: 100140
+    second: Bip01 R Finger3
+  - first:
+      1: 100142
+    second: Bip01 R Finger41
+  - first:
+      1: 100144
+    second: Bip01 Pelvis
+  - first:
+      1: 100146
+    second: Bip01 R Finger22
+  - first:
+      1: 100148
+    second: Man_Shield_Hand
+  - first:
+      1: 100150
+    second: Bip01 L Finger4
+  - first:
+      1: 100152
+    second: Bip01 L Finger3
+  - first:
+      1: 100154
+    second: Bip01 Rhand_Weapon
+  - first:
+      1: 100156
+    second: Bip01 L Finger01
+  - first:
+      1: 100158
+    second: Bip01 back_right_Wmount
+  - first:
+      1: 100160
+    second: Helmet_Man
+  - first:
+      4: 400000
+    second: Bip01 RUpArmTwist1
+  - first:
+      4: 400002
+    second: //RootNode
+  - first:
+      4: 400004
+    second: Bip01 L ForeTwist1
+  - first:
+      4: 400006
+    second: Bip01 L UpperArm
+  - first:
+      4: 400008
+    second: Bip01 R Hand
+  - first:
+      4: 400010
+    second: Bip01 R Finger02
+  - first:
+      4: 400012
+    second: Bip01 L Finger21
+  - first:
+      4: 400014
+    second: Bip01 R Finger42
+  - first:
+      4: 400016
+    second: Bip01 back_shield_mount
+  - first:
+      4: 400018
+    second: Bip01 R Finger1
+  - first:
+      4: 400020
+    second: Bip01 R Finger32
+  - first:
+      4: 400022
+    second: Bip01 RUpArmTwist
+  - first:
+      4: 400024
+    second: Bip01 R Finger21
+  - first:
+      4: 400026
+    second: Bip01 back_left_Wmount
+  - first:
+      4: 400028
+    second: Bip01 shield_mount
+  - first:
+      4: 400030
+    second: Bip01 L Finger22
+  - first:
+      4: 400032
+    second: Bip01 zJaw
+  - first:
+      4: 400034
+    second: Bip01 R UpperArm
+  - first:
+      4: 400036
+    second: Bip01 zz_eye_right_lookA
+  - first:
+      4: 400038
+    second: Bip01 R Finger11
+  - first:
+      4: 400040
+    second: Bip01 L Finger32
+  - first:
+      4: 400042
+    second: Bip01 Neck
+  - first:
+      4: 400044
+    second: Bip01 zeye_left
+  - first:
+      4: 400046
+    second: Man_Sword_Back
+  - first:
+      4: 400048
+    second: Bip01 right_Wmount
+  - first:
+      4: 400050
+    second: Bip01 L Finger11
+  - first:
+      4: 400052
+    second: Bip01 left_Wmount
+  - first:
+      4: 400054
+    second: Bip01 L Clavicle
+  - first:
+      4: 400056
+    second: Bip01 R ForeTwist1
+  - first:
+      4: 400058
+    second: Bip01 L Finger42
+  - first:
+      4: 400060
+    second: Bip01 L Finger02
+  - first:
+      4: 400062
+    second: Bip01 R Finger2
+  - first:
+      4: 400064
+    second: Bip01 R Finger12
+  - first:
+      4: 400066
+    second: Bip01 R Finger01
+  - first:
+      4: 400068
+    second: Bip01 R Clavicle
+  - first:
+      4: 400070
+    second: Bip01 Rhand_WeaponOpp
+  - first:
+      4: 400072
+    second: Bip01 Spine1
+  - first:
+      4: 400074
+    second: Bip01 LUpArmTwist1
+  - first:
+      4: 400076
+    second: Bip01 zz_eye_left_lookAt
+  - first:
+      4: 400078
+    second: Man_Shield_Back
+  - first:
+      4: 400080
+    second: Bip01 L Finger12
+  - first:
+      4: 400082
+    second: Bip01 R Forearm
+  - first:
+      4: 400084
+    second: Bip01 LUpArmTwist
+  - first:
+      4: 400086
+    second: Bip01 R ForeTwist
+  - first:
+      4: 400088
+    second: Bip01 L ForeTwist
+  - first:
+      4: 400090
+    second: Man_Sword_hand
+  - first:
+      4: 400092
+    second: Bip01 back_center_Wmount
+  - first:
+      4: 400094
+    second: Bip01 zeye_right
+  - first:
+      4: 400096
+    second: Bip01 Head
+  - first:
+      4: 400098
+    second: Bip01 R Finger4
+  - first:
+      4: 400100
+    second: Bip01 L Forearm
+  - first:
+      4: 400102
+    second: Bip01 L Hand
+  - first:
+      4: 400104
+    second: Bip01 L Finger0
+  - first:
+      4: 400106
+    second: Bip01 R Thigh
+  - first:
+      4: 400108
+    second: Bip01 L Finger2
+  - first:
+      4: 400110
+    second: Bip01 L Thigh
+  - first:
+      4: 400112
+    second: Bip01 L Foot
+  - first:
+      4: 400114
+    second: Bip01 L Toe0
+  - first:
+      4: 400116
+    second: Bip01 R Foot
+  - first:
+      4: 400118
+    second: Bip01 R Toe0
+  - first:
+      4: 400120
+    second: Bip01 L Calf
+  - first:
+      4: 400122
+    second: Bip01 R Calf
+  - first:
+      4: 400124
+    second: Bip01 L Finger1
+  - first:
+      4: 400126
+    second: Bip01 R Finger31
+  - first:
+      4: 400128
+    second: Bip01 L Finger41
+  - first:
+      4: 400130
+    second: Bip01 Spine
+  - first:
+      4: 400132
+    second: Bip01
+  - first:
+      4: 400134
+    second: Bip01 L Finger31
+  - first:
+      4: 400136
+    second: Bip01 R Finger0
+  - first:
+      4: 400138
+    second: Adam_body
+  - first:
+      4: 400140
+    second: Bip01 R Finger3
+  - first:
+      4: 400142
+    second: Bip01 R Finger41
+  - first:
+      4: 400144
+    second: Bip01 Pelvis
+  - first:
+      4: 400146
+    second: Bip01 R Finger22
+  - first:
+      4: 400148
+    second: Man_Shield_Hand
+  - first:
+      4: 400150
+    second: Bip01 L Finger4
+  - first:
+      4: 400152
+    second: Bip01 L Finger3
+  - first:
+      4: 400154
+    second: Bip01 Rhand_Weapon
+  - first:
+      4: 400156
+    second: Bip01 L Finger01
+  - first:
+      4: 400158
+    second: Bip01 back_right_Wmount
+  - first:
+      4: 400160
+    second: Helmet_Man
+  - first:
+      23: 2300000
+    second: Man_Sword_Back
+  - first:
+      23: 2300002
+    second: Man_Shield_Back
+  - first:
+      23: 2300004
+    second: Man_Sword_hand
+  - first:
+      23: 2300006
+    second: Man_Shield_Hand
+  - first:
+      23: 2300008
+    second: Helmet_Man
+  - first:
+      33: 3300000
+    second: Man_Sword_Back
+  - first:
+      33: 3300002
+    second: Man_Shield_Back
+  - first:
+      33: 3300004
+    second: Man_Sword_hand
+  - first:
+      33: 3300006
+    second: Man_Shield_Hand
+  - first:
+      33: 3300008
+    second: Helmet_Man
+  - first:
+      43: 4300000
+    second: Adam_body
+  - first:
+      43: 4300002
+    second: Man_Sword_Back
+  - first:
+      43: 4300004
+    second: Man_Shield_Back
+  - first:
+      43: 4300006
+    second: Man_Sword_hand
+  - first:
+      43: 4300008
+    second: Man_Shield_Hand
+  - first:
+      43: 4300010
+    second: Helmet_Man
+  - first:
+      74: 7400000
+    second: Take 001
+  - first:
+      74: 7400002
+    second: MECANIM
+  - first:
+      74: 7400004
+    second: 1H_banging_shield
+  - first:
+      74: 7400006
+    second: 1H_COMBAT_mode
+  - first:
+      74: 7400008
+    second: 1H_PutWeapon_Back
+  - first:
+      74: 7400010
+    second: IDLE
+  - first:
+      74: 7400012
+    second: 1H_TookWeaponOut
+  - first:
+      74: 7400014
+    second: 1H_5X_Combo
+  - first:
+      74: 7400016
+    second: 1H_5X_Combo_move_forward
+  - first:
+      74: 7400018
+    second: 1H_360_Jump_swing
+  - first:
+      74: 7400020
+    second: 1H_360_left_Jump_Smash
+  - first:
+      74: 7400022
+    second: 1H_360_Right_Jump_Smash
+  - first:
+      74: 7400024
+    second: 1H_Dodge_Jump_Backward
+  - first:
+      74: 7400026
+    second: 1H_Dodge_Jump_Left
+  - first:
+      74: 7400028
+    second: 1H_Dodge_Jump_Right
+  - first:
+      74: 7400030
+    second: 1H_dodge_backwards
+  - first:
+      74: 7400032
+    second: 1H_dodge_to_left
+  - first:
+      74: 7400034
+    second: 1H_dodge_to_right
+  - first:
+      74: 7400036
+    second: 1H_duck_below_high_swing
+  - first:
+      74: 7400038
+    second: 1H_Heavy Smash
+  - first:
+      74: 7400040
+    second: 1H_Hit_from_back
+  - first:
+      74: 7400042
+    second: 1H_Hit_from_front
+  - first:
+      74: 7400044
+    second: 1H_Jump_Swing
+  - first:
+      74: 7400046
+    second: 1H_moveTOblock
+  - first:
+      74: 7400048
+    second: 1H_shield_block_keeping
+  - first:
+      74: 7400050
+    second: 1H_moveFROMblock
+  - first:
+      74: 7400052
+    second: 1H_shield_block_high_left
+  - first:
+      74: 7400054
+    second: 1H_shield_block_high_right
+  - first:
+      74: 7400056
+    second: 1H_sword_parry_from_stright_down
+  - first:
+      74: 7400058
+    second: 1H_sword_parry_high_left
+  - first:
+      74: 7400060
+    second: 1H_sword_parry_high_right
+  - first:
+      74: 7400062
+    second: 1H_sword_parry_low_front
+  - first:
+      74: 7400064
+    second: 1H_sword_shield_blow
+  - first:
+      74: 7400066
+    second: 1H_sword_swing_high_left
+  - first:
+      74: 7400068
+    second: 1H_sword_swing_high_right
+  - first:
+      74: 7400070
+    second: 1H_sword_swing_high_straight_down
+  - first:
+      74: 7400072
+    second: 1H_sword_swing_low_left
+  - first:
+      74: 7400074
+    second: 1H_sword_swing_low_right
+  - first:
+      74: 7400076
+    second: 1H_sword_thrust_high
+  - first:
+      74: 7400078
+    second: 1H_sword_thrust_low
+  - first:
+      74: 7400080
+    second: 1H_sword_thrust_mid
+  - first:
+      74: 7400082
+    second: 1H_Wide_Slash_Combo
+  - first:
+      74: 7400084
+    second: 1H_Knocked_backward_Fly
+  - first:
+      74: 7400086
+    second: 1H_Knocked_backward_onPlace
+  - first:
+      74: 7400088
+    second: 1H_Down_back
+  - first:
+      74: 7400090
+    second: 1H_Recover_from_knocked_backward
+  - first:
+      74: 7400092
+    second: 1H_Knocked_forward
+  - first:
+      74: 7400094
+    second: 1H_Down_forward
+  - first:
+      74: 7400096
+    second: 1H_Recover_from_knocked_forward
+  - first:
+      74: 7400098
+    second: 1H_Casual_walk
+  - first:
+      74: 7400100
+    second: 1H_Cautious_walk
+  - first:
+      74: 7400102
+    second: 1H_walk_left_swing
+  - first:
+      74: 7400104
+    second: 1H_walk_right_swing
+  - first:
+      74: 7400106
+    second: 1H_walk_trust
+  - first:
+      74: 7400108
+    second: 1H_combat_run
+  - first:
+      74: 7400110
+    second: 1H_run
+  - first:
+      74: 7400112
+    second: 1H_Die_fall_backward
+  - first:
+      74: 7400114
+    second: 1H_Die_fall_forward
+  - first:
+      74: 7400116
+    second: 1H_Die_knocked_backward
+  - first:
+      74: 7400118
+    second: 1H_Die_knocked_forward
+  - first:
+      74: 7400120
+    second: RM_1H_5X_Combo_move_forward
+  - first:
+      74: 7400122
+    second: RM_1H_Casual_walk
+  - first:
+      74: 7400124
+    second: RM_1H_Cautious_walk
+  - first:
+      74: 7400126
+    second: RM_1H_walk_left_swing
+  - first:
+      74: 7400128
+    second: RM_1H_walk_right_swing
+  - first:
+      74: 7400130
+    second: RM_1H_walk_trust
+  - first:
+      74: 7400132
+    second: RM_1H_combat_run
+  - first:
+      74: 7400134
+    second: RM_1H_run
+  - first:
+      74: 7400136
+    second: RM_1H_Dodge_Jump_Backward
+  - first:
+      74: 7400138
+    second: RM_1H_Dodge_Jump_Left
+  - first:
+      74: 7400140
+    second: RM_1H_Dodge_Jump_Right
+  - first:
+      74: 7400142
+    second: RM_1H_Knocked_backward_Fly
+  - first:
+      74: 7400144
+    second: RM_1H_Die_knocked_backward
+  - first:
+      74: 7400146
+    second: RM_1H_Die_knocked_forward
+  - first:
+      74: 7400148
+    second: MECANIM
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      111: 11100000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: Bip01 Pelvis
+  - first:
+      137: 13700002
+    second: Adam_body
+  - first:
+      41386430: 2186277476908879412
+    second: ImportLogs
+  - first:
+      74: -1040480240010324091
+    second: MECANIM
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -334,6 +853,7 @@ ModelImporter:
     - serializedVersion: 16
       name: MECANIM
       takeName: 
+      internalID: 7400002
       firstFrame: 0
       lastFrame: 10
       wrapMode: 1
@@ -362,6 +882,7 @@ ModelImporter:
     - serializedVersion: 16
       name: 1H_banging_shield
       takeName: 
+      internalID: 7400004
       firstFrame: 15
       lastFrame: 35
       wrapMode: 1
@@ -390,6 +911,7 @@ ModelImporter:
     - serializedVersion: 16
       name: 1H_COMBAT_mode
       takeName: 
+      internalID: 7400006
       firstFrame: 40
       lastFrame: 90
       wrapMode: 1
@@ -418,6 +940,7 @@ ModelImporter:
     - serializedVersion: 16
       name: 1H_PutWeapon_Back
       takeName: 
+      internalID: 7400008
       firstFrame: 91
       lastFrame: 131
       wrapMode: 1
@@ -670,6 +1193,7 @@ ModelImporter:
     - serializedVersion: 16
       name: IDLE
       takeName: 
+      internalID: 7400010
       firstFrame: 132
       lastFrame: 232
       wrapMode: 1
@@ -698,6 +1222,7 @@ ModelImporter:
     - serializedVersion: 16
       name: 1H_TookWeaponOut
       takeName: 
+      internalID: 7400012
       firstFrame: 233
       lastFrame: 273
       wrapMode: 1
@@ -726,6 +1251,7 @@ ModelImporter:
     - serializedVersion: 16
       name: 1H_5X_Combo
       takeName: 
+      internalID: 7400014
       firstFrame: 274
       lastFrame: 369
       wrapMode: 1
@@ -754,6 +1280,7 @@ ModelImporter:
     - serializedVersion: 16
       name: 1H_5X_Combo_move_forward
       takeName: 
+      internalID: 7400016
       firstFrame: 370
       lastFrame: 465
       wrapMode: 1
@@ -782,6 +1309,7 @@ ModelImporter:
     - serializedVersion: 16
       name: 1H_360_Jump_swing
       takeName: 
+      internalID: 7400018
       firstFrame: 466
       lastFrame: 511
       wrapMode: 1
@@ -810,6 +1338,7 @@ ModelImporter:
     - serializedVersion: 16
       name: 1H_360_left_Jump_Smash
       takeName: 
+      internalID: 7400020
       firstFrame: 512
       lastFrame: 572
       wrapMode: 1
@@ -838,6 +1367,7 @@ ModelImporter:
     - serializedVersion: 16
       name: 1H_360_Right_Jump_Smash
       takeName: 
+      internalID: 7400022
       firstFrame: 573
       lastFrame: 643
       wrapMode: 1
@@ -866,6 +1396,7 @@ ModelImporter:
     - serializedVersion: 16
       name: 1H_Dodge_Jump_Backward
       takeName: 
+      internalID: 7400024
       firstFrame: 644
       lastFrame: 669
       wrapMode: 1
@@ -894,6 +1425,7 @@ ModelImporter:
     - serializedVersion: 16
       name: 1H_Dodge_Jump_Left
       takeName: 
+      internalID: 7400026
       firstFrame: 670
       lastFrame: 695
       wrapMode: 1
@@ -922,6 +1454,7 @@ ModelImporter:
     - serializedVersion: 16
       name: 1H_Dodge_Jump_Right
       takeName: 
+      internalID: 7400028
       firstFrame: 696
       lastFrame: 721
       wrapMode: 1
@@ -950,6 +1483,7 @@ ModelImporter:
     - serializedVersion: 16
       name: 1H_dodge_backwards
       takeName: 
+      internalID: 7400030
       firstFrame: 722
       lastFrame: 757
       wrapMode: 1
@@ -978,6 +1512,7 @@ ModelImporter:
     - serializedVersion: 16
       name: 1H_dodge_to_left
       takeName: 
+      internalID: 7400032
       firstFrame: 758
       lastFrame: 793
       wrapMode: 1
@@ -1006,6 +1541,7 @@ ModelImporter:
     - serializedVersion: 16
       name: 1H_dodge_to_right
       takeName: 
+      internalID: 7400034
       firstFrame: 794
       lastFrame: 829
       wrapMode: 1
@@ -1034,6 +1570,7 @@ ModelImporter:
     - serializedVersion: 16
       name: 1H_duck_below_high_swing
       takeName: 
+      internalID: 7400036
       firstFrame: 830
       lastFrame: 865
       wrapMode: 1
@@ -1062,6 +1599,7 @@ ModelImporter:
     - serializedVersion: 16
       name: 1H_Heavy Smash
       takeName: 
+      internalID: 7400038
       firstFrame: 866
       lastFrame: 906
       wrapMode: 1
@@ -1090,6 +1628,7 @@ ModelImporter:
     - serializedVersion: 16
       name: 1H_Hit_from_back
       takeName: 
+      internalID: 7400040
       firstFrame: 907
       lastFrame: 942
       wrapMode: 1
@@ -1118,6 +1657,7 @@ ModelImporter:
     - serializedVersion: 16
       name: 1H_Hit_from_front
       takeName: 
+      internalID: 7400042
       firstFrame: 943
       lastFrame: 978
       wrapMode: 1
@@ -1146,6 +1686,7 @@ ModelImporter:
     - serializedVersion: 16
       name: 1H_Jump_Swing
       takeName: 
+      internalID: 7400044
       firstFrame: 979
       lastFrame: 1024
       wrapMode: 1
@@ -1174,6 +1715,7 @@ ModelImporter:
     - serializedVersion: 16
       name: 1H_moveTOblock
       takeName: 
+      internalID: 7400046
       firstFrame: 1025
       lastFrame: 1031
       wrapMode: 1
@@ -1202,6 +1744,7 @@ ModelImporter:
     - serializedVersion: 16
       name: 1H_shield_block_keeping
       takeName: 
+      internalID: 7400048
       firstFrame: 1032
       lastFrame: 1062
       wrapMode: 1
@@ -1230,6 +1773,7 @@ ModelImporter:
     - serializedVersion: 16
       name: 1H_moveFROMblock
       takeName: 
+      internalID: 7400050
       firstFrame: 1063
       lastFrame: 1069
       wrapMode: 1
@@ -1258,6 +1802,7 @@ ModelImporter:
     - serializedVersion: 16
       name: 1H_shield_block_high_left
       takeName: 
+      internalID: 7400052
       firstFrame: 1070
       lastFrame: 1105
       wrapMode: 1
@@ -1286,6 +1831,7 @@ ModelImporter:
     - serializedVersion: 16
       name: 1H_shield_block_high_right
       takeName: 
+      internalID: 7400054
       firstFrame: 1106
       lastFrame: 1141
       wrapMode: 1
@@ -1314,6 +1860,7 @@ ModelImporter:
     - serializedVersion: 16
       name: 1H_sword_parry_from_stright_down
       takeName: 
+      internalID: 7400056
       firstFrame: 1142
       lastFrame: 1177
       wrapMode: 1
@@ -1342,6 +1889,7 @@ ModelImporter:
     - serializedVersion: 16
       name: 1H_sword_parry_high_left
       takeName: 
+      internalID: 7400058
       firstFrame: 1178
       lastFrame: 1213
       wrapMode: 1
@@ -1370,6 +1918,7 @@ ModelImporter:
     - serializedVersion: 16
       name: 1H_sword_parry_high_right
       takeName: 
+      internalID: 7400060
       firstFrame: 1214
       lastFrame: 1249
       wrapMode: 1
@@ -1398,6 +1947,7 @@ ModelImporter:
     - serializedVersion: 16
       name: 1H_sword_parry_low_front
       takeName: 
+      internalID: 7400062
       firstFrame: 1251
       lastFrame: 1286
       wrapMode: 1
@@ -1426,6 +1976,7 @@ ModelImporter:
     - serializedVersion: 16
       name: 1H_sword_shield_blow
       takeName: 
+      internalID: 7400064
       firstFrame: 1286
       lastFrame: 1321
       wrapMode: 1
@@ -1454,6 +2005,7 @@ ModelImporter:
     - serializedVersion: 16
       name: 1H_sword_swing_high_left
       takeName: 
+      internalID: 7400066
       firstFrame: 1322
       lastFrame: 1357
       wrapMode: 1
@@ -1482,6 +2034,7 @@ ModelImporter:
     - serializedVersion: 16
       name: 1H_sword_swing_high_right
       takeName: 
+      internalID: 7400068
       firstFrame: 1358
       lastFrame: 1393
       wrapMode: 1
@@ -1510,6 +2063,7 @@ ModelImporter:
     - serializedVersion: 16
       name: 1H_sword_swing_high_straight_down
       takeName: 
+      internalID: 7400070
       firstFrame: 1394
       lastFrame: 1429
       wrapMode: 1
@@ -1538,6 +2092,7 @@ ModelImporter:
     - serializedVersion: 16
       name: 1H_sword_swing_low_left
       takeName: 
+      internalID: 7400072
       firstFrame: 1430
       lastFrame: 1465
       wrapMode: 1
@@ -1566,6 +2121,7 @@ ModelImporter:
     - serializedVersion: 16
       name: 1H_sword_swing_low_right
       takeName: 
+      internalID: 7400074
       firstFrame: 1466
       lastFrame: 1501
       wrapMode: 1
@@ -1594,6 +2150,7 @@ ModelImporter:
     - serializedVersion: 16
       name: 1H_sword_thrust_high
       takeName: 
+      internalID: 7400076
       firstFrame: 1502
       lastFrame: 1537
       wrapMode: 1
@@ -1622,6 +2179,7 @@ ModelImporter:
     - serializedVersion: 16
       name: 1H_sword_thrust_low
       takeName: 
+      internalID: 7400078
       firstFrame: 1538
       lastFrame: 1573
       wrapMode: 1
@@ -1650,6 +2208,7 @@ ModelImporter:
     - serializedVersion: 16
       name: 1H_sword_thrust_mid
       takeName: 
+      internalID: 7400080
       firstFrame: 1574
       lastFrame: 1609
       wrapMode: 1
@@ -1678,6 +2237,7 @@ ModelImporter:
     - serializedVersion: 16
       name: 1H_Wide_Slash_Combo
       takeName: 
+      internalID: 7400082
       firstFrame: 1610
       lastFrame: 1660
       wrapMode: 1
@@ -1706,6 +2266,7 @@ ModelImporter:
     - serializedVersion: 16
       name: 1H_Knocked_backward_Fly
       takeName: 
+      internalID: 7400084
       firstFrame: 1661
       lastFrame: 1711
       wrapMode: 1
@@ -1734,6 +2295,7 @@ ModelImporter:
     - serializedVersion: 16
       name: 1H_Knocked_backward_onPlace
       takeName: 
+      internalID: 7400086
       firstFrame: 1716
       lastFrame: 1757
       wrapMode: 1
@@ -1762,6 +2324,7 @@ ModelImporter:
     - serializedVersion: 16
       name: 1H_Down_back
       takeName: 
+      internalID: 7400088
       firstFrame: 1758
       lastFrame: 1798
       wrapMode: 1
@@ -1790,6 +2353,7 @@ ModelImporter:
     - serializedVersion: 16
       name: 1H_Recover_from_knocked_backward
       takeName: 
+      internalID: 7400090
       firstFrame: 1799
       lastFrame: 1839
       wrapMode: 1
@@ -1818,6 +2382,7 @@ ModelImporter:
     - serializedVersion: 16
       name: 1H_Knocked_forward
       takeName: 
+      internalID: 7400092
       firstFrame: 1840
       lastFrame: 1868
       wrapMode: 1
@@ -1846,6 +2411,7 @@ ModelImporter:
     - serializedVersion: 16
       name: 1H_Down_forward
       takeName: 
+      internalID: 7400094
       firstFrame: 1869
       lastFrame: 1909
       wrapMode: 1
@@ -1874,6 +2440,7 @@ ModelImporter:
     - serializedVersion: 16
       name: 1H_Recover_from_knocked_forward
       takeName: 
+      internalID: 7400096
       firstFrame: 1910
       lastFrame: 1941.9999
       wrapMode: 1
@@ -1902,6 +2469,7 @@ ModelImporter:
     - serializedVersion: 16
       name: 1H_Casual_walk
       takeName: 
+      internalID: 7400098
       firstFrame: 1947
       lastFrame: 1983
       wrapMode: 1
@@ -1930,6 +2498,7 @@ ModelImporter:
     - serializedVersion: 16
       name: 1H_Cautious_walk
       takeName: 
+      internalID: 7400100
       firstFrame: 1986.9999
       lastFrame: 2027
       wrapMode: 1
@@ -1958,6 +2527,7 @@ ModelImporter:
     - serializedVersion: 16
       name: 1H_walk_left_swing
       takeName: 
+      internalID: 7400102
       firstFrame: 2029
       lastFrame: 2064
       wrapMode: 1
@@ -1986,6 +2556,7 @@ ModelImporter:
     - serializedVersion: 16
       name: 1H_walk_right_swing
       takeName: 
+      internalID: 7400104
       firstFrame: 2065
       lastFrame: 2100
       wrapMode: 1
@@ -2014,6 +2585,7 @@ ModelImporter:
     - serializedVersion: 16
       name: 1H_walk_trust
       takeName: 
+      internalID: 7400106
       firstFrame: 2101
       lastFrame: 2136
       wrapMode: 1
@@ -2042,6 +2614,7 @@ ModelImporter:
     - serializedVersion: 16
       name: 1H_combat_run
       takeName: 
+      internalID: 7400108
       firstFrame: 2140
       lastFrame: 2162
       wrapMode: 1
@@ -2070,6 +2643,7 @@ ModelImporter:
     - serializedVersion: 16
       name: 1H_run
       takeName: 
+      internalID: 7400110
       firstFrame: 2167
       lastFrame: 2193
       wrapMode: 1
@@ -2098,6 +2672,7 @@ ModelImporter:
     - serializedVersion: 16
       name: 1H_Die_fall_backward
       takeName: 
+      internalID: 7400112
       firstFrame: 2198
       lastFrame: 2331
       wrapMode: 1
@@ -2126,6 +2701,7 @@ ModelImporter:
     - serializedVersion: 16
       name: 1H_Die_fall_forward
       takeName: 
+      internalID: 7400114
       firstFrame: 2336
       lastFrame: 2476
       wrapMode: 1
@@ -2154,6 +2730,7 @@ ModelImporter:
     - serializedVersion: 16
       name: 1H_Die_knocked_backward
       takeName: 
+      internalID: 7400116
       firstFrame: 2481
       lastFrame: 2498
       wrapMode: 1
@@ -2182,6 +2759,7 @@ ModelImporter:
     - serializedVersion: 16
       name: 1H_Die_knocked_forward
       takeName: 
+      internalID: 7400118
       firstFrame: 2503
       lastFrame: 2520
       wrapMode: 1
@@ -2210,6 +2788,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_1H_5X_Combo_move_forward
       takeName: 
+      internalID: 7400120
       firstFrame: 2525
       lastFrame: 2620
       wrapMode: 1
@@ -2238,6 +2817,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_1H_Casual_walk
       takeName: 
+      internalID: 7400122
       firstFrame: 2625
       lastFrame: 2661
       wrapMode: 1
@@ -2266,6 +2846,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_1H_Cautious_walk
       takeName: 
+      internalID: 7400124
       firstFrame: 2666
       lastFrame: 2706
       wrapMode: 1
@@ -2294,6 +2875,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_1H_walk_left_swing
       takeName: 
+      internalID: 7400126
       firstFrame: 2711
       lastFrame: 2746
       wrapMode: 1
@@ -2322,6 +2904,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_1H_walk_right_swing
       takeName: 
+      internalID: 7400128
       firstFrame: 2751
       lastFrame: 2786
       wrapMode: 1
@@ -2350,6 +2933,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_1H_walk_trust
       takeName: 
+      internalID: 7400130
       firstFrame: 2791
       lastFrame: 2826
       wrapMode: 1
@@ -2378,6 +2962,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_1H_combat_run
       takeName: 
+      internalID: 7400132
       firstFrame: 2831
       lastFrame: 2853
       wrapMode: 1
@@ -2406,6 +2991,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_1H_run
       takeName: 
+      internalID: 7400134
       firstFrame: 2858
       lastFrame: 2884
       wrapMode: 1
@@ -2434,6 +3020,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_1H_Dodge_Jump_Backward
       takeName: 
+      internalID: 7400136
       firstFrame: 2889
       lastFrame: 2914
       wrapMode: 1
@@ -2462,6 +3049,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_1H_Dodge_Jump_Left
       takeName: 
+      internalID: 7400138
       firstFrame: 2919
       lastFrame: 2944
       wrapMode: 1
@@ -2490,6 +3078,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_1H_Dodge_Jump_Right
       takeName: 
+      internalID: 7400140
       firstFrame: 2949
       lastFrame: 2974
       wrapMode: 1
@@ -2518,6 +3107,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_1H_Knocked_backward_Fly
       takeName: 
+      internalID: 7400142
       firstFrame: 2979
       lastFrame: 3029
       wrapMode: 1
@@ -2546,6 +3136,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_1H_Die_knocked_backward
       takeName: 
+      internalID: 7400144
       firstFrame: 3034
       lastFrame: 3051
       wrapMode: 1
@@ -2574,6 +3165,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_1H_Die_knocked_forward
       takeName: 
+      internalID: 7400146
       firstFrame: 3056
       lastFrame: 3073
       wrapMode: 1
@@ -2602,6 +3194,7 @@ ModelImporter:
     - serializedVersion: 16
       name: MECANIM
       takeName: 
+      internalID: -1040480240010324091
       firstFrame: 3078
       lastFrame: 3088
       wrapMode: 1
@@ -2641,18 +3234,19 @@ ModelImporter:
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 0
-    previousCalculatedGlobalScale: 0.01
-    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -2661,10 +3255,11 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human:
     - boneName: Bip01 Pelvis
       humanName: Hips
@@ -3512,6 +4107,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 0.01
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0

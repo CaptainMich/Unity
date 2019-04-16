@@ -15,345 +15,1019 @@ labels:
 - Medieval
 - Warrior
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: Bip01 L Finger3
-    100002: Bip01 L Finger4
-    100004: Bip01 L Finger1
-    100006: Bip01 L Finger0
-    100008: Bip01 L Forearm
-    100010: Bip01 L Hand
-    100012: pick
-    100014: shovel
-    100016: Bip01 R Finger4
-    100018: Bip01 R Finger3
-    100020: Bip01 R Finger2
-    100022: Bip01 R Finger1
-    100024: Bip01 R Finger0
-    100026: Bip01 R Forearm
-    100028: Bip01 R Hand
-    100030: //RootNode
-    100032: Bip01 right_Wmount
-    100034: Bip01 zeye_left
-    100036: Bip01 Head
-    100038: Bip01 zJaw
-    100040: Bip01 left_Wmount
-    100042: Bip01 LUpArmTwist
-    100044: Bip01 L ForeTwist1
-    100046: Bip01 Neck
-    100048: Bip01 back_left_Wmount
-    100050: Bip01 Spine
-    100052: Bip01 Spine1
-    100054: Bip01
-    100056: Bip01 Pelvis
-    100058: Bip01 L Finger2
-    100060: Bip01 Rhand_Weapon
-    100062: Bip01 back_right_Wmount
-    100064: Bip01 zeye_right
-    100066: Bip01 back_shield_mount
-    100068: Bip01 zz_eye_right_lookA
-    100070: Bip01 zz_eye_left_lookAt
-    100072: Bip01 R UpperArm
-    100074: Bip01 R Clavicle
-    100076: Bip01 R Finger02
-    100078: Bip01 R Finger01
-    100080: Bip01 R Finger11
-    100082: Bip01 LUpArmTwist1
-    100084: Bip01 R Finger12
-    100086: Bip01 R Finger21
-    100088: Bip01 R Finger31
-    100090: Bip01 R Finger22
-    100092: Bip01 R Finger41
-    100094: Bip01 R Finger32
-    100096: Bip01 R ForeTwist1
-    100098: Bip01 R Finger42
-    100100: Bip01 RUpArmTwist1
-    100102: Bip01 R ForeTwist
-    100104: Bip01 L Clavicle
-    100106: Bip01 RUpArmTwist
-    100108: Bip01 L Finger01
-    100110: Bip01 L Calf
-    100112: Bip01 L UpperArm
-    100114: Bip01 L Finger02
-    100116: Bip01 L Foot
-    100118: Bip01 Rhand_WeaponOpp
-    100120: Bip01 L Thigh
-    100122: Bip01 L Finger12
-    100124: Bip01 L Finger11
-    100126: Bip01 L Toe0
-    100128: Bip01 L ForeTwist
-    100130: Bip01 shield_mount
-    100132: Bip01 L Finger41
-    100134: Bip01 L Finger42
-    100136: Bip01 L Finger31
-    100138: Bip01 R Thigh
-    100140: Bip01 R Calf
-    100142: Bip01 R Foot
-    100144: Bip01 R Toe0
-    100146: Bip01 L Finger32
-    100148: Adam_body
-    100150: Bip01 L Finger22
-    100152: Bip01 L Finger21
-    400000: Bip01 L Finger3
-    400002: Bip01 L Finger4
-    400004: Bip01 L Finger1
-    400006: Bip01 L Finger0
-    400008: Bip01 L Forearm
-    400010: Bip01 L Hand
-    400012: pick
-    400014: shovel
-    400016: Bip01 R Finger4
-    400018: Bip01 R Finger3
-    400020: Bip01 R Finger2
-    400022: Bip01 R Finger1
-    400024: Bip01 R Finger0
-    400026: Bip01 R Forearm
-    400028: Bip01 R Hand
-    400030: //RootNode
-    400032: Bip01 right_Wmount
-    400034: Bip01 zeye_left
-    400036: Bip01 Head
-    400038: Bip01 zJaw
-    400040: Bip01 left_Wmount
-    400042: Bip01 LUpArmTwist
-    400044: Bip01 L ForeTwist1
-    400046: Bip01 Neck
-    400048: Bip01 back_left_Wmount
-    400050: Bip01 Spine
-    400052: Bip01 Spine1
-    400054: Bip01
-    400056: Bip01 Pelvis
-    400058: Bip01 L Finger2
-    400060: Bip01 Rhand_Weapon
-    400062: Bip01 back_right_Wmount
-    400064: Bip01 zeye_right
-    400066: Bip01 back_shield_mount
-    400068: Bip01 zz_eye_right_lookA
-    400070: Bip01 zz_eye_left_lookAt
-    400072: Bip01 R UpperArm
-    400074: Bip01 R Clavicle
-    400076: Bip01 R Finger02
-    400078: Bip01 R Finger01
-    400080: Bip01 R Finger11
-    400082: Bip01 LUpArmTwist1
-    400084: Bip01 R Finger12
-    400086: Bip01 R Finger21
-    400088: Bip01 R Finger31
-    400090: Bip01 R Finger22
-    400092: Bip01 R Finger41
-    400094: Bip01 R Finger32
-    400096: Bip01 R ForeTwist1
-    400098: Bip01 R Finger42
-    400100: Bip01 RUpArmTwist1
-    400102: Bip01 R ForeTwist
-    400104: Bip01 L Clavicle
-    400106: Bip01 RUpArmTwist
-    400108: Bip01 L Finger01
-    400110: Bip01 L Calf
-    400112: Bip01 L UpperArm
-    400114: Bip01 L Finger02
-    400116: Bip01 L Foot
-    400118: Bip01 Rhand_WeaponOpp
-    400120: Bip01 L Thigh
-    400122: Bip01 L Finger12
-    400124: Bip01 L Finger11
-    400126: Bip01 L Toe0
-    400128: Bip01 L ForeTwist
-    400130: Bip01 shield_mount
-    400132: Bip01 L Finger41
-    400134: Bip01 L Finger42
-    400136: Bip01 L Finger31
-    400138: Bip01 R Thigh
-    400140: Bip01 R Calf
-    400142: Bip01 R Foot
-    400144: Bip01 R Toe0
-    400146: Bip01 L Finger32
-    400148: Adam_body
-    400150: Bip01 L Finger22
-    400152: Bip01 L Finger21
-    2300000: pick
-    2300002: shovel
-    3300000: pick
-    3300002: shovel
-    4300000: pick
-    4300002: shovel
-    4300004: Adam_body
-    7400000: RM_Run_Turn_Left_90
-    7400002: RM_walk_turn_left_90
-    7400004: S_arm_kick_right
-    7400006: S_boring
-    7400008: S_Bowing
-    7400010: S_Disappoined
-    7400012: S_Drinking
-    7400014: S_Eating
-    7400016: S_Explanation
-    7400018: S_From_Idle_To_Crouch
-    7400020: S_Crouching
-    7400022: S_From_Crouch_To_Idle
-    7400024: S_Going_asleep
-    7400026: S_Sleeping
-    7400028: S_Waking_up
-    7400030: S_sit_down
-    7400032: S_Sitting
-    7400034: S_Came_up
-    7400036: S_Greeting
-    7400038: S_Hit_from_back
-    7400040: S_Hit_from_front
-    7400042: S_Hit_from_left
-    7400044: S_Hit_from_righ
-    7400046: S_Hurray
-    7400048: S_IDLE
-    7400050: S_Jump_standing
-    7400052: S_Jump_standing_start
-    7400054: S_Jump_standing_loop
-    7400056: S_Jump_standing_end
-    7400058: S_Kiss
-    7400060: S_Looking_around
-    7400062: S_Pick_object
-    7400064: S_pointing_A
-    7400066: S_Pray_A
-    7400068: S_Reject
-    7400070: S_salute_A
-    7400072: S_salute_B
-    7400074: S_Say_No
-    7400076: S_Shrugs
-    7400078: S_Stretching
-    7400080: S_Talking_A
-    7400082: S_Talking_B
-    7400084: S_Thinking
-    7400086: S_Throwing
-    7400088: S_Tracking
-    7400090: S_Turn_Left_90t
-    7400092: S_Turn_Right_90t
-    7400094: S_Use_object
-    7400096: S_warning
-    7400098: S_waving
-    7400100: S_yawn
-    7400102: S_anger
-    7400104: S_Desperation
-    7400106: S_Digging_A
-    7400108: S_Digging_B
-    7400110: S_making_item
-    7400112: S_Panhandle
-    7400114: S_push_up_01
-    7400116: S_Dying_A
-    7400118: S_Dying_B
-    7400120: M_Climbing_abyss_idle
-    7400122: M_Climbing_abyss_left
-    7400124: M_Climbing_abyss_right
-    7400126: M_Climbing_ladder_down
-    7400128: M_Climbing_ladder_up
-    7400130: M_Climbing_rope
-    7400132: M_Climbing_wall
-    7400134: M_Crawling
-    7400136: M_falling_down
-    7400138: M_fly_forward
-    7400140: M_fly_left
-    7400142: M_fly_right
-    7400144: M_Jump_down
-    7400146: M_Jump_runing_a
-    7400148: M_Jump_Walking
-    7400150: M_Jump_Walking_start
-    7400152: M_Jump_Walking_loop
-    7400154: M_Jump_Walking_end
-    7400156: M_Jumping-jack
-    7400158: M_passing_under_obstacles
-    7400160: M_Run
-    7400162: M_Run_Jump
-    7400164: M_Run_Jump_start
-    7400166: M_Run_Jump_loop
-    7400168: M_Run_Jump_end
-    7400170: M_Sneaking
-    7400172: M_strafe_run_left
-    7400174: M_strafe_run_right
-    7400176: M_Strife_leftt
-    7400178: M_Strife_right
-    7400180: M_Swiming_Back
-    7400182: M_Swiming_Breaststroke
-    7400184: M_Swiming_Left
-    7400186: M_Swiming_OnPlace
-    7400188: M_Swiming_right
-    7400190: M_Swimming_Crawl
-    7400192: M_walk
-    7400194: M_Walking_back_A
-    7400196: M_Walking_back_B
-    7400198: M_Walking_With_Tourch
-    7400200: M_Combat_general_mode
-    7400202: M_Backflip
-    7400204: M_Dodge_Jump_Left_2X
-    7400206: M_Dodge_Jump_Right_2X
-    7400208: M_Roll_back
-    7400210: M_Roll_forward
-    7400212: M_Roll_left
-    7400214: M_Roll_right
-    7400216: RM_Climbing_abyss_left
-    7400218: RM_Climbing_abyss_right
-    7400220: RM_Climbing_ladder_down
-    7400222: RM_Climbing_ladder_up
-    7400224: RM_Climbing_Leader_Finish
-    7400226: RM_Climbing_rope
-    7400228: RM_Climbing_wall
-    7400230: RM_Climbing_Wall_Finish
-    7400232: RM_Crawling
-    7400234: RM_falling_down
-    7400236: RM_fly_forward
-    7400238: RM_fly_left
-    7400240: RM_fly_right
-    7400242: RM_Jump_down
-    7400244: RM_Jump_runing_a
-    7400246: RM_Jump_standing
-    7400248: RM_Jump_standing_start
-    7400250: RM_Jump_standing_loop
-    7400252: RM_Jump_standing_end
-    7400254: RM_Jump_Walking
-    7400256: RM_Jump_Walking_Start
-    7400258: RM_Jump_Walking_Loop
-    7400260: RM_Jump_Walking_End
-    7400262: RM_passing_under_obstacles
-    7400264: RM_Run
-    7400266: RM_Run_Jump
-    7400268: RM_Run_Jump_start
-    7400270: RM_Run_Jump_loop
-    7400272: RM_Run_Jump_end
-    7400274: RM_Sneaking
-    7400276: RM_strafe_run_left
-    7400278: RM_strafe_run_right
-    7400280: RM_Strife_leftt
-    7400282: RM_Strife_right
-    7400284: RM_Swiming_Back
-    7400286: RM_Swiming_Breaststroke
-    7400288: RM_Swiming_Left
-    7400290: RM_Swiming_right
-    7400292: RM_Swimming_Crawl
-    7400294: RM_Turn_Left_90t
-    7400296: RM_Turn_Right_90t
-    7400298: RM_walk
-    7400300: RM_Walking_back_A
-    7400302: RM_Walking_back_B
-    7400304: RM_Walking_With_Tourch
-    7400306: RM_Roll_back
-    7400308: RM_Roll_forward
-    7400310: RM_Roll_left
-    7400312: RM_Roll_right
-    7400314: RM_Backflip
-    7400316: RM_Dodge_Jump_Left_2X
-    7400318: RM_Dodge_Jump_Right_2X
-    7400320: MECANIM
-    7400322: RM_walk_turn_right_90
-    7400324: RM_Run_Turn_Right_90
-    7400326: M_Push_Object
-    7400328: RM_Push_Object
-    7400330: S_Sitinhg_Talking_A
-    7400332: S_Prayer
-    7400334: S_IDLE_A
-    7400336: S_IDLE_B
-    7400338: S_IDLE_C
-    7400340: S_IDLE_D
-    9500000: //RootNode
-    11100000: //RootNode
-    13700000: Bip01 Pelvis
-    13700002: Adam_body
-    2186277476908879412: ImportLogs
+  serializedVersion: 25
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Bip01 L Finger3
+  - first:
+      1: 100002
+    second: Bip01 L Finger4
+  - first:
+      1: 100004
+    second: Bip01 L Finger1
+  - first:
+      1: 100006
+    second: Bip01 L Finger0
+  - first:
+      1: 100008
+    second: Bip01 L Forearm
+  - first:
+      1: 100010
+    second: Bip01 L Hand
+  - first:
+      1: 100012
+    second: pick
+  - first:
+      1: 100014
+    second: shovel
+  - first:
+      1: 100016
+    second: Bip01 R Finger4
+  - first:
+      1: 100018
+    second: Bip01 R Finger3
+  - first:
+      1: 100020
+    second: Bip01 R Finger2
+  - first:
+      1: 100022
+    second: Bip01 R Finger1
+  - first:
+      1: 100024
+    second: Bip01 R Finger0
+  - first:
+      1: 100026
+    second: Bip01 R Forearm
+  - first:
+      1: 100028
+    second: Bip01 R Hand
+  - first:
+      1: 100030
+    second: //RootNode
+  - first:
+      1: 100032
+    second: Bip01 right_Wmount
+  - first:
+      1: 100034
+    second: Bip01 zeye_left
+  - first:
+      1: 100036
+    second: Bip01 Head
+  - first:
+      1: 100038
+    second: Bip01 zJaw
+  - first:
+      1: 100040
+    second: Bip01 left_Wmount
+  - first:
+      1: 100042
+    second: Bip01 LUpArmTwist
+  - first:
+      1: 100044
+    second: Bip01 L ForeTwist1
+  - first:
+      1: 100046
+    second: Bip01 Neck
+  - first:
+      1: 100048
+    second: Bip01 back_left_Wmount
+  - first:
+      1: 100050
+    second: Bip01 Spine
+  - first:
+      1: 100052
+    second: Bip01 Spine1
+  - first:
+      1: 100054
+    second: Bip01
+  - first:
+      1: 100056
+    second: Bip01 Pelvis
+  - first:
+      1: 100058
+    second: Bip01 L Finger2
+  - first:
+      1: 100060
+    second: Bip01 Rhand_Weapon
+  - first:
+      1: 100062
+    second: Bip01 back_right_Wmount
+  - first:
+      1: 100064
+    second: Bip01 zeye_right
+  - first:
+      1: 100066
+    second: Bip01 back_shield_mount
+  - first:
+      1: 100068
+    second: Bip01 zz_eye_right_lookA
+  - first:
+      1: 100070
+    second: Bip01 zz_eye_left_lookAt
+  - first:
+      1: 100072
+    second: Bip01 R UpperArm
+  - first:
+      1: 100074
+    second: Bip01 R Clavicle
+  - first:
+      1: 100076
+    second: Bip01 R Finger02
+  - first:
+      1: 100078
+    second: Bip01 R Finger01
+  - first:
+      1: 100080
+    second: Bip01 R Finger11
+  - first:
+      1: 100082
+    second: Bip01 LUpArmTwist1
+  - first:
+      1: 100084
+    second: Bip01 R Finger12
+  - first:
+      1: 100086
+    second: Bip01 R Finger21
+  - first:
+      1: 100088
+    second: Bip01 R Finger31
+  - first:
+      1: 100090
+    second: Bip01 R Finger22
+  - first:
+      1: 100092
+    second: Bip01 R Finger41
+  - first:
+      1: 100094
+    second: Bip01 R Finger32
+  - first:
+      1: 100096
+    second: Bip01 R ForeTwist1
+  - first:
+      1: 100098
+    second: Bip01 R Finger42
+  - first:
+      1: 100100
+    second: Bip01 RUpArmTwist1
+  - first:
+      1: 100102
+    second: Bip01 R ForeTwist
+  - first:
+      1: 100104
+    second: Bip01 L Clavicle
+  - first:
+      1: 100106
+    second: Bip01 RUpArmTwist
+  - first:
+      1: 100108
+    second: Bip01 L Finger01
+  - first:
+      1: 100110
+    second: Bip01 L Calf
+  - first:
+      1: 100112
+    second: Bip01 L UpperArm
+  - first:
+      1: 100114
+    second: Bip01 L Finger02
+  - first:
+      1: 100116
+    second: Bip01 L Foot
+  - first:
+      1: 100118
+    second: Bip01 Rhand_WeaponOpp
+  - first:
+      1: 100120
+    second: Bip01 L Thigh
+  - first:
+      1: 100122
+    second: Bip01 L Finger12
+  - first:
+      1: 100124
+    second: Bip01 L Finger11
+  - first:
+      1: 100126
+    second: Bip01 L Toe0
+  - first:
+      1: 100128
+    second: Bip01 L ForeTwist
+  - first:
+      1: 100130
+    second: Bip01 shield_mount
+  - first:
+      1: 100132
+    second: Bip01 L Finger41
+  - first:
+      1: 100134
+    second: Bip01 L Finger42
+  - first:
+      1: 100136
+    second: Bip01 L Finger31
+  - first:
+      1: 100138
+    second: Bip01 R Thigh
+  - first:
+      1: 100140
+    second: Bip01 R Calf
+  - first:
+      1: 100142
+    second: Bip01 R Foot
+  - first:
+      1: 100144
+    second: Bip01 R Toe0
+  - first:
+      1: 100146
+    second: Bip01 L Finger32
+  - first:
+      1: 100148
+    second: Adam_body
+  - first:
+      1: 100150
+    second: Bip01 L Finger22
+  - first:
+      1: 100152
+    second: Bip01 L Finger21
+  - first:
+      4: 400000
+    second: Bip01 L Finger3
+  - first:
+      4: 400002
+    second: Bip01 L Finger4
+  - first:
+      4: 400004
+    second: Bip01 L Finger1
+  - first:
+      4: 400006
+    second: Bip01 L Finger0
+  - first:
+      4: 400008
+    second: Bip01 L Forearm
+  - first:
+      4: 400010
+    second: Bip01 L Hand
+  - first:
+      4: 400012
+    second: pick
+  - first:
+      4: 400014
+    second: shovel
+  - first:
+      4: 400016
+    second: Bip01 R Finger4
+  - first:
+      4: 400018
+    second: Bip01 R Finger3
+  - first:
+      4: 400020
+    second: Bip01 R Finger2
+  - first:
+      4: 400022
+    second: Bip01 R Finger1
+  - first:
+      4: 400024
+    second: Bip01 R Finger0
+  - first:
+      4: 400026
+    second: Bip01 R Forearm
+  - first:
+      4: 400028
+    second: Bip01 R Hand
+  - first:
+      4: 400030
+    second: //RootNode
+  - first:
+      4: 400032
+    second: Bip01 right_Wmount
+  - first:
+      4: 400034
+    second: Bip01 zeye_left
+  - first:
+      4: 400036
+    second: Bip01 Head
+  - first:
+      4: 400038
+    second: Bip01 zJaw
+  - first:
+      4: 400040
+    second: Bip01 left_Wmount
+  - first:
+      4: 400042
+    second: Bip01 LUpArmTwist
+  - first:
+      4: 400044
+    second: Bip01 L ForeTwist1
+  - first:
+      4: 400046
+    second: Bip01 Neck
+  - first:
+      4: 400048
+    second: Bip01 back_left_Wmount
+  - first:
+      4: 400050
+    second: Bip01 Spine
+  - first:
+      4: 400052
+    second: Bip01 Spine1
+  - first:
+      4: 400054
+    second: Bip01
+  - first:
+      4: 400056
+    second: Bip01 Pelvis
+  - first:
+      4: 400058
+    second: Bip01 L Finger2
+  - first:
+      4: 400060
+    second: Bip01 Rhand_Weapon
+  - first:
+      4: 400062
+    second: Bip01 back_right_Wmount
+  - first:
+      4: 400064
+    second: Bip01 zeye_right
+  - first:
+      4: 400066
+    second: Bip01 back_shield_mount
+  - first:
+      4: 400068
+    second: Bip01 zz_eye_right_lookA
+  - first:
+      4: 400070
+    second: Bip01 zz_eye_left_lookAt
+  - first:
+      4: 400072
+    second: Bip01 R UpperArm
+  - first:
+      4: 400074
+    second: Bip01 R Clavicle
+  - first:
+      4: 400076
+    second: Bip01 R Finger02
+  - first:
+      4: 400078
+    second: Bip01 R Finger01
+  - first:
+      4: 400080
+    second: Bip01 R Finger11
+  - first:
+      4: 400082
+    second: Bip01 LUpArmTwist1
+  - first:
+      4: 400084
+    second: Bip01 R Finger12
+  - first:
+      4: 400086
+    second: Bip01 R Finger21
+  - first:
+      4: 400088
+    second: Bip01 R Finger31
+  - first:
+      4: 400090
+    second: Bip01 R Finger22
+  - first:
+      4: 400092
+    second: Bip01 R Finger41
+  - first:
+      4: 400094
+    second: Bip01 R Finger32
+  - first:
+      4: 400096
+    second: Bip01 R ForeTwist1
+  - first:
+      4: 400098
+    second: Bip01 R Finger42
+  - first:
+      4: 400100
+    second: Bip01 RUpArmTwist1
+  - first:
+      4: 400102
+    second: Bip01 R ForeTwist
+  - first:
+      4: 400104
+    second: Bip01 L Clavicle
+  - first:
+      4: 400106
+    second: Bip01 RUpArmTwist
+  - first:
+      4: 400108
+    second: Bip01 L Finger01
+  - first:
+      4: 400110
+    second: Bip01 L Calf
+  - first:
+      4: 400112
+    second: Bip01 L UpperArm
+  - first:
+      4: 400114
+    second: Bip01 L Finger02
+  - first:
+      4: 400116
+    second: Bip01 L Foot
+  - first:
+      4: 400118
+    second: Bip01 Rhand_WeaponOpp
+  - first:
+      4: 400120
+    second: Bip01 L Thigh
+  - first:
+      4: 400122
+    second: Bip01 L Finger12
+  - first:
+      4: 400124
+    second: Bip01 L Finger11
+  - first:
+      4: 400126
+    second: Bip01 L Toe0
+  - first:
+      4: 400128
+    second: Bip01 L ForeTwist
+  - first:
+      4: 400130
+    second: Bip01 shield_mount
+  - first:
+      4: 400132
+    second: Bip01 L Finger41
+  - first:
+      4: 400134
+    second: Bip01 L Finger42
+  - first:
+      4: 400136
+    second: Bip01 L Finger31
+  - first:
+      4: 400138
+    second: Bip01 R Thigh
+  - first:
+      4: 400140
+    second: Bip01 R Calf
+  - first:
+      4: 400142
+    second: Bip01 R Foot
+  - first:
+      4: 400144
+    second: Bip01 R Toe0
+  - first:
+      4: 400146
+    second: Bip01 L Finger32
+  - first:
+      4: 400148
+    second: Adam_body
+  - first:
+      4: 400150
+    second: Bip01 L Finger22
+  - first:
+      4: 400152
+    second: Bip01 L Finger21
+  - first:
+      23: 2300000
+    second: pick
+  - first:
+      23: 2300002
+    second: shovel
+  - first:
+      33: 3300000
+    second: pick
+  - first:
+      33: 3300002
+    second: shovel
+  - first:
+      43: 4300000
+    second: pick
+  - first:
+      43: 4300002
+    second: shovel
+  - first:
+      43: 4300004
+    second: Adam_body
+  - first:
+      74: 7400000
+    second: RM_Run_Turn_Left_90
+  - first:
+      74: 7400002
+    second: RM_walk_turn_left_90
+  - first:
+      74: 7400004
+    second: S_arm_kick_right
+  - first:
+      74: 7400006
+    second: S_boring
+  - first:
+      74: 7400008
+    second: S_Bowing
+  - first:
+      74: 7400010
+    second: S_Disappoined
+  - first:
+      74: 7400012
+    second: S_Drinking
+  - first:
+      74: 7400014
+    second: S_Eating
+  - first:
+      74: 7400016
+    second: S_Explanation
+  - first:
+      74: 7400018
+    second: S_From_Idle_To_Crouch
+  - first:
+      74: 7400020
+    second: S_Crouching
+  - first:
+      74: 7400022
+    second: S_From_Crouch_To_Idle
+  - first:
+      74: 7400024
+    second: S_Going_asleep
+  - first:
+      74: 7400026
+    second: S_Sleeping
+  - first:
+      74: 7400028
+    second: S_Waking_up
+  - first:
+      74: 7400030
+    second: S_sit_down
+  - first:
+      74: 7400032
+    second: S_Sitting
+  - first:
+      74: 7400034
+    second: S_Came_up
+  - first:
+      74: 7400036
+    second: S_Greeting
+  - first:
+      74: 7400038
+    second: S_Hit_from_back
+  - first:
+      74: 7400040
+    second: S_Hit_from_front
+  - first:
+      74: 7400042
+    second: S_Hit_from_left
+  - first:
+      74: 7400044
+    second: S_Hit_from_righ
+  - first:
+      74: 7400046
+    second: S_Hurray
+  - first:
+      74: 7400048
+    second: S_IDLE
+  - first:
+      74: 7400050
+    second: S_Jump_standing
+  - first:
+      74: 7400052
+    second: S_Jump_standing_start
+  - first:
+      74: 7400054
+    second: S_Jump_standing_loop
+  - first:
+      74: 7400056
+    second: S_Jump_standing_end
+  - first:
+      74: 7400058
+    second: S_Kiss
+  - first:
+      74: 7400060
+    second: S_Looking_around
+  - first:
+      74: 7400062
+    second: S_Pick_object
+  - first:
+      74: 7400064
+    second: S_pointing_A
+  - first:
+      74: 7400066
+    second: S_Pray_A
+  - first:
+      74: 7400068
+    second: S_Reject
+  - first:
+      74: 7400070
+    second: S_salute_A
+  - first:
+      74: 7400072
+    second: S_salute_B
+  - first:
+      74: 7400074
+    second: S_Say_No
+  - first:
+      74: 7400076
+    second: S_Shrugs
+  - first:
+      74: 7400078
+    second: S_Stretching
+  - first:
+      74: 7400080
+    second: S_Talking_A
+  - first:
+      74: 7400082
+    second: S_Talking_B
+  - first:
+      74: 7400084
+    second: S_Thinking
+  - first:
+      74: 7400086
+    second: S_Throwing
+  - first:
+      74: 7400088
+    second: S_Tracking
+  - first:
+      74: 7400090
+    second: S_Turn_Left_90t
+  - first:
+      74: 7400092
+    second: S_Turn_Right_90t
+  - first:
+      74: 7400094
+    second: S_Use_object
+  - first:
+      74: 7400096
+    second: S_warning
+  - first:
+      74: 7400098
+    second: S_waving
+  - first:
+      74: 7400100
+    second: S_yawn
+  - first:
+      74: 7400102
+    second: S_anger
+  - first:
+      74: 7400104
+    second: S_Desperation
+  - first:
+      74: 7400106
+    second: S_Digging_A
+  - first:
+      74: 7400108
+    second: S_Digging_B
+  - first:
+      74: 7400110
+    second: S_making_item
+  - first:
+      74: 7400112
+    second: S_Panhandle
+  - first:
+      74: 7400114
+    second: S_push_up_01
+  - first:
+      74: 7400116
+    second: S_Dying_A
+  - first:
+      74: 7400118
+    second: S_Dying_B
+  - first:
+      74: 7400120
+    second: M_Climbing_abyss_idle
+  - first:
+      74: 7400122
+    second: M_Climbing_abyss_left
+  - first:
+      74: 7400124
+    second: M_Climbing_abyss_right
+  - first:
+      74: 7400126
+    second: M_Climbing_ladder_down
+  - first:
+      74: 7400128
+    second: M_Climbing_ladder_up
+  - first:
+      74: 7400130
+    second: M_Climbing_rope
+  - first:
+      74: 7400132
+    second: M_Climbing_wall
+  - first:
+      74: 7400134
+    second: M_Crawling
+  - first:
+      74: 7400136
+    second: M_falling_down
+  - first:
+      74: 7400138
+    second: M_fly_forward
+  - first:
+      74: 7400140
+    second: M_fly_left
+  - first:
+      74: 7400142
+    second: M_fly_right
+  - first:
+      74: 7400144
+    second: M_Jump_down
+  - first:
+      74: 7400146
+    second: M_Jump_runing_a
+  - first:
+      74: 7400148
+    second: M_Jump_Walking
+  - first:
+      74: 7400150
+    second: M_Jump_Walking_start
+  - first:
+      74: 7400152
+    second: M_Jump_Walking_loop
+  - first:
+      74: 7400154
+    second: M_Jump_Walking_end
+  - first:
+      74: 7400156
+    second: M_Jumping-jack
+  - first:
+      74: 7400158
+    second: M_passing_under_obstacles
+  - first:
+      74: 7400160
+    second: M_Run
+  - first:
+      74: 7400162
+    second: M_Run_Jump
+  - first:
+      74: 7400164
+    second: M_Run_Jump_start
+  - first:
+      74: 7400166
+    second: M_Run_Jump_loop
+  - first:
+      74: 7400168
+    second: M_Run_Jump_end
+  - first:
+      74: 7400170
+    second: M_Sneaking
+  - first:
+      74: 7400172
+    second: M_strafe_run_left
+  - first:
+      74: 7400174
+    second: M_strafe_run_right
+  - first:
+      74: 7400176
+    second: M_Strife_leftt
+  - first:
+      74: 7400178
+    second: M_Strife_right
+  - first:
+      74: 7400180
+    second: M_Swiming_Back
+  - first:
+      74: 7400182
+    second: M_Swiming_Breaststroke
+  - first:
+      74: 7400184
+    second: M_Swiming_Left
+  - first:
+      74: 7400186
+    second: M_Swiming_OnPlace
+  - first:
+      74: 7400188
+    second: M_Swiming_right
+  - first:
+      74: 7400190
+    second: M_Swimming_Crawl
+  - first:
+      74: 7400192
+    second: M_walk
+  - first:
+      74: 7400194
+    second: M_Walking_back_A
+  - first:
+      74: 7400196
+    second: M_Walking_back_B
+  - first:
+      74: 7400198
+    second: M_Walking_With_Tourch
+  - first:
+      74: 7400200
+    second: M_Combat_general_mode
+  - first:
+      74: 7400202
+    second: M_Backflip
+  - first:
+      74: 7400204
+    second: M_Dodge_Jump_Left_2X
+  - first:
+      74: 7400206
+    second: M_Dodge_Jump_Right_2X
+  - first:
+      74: 7400208
+    second: M_Roll_back
+  - first:
+      74: 7400210
+    second: M_Roll_forward
+  - first:
+      74: 7400212
+    second: M_Roll_left
+  - first:
+      74: 7400214
+    second: M_Roll_right
+  - first:
+      74: 7400216
+    second: RM_Climbing_abyss_left
+  - first:
+      74: 7400218
+    second: RM_Climbing_abyss_right
+  - first:
+      74: 7400220
+    second: RM_Climbing_ladder_down
+  - first:
+      74: 7400222
+    second: RM_Climbing_ladder_up
+  - first:
+      74: 7400224
+    second: RM_Climbing_Leader_Finish
+  - first:
+      74: 7400226
+    second: RM_Climbing_rope
+  - first:
+      74: 7400228
+    second: RM_Climbing_wall
+  - first:
+      74: 7400230
+    second: RM_Climbing_Wall_Finish
+  - first:
+      74: 7400232
+    second: RM_Crawling
+  - first:
+      74: 7400234
+    second: RM_falling_down
+  - first:
+      74: 7400236
+    second: RM_fly_forward
+  - first:
+      74: 7400238
+    second: RM_fly_left
+  - first:
+      74: 7400240
+    second: RM_fly_right
+  - first:
+      74: 7400242
+    second: RM_Jump_down
+  - first:
+      74: 7400244
+    second: RM_Jump_runing_a
+  - first:
+      74: 7400246
+    second: RM_Jump_standing
+  - first:
+      74: 7400248
+    second: RM_Jump_standing_start
+  - first:
+      74: 7400250
+    second: RM_Jump_standing_loop
+  - first:
+      74: 7400252
+    second: RM_Jump_standing_end
+  - first:
+      74: 7400254
+    second: RM_Jump_Walking
+  - first:
+      74: 7400256
+    second: RM_Jump_Walking_Start
+  - first:
+      74: 7400258
+    second: RM_Jump_Walking_Loop
+  - first:
+      74: 7400260
+    second: RM_Jump_Walking_End
+  - first:
+      74: 7400262
+    second: RM_passing_under_obstacles
+  - first:
+      74: 7400264
+    second: RM_Run
+  - first:
+      74: 7400266
+    second: RM_Run_Jump
+  - first:
+      74: 7400268
+    second: RM_Run_Jump_start
+  - first:
+      74: 7400270
+    second: RM_Run_Jump_loop
+  - first:
+      74: 7400272
+    second: RM_Run_Jump_end
+  - first:
+      74: 7400274
+    second: RM_Sneaking
+  - first:
+      74: 7400276
+    second: RM_strafe_run_left
+  - first:
+      74: 7400278
+    second: RM_strafe_run_right
+  - first:
+      74: 7400280
+    second: RM_Strife_leftt
+  - first:
+      74: 7400282
+    second: RM_Strife_right
+  - first:
+      74: 7400284
+    second: RM_Swiming_Back
+  - first:
+      74: 7400286
+    second: RM_Swiming_Breaststroke
+  - first:
+      74: 7400288
+    second: RM_Swiming_Left
+  - first:
+      74: 7400290
+    second: RM_Swiming_right
+  - first:
+      74: 7400292
+    second: RM_Swimming_Crawl
+  - first:
+      74: 7400294
+    second: RM_Turn_Left_90t
+  - first:
+      74: 7400296
+    second: RM_Turn_Right_90t
+  - first:
+      74: 7400298
+    second: RM_walk
+  - first:
+      74: 7400300
+    second: RM_Walking_back_A
+  - first:
+      74: 7400302
+    second: RM_Walking_back_B
+  - first:
+      74: 7400304
+    second: RM_Walking_With_Tourch
+  - first:
+      74: 7400306
+    second: RM_Roll_back
+  - first:
+      74: 7400308
+    second: RM_Roll_forward
+  - first:
+      74: 7400310
+    second: RM_Roll_left
+  - first:
+      74: 7400312
+    second: RM_Roll_right
+  - first:
+      74: 7400314
+    second: RM_Backflip
+  - first:
+      74: 7400316
+    second: RM_Dodge_Jump_Left_2X
+  - first:
+      74: 7400318
+    second: RM_Dodge_Jump_Right_2X
+  - first:
+      74: 7400320
+    second: MECANIM
+  - first:
+      74: 7400322
+    second: RM_walk_turn_right_90
+  - first:
+      74: 7400324
+    second: RM_Run_Turn_Right_90
+  - first:
+      74: 7400326
+    second: M_Push_Object
+  - first:
+      74: 7400328
+    second: RM_Push_Object
+  - first:
+      74: 7400330
+    second: S_Sitinhg_Talking_A
+  - first:
+      74: 7400332
+    second: S_Prayer
+  - first:
+      74: 7400334
+    second: S_IDLE_A
+  - first:
+      74: 7400336
+    second: S_IDLE_B
+  - first:
+      74: 7400338
+    second: S_IDLE_C
+  - first:
+      74: 7400340
+    second: S_IDLE_D
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      111: 11100000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: Bip01 Pelvis
+  - first:
+      137: 13700002
+    second: Adam_body
+  - first:
+      41386430: 2186277476908879412
+    second: ImportLogs
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -404,6 +1078,7 @@ ModelImporter:
     - serializedVersion: 16
       name: MECANIM
       takeName: 
+      internalID: 7400320
       firstFrame: 0
       lastFrame: 10
       wrapMode: 1
@@ -650,6 +1325,7 @@ ModelImporter:
     - serializedVersion: 16
       name: S_arm_kick_right
       takeName: 
+      internalID: 7400004
       firstFrame: 11
       lastFrame: 36
       wrapMode: 1
@@ -678,6 +1354,7 @@ ModelImporter:
     - serializedVersion: 16
       name: S_boring
       takeName: 
+      internalID: 7400006
       firstFrame: 37
       lastFrame: 162
       wrapMode: 1
@@ -706,6 +1383,7 @@ ModelImporter:
     - serializedVersion: 16
       name: S_Bowing
       takeName: 
+      internalID: 7400008
       firstFrame: 163
       lastFrame: 213
       wrapMode: 1
@@ -734,6 +1412,7 @@ ModelImporter:
     - serializedVersion: 16
       name: S_Disappoined
       takeName: 
+      internalID: 7400010
       firstFrame: 214
       lastFrame: 319
       wrapMode: 1
@@ -762,6 +1441,7 @@ ModelImporter:
     - serializedVersion: 16
       name: S_Drinking
       takeName: 
+      internalID: 7400012
       firstFrame: 320
       lastFrame: 375
       wrapMode: 1
@@ -790,6 +1470,7 @@ ModelImporter:
     - serializedVersion: 16
       name: S_Eating
       takeName: 
+      internalID: 7400014
       firstFrame: 376
       lastFrame: 496
       wrapMode: 1
@@ -818,6 +1499,7 @@ ModelImporter:
     - serializedVersion: 16
       name: S_Explanation
       takeName: 
+      internalID: 7400016
       firstFrame: 497
       lastFrame: 542
       wrapMode: 1
@@ -846,6 +1528,7 @@ ModelImporter:
     - serializedVersion: 16
       name: S_From_Idle_To_Crouch
       takeName: 
+      internalID: 7400018
       firstFrame: 543
       lastFrame: 568
       wrapMode: 1
@@ -874,6 +1557,7 @@ ModelImporter:
     - serializedVersion: 16
       name: S_Crouching
       takeName: 
+      internalID: 7400020
       firstFrame: 569
       lastFrame: 669
       wrapMode: 1
@@ -902,6 +1586,7 @@ ModelImporter:
     - serializedVersion: 16
       name: S_From_Crouch_To_Idle
       takeName: 
+      internalID: 7400022
       firstFrame: 670
       lastFrame: 695
       wrapMode: 1
@@ -930,6 +1615,7 @@ ModelImporter:
     - serializedVersion: 16
       name: S_Going_asleep
       takeName: 
+      internalID: 7400024
       firstFrame: 696
       lastFrame: 766
       wrapMode: 1
@@ -958,6 +1644,7 @@ ModelImporter:
     - serializedVersion: 16
       name: S_Sleeping
       takeName: 
+      internalID: 7400026
       firstFrame: 767
       lastFrame: 842
       wrapMode: 1
@@ -986,6 +1673,7 @@ ModelImporter:
     - serializedVersion: 16
       name: S_Waking_up
       takeName: 
+      internalID: 7400028
       firstFrame: 843
       lastFrame: 913
       wrapMode: 1
@@ -1014,6 +1702,7 @@ ModelImporter:
     - serializedVersion: 16
       name: S_sit_down
       takeName: 
+      internalID: 7400030
       firstFrame: 914
       lastFrame: 939
       wrapMode: 1
@@ -1042,6 +1731,7 @@ ModelImporter:
     - serializedVersion: 16
       name: S_Sitting
       takeName: 
+      internalID: 7400032
       firstFrame: 940
       lastFrame: 990
       wrapMode: 1
@@ -1070,6 +1760,7 @@ ModelImporter:
     - serializedVersion: 16
       name: S_Came_up
       takeName: 
+      internalID: 7400034
       firstFrame: 991
       lastFrame: 1017
       wrapMode: 1
@@ -1098,6 +1789,7 @@ ModelImporter:
     - serializedVersion: 16
       name: S_Greeting
       takeName: 
+      internalID: 7400036
       firstFrame: 1018
       lastFrame: 1078
       wrapMode: 1
@@ -1126,6 +1818,7 @@ ModelImporter:
     - serializedVersion: 16
       name: S_Hit_from_back
       takeName: 
+      internalID: 7400038
       firstFrame: 1079
       lastFrame: 1114
       wrapMode: 1
@@ -1154,6 +1847,7 @@ ModelImporter:
     - serializedVersion: 16
       name: S_Hit_from_front
       takeName: 
+      internalID: 7400040
       firstFrame: 1115
       lastFrame: 1150
       wrapMode: 1
@@ -1182,6 +1876,7 @@ ModelImporter:
     - serializedVersion: 16
       name: S_Hit_from_left
       takeName: 
+      internalID: 7400042
       firstFrame: 1151
       lastFrame: 1186
       wrapMode: 1
@@ -1210,6 +1905,7 @@ ModelImporter:
     - serializedVersion: 16
       name: S_Hit_from_righ
       takeName: 
+      internalID: 7400044
       firstFrame: 1187
       lastFrame: 1222
       wrapMode: 1
@@ -1238,6 +1934,7 @@ ModelImporter:
     - serializedVersion: 16
       name: S_Hurray
       takeName: 
+      internalID: 7400046
       firstFrame: 1223
       lastFrame: 1288
       wrapMode: 1
@@ -1266,6 +1963,7 @@ ModelImporter:
     - serializedVersion: 16
       name: S_IDLE
       takeName: 
+      internalID: 7400048
       firstFrame: 1289
       lastFrame: 1389
       wrapMode: 1
@@ -1512,6 +2210,7 @@ ModelImporter:
     - serializedVersion: 16
       name: S_Jump_standing
       takeName: 
+      internalID: 7400050
       firstFrame: 1390
       lastFrame: 1465
       wrapMode: 1
@@ -1522,8 +2221,8 @@ ModelImporter:
       hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
       loopBlendPositionXZ: 0
       keepOriginalOrientation: 1
       keepOriginalPositionY: 1
@@ -1540,6 +2239,7 @@ ModelImporter:
     - serializedVersion: 16
       name: S_Jump_standing_start
       takeName: 
+      internalID: 7400052
       firstFrame: 1467
       lastFrame: 1512
       wrapMode: 1
@@ -1568,6 +2268,7 @@ ModelImporter:
     - serializedVersion: 16
       name: S_Jump_standing_loop
       takeName: 
+      internalID: 7400054
       firstFrame: 1513
       lastFrame: 1516
       wrapMode: 1
@@ -1596,6 +2297,7 @@ ModelImporter:
     - serializedVersion: 16
       name: S_Jump_standing_end
       takeName: 
+      internalID: 7400056
       firstFrame: 1517
       lastFrame: 1542
       wrapMode: 1
@@ -1624,6 +2326,7 @@ ModelImporter:
     - serializedVersion: 16
       name: S_Kiss
       takeName: 
+      internalID: 7400058
       firstFrame: 1543
       lastFrame: 1628
       wrapMode: 1
@@ -1652,6 +2355,7 @@ ModelImporter:
     - serializedVersion: 16
       name: S_Looking_around
       takeName: 
+      internalID: 7400060
       firstFrame: 1629
       lastFrame: 1805
       wrapMode: 1
@@ -1680,6 +2384,7 @@ ModelImporter:
     - serializedVersion: 16
       name: S_Pick_object
       takeName: 
+      internalID: 7400062
       firstFrame: 1806
       lastFrame: 1846
       wrapMode: 1
@@ -1708,6 +2413,7 @@ ModelImporter:
     - serializedVersion: 16
       name: S_pointing_A
       takeName: 
+      internalID: 7400064
       firstFrame: 1847
       lastFrame: 1907
       wrapMode: 1
@@ -1736,6 +2442,7 @@ ModelImporter:
     - serializedVersion: 16
       name: S_Pray_A
       takeName: 
+      internalID: 7400066
       firstFrame: 1908
       lastFrame: 1988.0001
       wrapMode: 1
@@ -1764,6 +2471,7 @@ ModelImporter:
     - serializedVersion: 16
       name: S_Reject
       takeName: 
+      internalID: 7400068
       firstFrame: 1989.0001
       lastFrame: 2089
       wrapMode: 1
@@ -1792,6 +2500,7 @@ ModelImporter:
     - serializedVersion: 16
       name: S_salute_A
       takeName: 
+      internalID: 7400070
       firstFrame: 2090
       lastFrame: 2150
       wrapMode: 1
@@ -1820,6 +2529,7 @@ ModelImporter:
     - serializedVersion: 16
       name: S_salute_B
       takeName: 
+      internalID: 7400072
       firstFrame: 2151
       lastFrame: 2211
       wrapMode: 1
@@ -1848,6 +2558,7 @@ ModelImporter:
     - serializedVersion: 16
       name: S_Say_No
       takeName: 
+      internalID: 7400074
       firstFrame: 2212
       lastFrame: 2262
       wrapMode: 1
@@ -1876,6 +2587,7 @@ ModelImporter:
     - serializedVersion: 16
       name: S_Shrugs
       takeName: 
+      internalID: 7400076
       firstFrame: 2263
       lastFrame: 2308
       wrapMode: 1
@@ -1904,6 +2616,7 @@ ModelImporter:
     - serializedVersion: 16
       name: S_Stretching
       takeName: 
+      internalID: 7400078
       firstFrame: 2309
       lastFrame: 2389
       wrapMode: 1
@@ -1932,6 +2645,7 @@ ModelImporter:
     - serializedVersion: 16
       name: S_Talking_A
       takeName: 
+      internalID: 7400080
       firstFrame: 2410
       lastFrame: 2455
       wrapMode: 1
@@ -1960,6 +2674,7 @@ ModelImporter:
     - serializedVersion: 16
       name: S_Talking_B
       takeName: 
+      internalID: 7400082
       firstFrame: 2456
       lastFrame: 2591
       wrapMode: 1
@@ -1988,6 +2703,7 @@ ModelImporter:
     - serializedVersion: 16
       name: S_Thinking
       takeName: 
+      internalID: 7400084
       firstFrame: 2592
       lastFrame: 2667
       wrapMode: 1
@@ -2016,6 +2732,7 @@ ModelImporter:
     - serializedVersion: 16
       name: S_Throwing
       takeName: 
+      internalID: 7400086
       firstFrame: 2668
       lastFrame: 2773
       wrapMode: 1
@@ -2044,6 +2761,7 @@ ModelImporter:
     - serializedVersion: 16
       name: S_Tracking
       takeName: 
+      internalID: 7400088
       firstFrame: 2774
       lastFrame: 2949
       wrapMode: 1
@@ -2072,6 +2790,7 @@ ModelImporter:
     - serializedVersion: 16
       name: S_Turn_Left_90t
       takeName: 
+      internalID: 7400090
       firstFrame: 2950
       lastFrame: 2975
       wrapMode: 1
@@ -2100,6 +2819,7 @@ ModelImporter:
     - serializedVersion: 16
       name: S_Turn_Right_90t
       takeName: 
+      internalID: 7400092
       firstFrame: 2976
       lastFrame: 3001
       wrapMode: 1
@@ -2128,6 +2848,7 @@ ModelImporter:
     - serializedVersion: 16
       name: S_Use_object
       takeName: 
+      internalID: 7400094
       firstFrame: 3002
       lastFrame: 3042
       wrapMode: 1
@@ -2156,6 +2877,7 @@ ModelImporter:
     - serializedVersion: 16
       name: S_warning
       takeName: 
+      internalID: 7400096
       firstFrame: 3043
       lastFrame: 3103
       wrapMode: 1
@@ -2184,6 +2906,7 @@ ModelImporter:
     - serializedVersion: 16
       name: S_waving
       takeName: 
+      internalID: 7400098
       firstFrame: 3104
       lastFrame: 3149
       wrapMode: 1
@@ -2212,6 +2935,7 @@ ModelImporter:
     - serializedVersion: 16
       name: S_yawn
       takeName: 
+      internalID: 7400100
       firstFrame: 3150
       lastFrame: 3235
       wrapMode: 1
@@ -2240,6 +2964,7 @@ ModelImporter:
     - serializedVersion: 16
       name: S_anger
       takeName: 
+      internalID: 7400102
       firstFrame: 3240
       lastFrame: 3260
       wrapMode: 1
@@ -2268,6 +2993,7 @@ ModelImporter:
     - serializedVersion: 16
       name: S_Desperation
       takeName: 
+      internalID: 7400104
       firstFrame: 3265
       lastFrame: 3292
       wrapMode: 1
@@ -2296,6 +3022,7 @@ ModelImporter:
     - serializedVersion: 16
       name: S_Digging_A
       takeName: 
+      internalID: 7400106
       firstFrame: 3297
       lastFrame: 3332
       wrapMode: 1
@@ -2324,6 +3051,7 @@ ModelImporter:
     - serializedVersion: 16
       name: S_Digging_B
       takeName: 
+      internalID: 7400108
       firstFrame: 3337
       lastFrame: 3382
       wrapMode: 1
@@ -2352,6 +3080,7 @@ ModelImporter:
     - serializedVersion: 16
       name: S_making_item
       takeName: 
+      internalID: 7400110
       firstFrame: 3387
       lastFrame: 3417
       wrapMode: 1
@@ -2380,6 +3109,7 @@ ModelImporter:
     - serializedVersion: 16
       name: S_Panhandle
       takeName: 
+      internalID: 7400112
       firstFrame: 3422
       lastFrame: 3482
       wrapMode: 1
@@ -2408,6 +3138,7 @@ ModelImporter:
     - serializedVersion: 16
       name: S_push_up_01
       takeName: 
+      internalID: 7400114
       firstFrame: 3487
       lastFrame: 3517
       wrapMode: 1
@@ -2436,6 +3167,7 @@ ModelImporter:
     - serializedVersion: 16
       name: S_Dying_A
       takeName: 
+      internalID: 7400116
       firstFrame: 3522
       lastFrame: 3587
       wrapMode: 1
@@ -2464,6 +3196,7 @@ ModelImporter:
     - serializedVersion: 16
       name: S_Dying_B
       takeName: 
+      internalID: 7400118
       firstFrame: 3592
       lastFrame: 3632
       wrapMode: 1
@@ -2492,6 +3225,7 @@ ModelImporter:
     - serializedVersion: 16
       name: M_Climbing_abyss_idle
       takeName: 
+      internalID: 7400120
       firstFrame: 3637
       lastFrame: 3712
       wrapMode: 1
@@ -2520,6 +3254,7 @@ ModelImporter:
     - serializedVersion: 16
       name: M_Climbing_abyss_left
       takeName: 
+      internalID: 7400122
       firstFrame: 3717
       lastFrame: 3742
       wrapMode: 1
@@ -2548,6 +3283,7 @@ ModelImporter:
     - serializedVersion: 16
       name: M_Climbing_abyss_right
       takeName: 
+      internalID: 7400124
       firstFrame: 3747
       lastFrame: 3772
       wrapMode: 1
@@ -2576,6 +3312,7 @@ ModelImporter:
     - serializedVersion: 16
       name: M_Climbing_ladder_down
       takeName: 
+      internalID: 7400126
       firstFrame: 3777
       lastFrame: 3817
       wrapMode: 1
@@ -2604,6 +3341,7 @@ ModelImporter:
     - serializedVersion: 16
       name: M_Climbing_ladder_up
       takeName: 
+      internalID: 7400128
       firstFrame: 3822
       lastFrame: 3862
       wrapMode: 1
@@ -2632,6 +3370,7 @@ ModelImporter:
     - serializedVersion: 16
       name: M_Climbing_rope
       takeName: 
+      internalID: 7400130
       firstFrame: 3866.9998
       lastFrame: 3896.9998
       wrapMode: 1
@@ -2660,6 +3399,7 @@ ModelImporter:
     - serializedVersion: 16
       name: M_Climbing_wall
       takeName: 
+      internalID: 7400132
       firstFrame: 3902
       lastFrame: 3932
       wrapMode: 1
@@ -2688,6 +3428,7 @@ ModelImporter:
     - serializedVersion: 16
       name: M_Crawling
       takeName: 
+      internalID: 7400134
       firstFrame: 3937
       lastFrame: 3967
       wrapMode: 1
@@ -2716,6 +3457,7 @@ ModelImporter:
     - serializedVersion: 16
       name: M_falling_down
       takeName: 
+      internalID: 7400136
       firstFrame: 3971.9998
       lastFrame: 4012
       wrapMode: 1
@@ -2744,6 +3486,7 @@ ModelImporter:
     - serializedVersion: 16
       name: M_fly_forward
       takeName: 
+      internalID: 7400138
       firstFrame: 4016.9998
       lastFrame: 4117
       wrapMode: 1
@@ -2772,6 +3515,7 @@ ModelImporter:
     - serializedVersion: 16
       name: M_fly_left
       takeName: 
+      internalID: 7400140
       firstFrame: 4122
       lastFrame: 4222
       wrapMode: 1
@@ -2800,6 +3544,7 @@ ModelImporter:
     - serializedVersion: 16
       name: M_fly_right
       takeName: 
+      internalID: 7400142
       firstFrame: 4227
       lastFrame: 4327
       wrapMode: 1
@@ -2828,6 +3573,7 @@ ModelImporter:
     - serializedVersion: 16
       name: M_Jump_down
       takeName: 
+      internalID: 7400144
       firstFrame: 4332
       lastFrame: 4367
       wrapMode: 1
@@ -2856,6 +3602,7 @@ ModelImporter:
     - serializedVersion: 16
       name: M_Jump_runing_a
       takeName: 
+      internalID: 7400146
       firstFrame: 4372
       lastFrame: 4412
       wrapMode: 1
@@ -2884,6 +3631,7 @@ ModelImporter:
     - serializedVersion: 16
       name: M_Jump_Walking
       takeName: 
+      internalID: 7400148
       firstFrame: 4417
       lastFrame: 4447
       wrapMode: 1
@@ -2894,9 +3642,9 @@ ModelImporter:
       hasAdditiveReferencePose: 0
       loopTime: 1
       loopBlend: 1
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
       keepOriginalOrientation: 1
       keepOriginalPositionY: 1
       keepOriginalPositionXZ: 1
@@ -2912,6 +3660,7 @@ ModelImporter:
     - serializedVersion: 16
       name: M_Jump_Walking_start
       takeName: 
+      internalID: 7400150
       firstFrame: 4448
       lastFrame: 4459
       wrapMode: 1
@@ -2940,6 +3689,7 @@ ModelImporter:
     - serializedVersion: 16
       name: M_Jump_Walking_loop
       takeName: 
+      internalID: 7400152
       firstFrame: 4460
       lastFrame: 4462
       wrapMode: 1
@@ -2968,6 +3718,7 @@ ModelImporter:
     - serializedVersion: 16
       name: M_Jump_Walking_end
       takeName: 
+      internalID: 7400154
       firstFrame: 4463
       lastFrame: 4478
       wrapMode: 1
@@ -2996,6 +3747,7 @@ ModelImporter:
     - serializedVersion: 16
       name: M_Jumping-jack
       takeName: 
+      internalID: 7400156
       firstFrame: 4483
       lastFrame: 4508
       wrapMode: 1
@@ -3024,6 +3776,7 @@ ModelImporter:
     - serializedVersion: 16
       name: M_passing_under_obstacles
       takeName: 
+      internalID: 7400158
       firstFrame: 4513
       lastFrame: 4555
       wrapMode: 1
@@ -3052,6 +3805,7 @@ ModelImporter:
     - serializedVersion: 16
       name: M_Run
       takeName: 
+      internalID: 7400160
       firstFrame: 4560
       lastFrame: 4582
       wrapMode: 1
@@ -3080,6 +3834,7 @@ ModelImporter:
     - serializedVersion: 16
       name: M_Run_Jump
       takeName: 
+      internalID: 7400162
       firstFrame: 4583
       lastFrame: 4616
       wrapMode: 1
@@ -3108,6 +3863,7 @@ ModelImporter:
     - serializedVersion: 16
       name: M_Run_Jump_start
       takeName: 
+      internalID: 7400164
       firstFrame: 4617
       lastFrame: 4632
       wrapMode: 1
@@ -3136,6 +3892,7 @@ ModelImporter:
     - serializedVersion: 16
       name: M_Run_Jump_loop
       takeName: 
+      internalID: 7400166
       firstFrame: 4633
       lastFrame: 4636
       wrapMode: 1
@@ -3164,6 +3921,7 @@ ModelImporter:
     - serializedVersion: 16
       name: M_Run_Jump_end
       takeName: 
+      internalID: 7400168
       firstFrame: 4637
       lastFrame: 4650
       wrapMode: 1
@@ -3192,6 +3950,7 @@ ModelImporter:
     - serializedVersion: 16
       name: M_Sneaking
       takeName: 
+      internalID: 7400170
       firstFrame: 4655
       lastFrame: 4706
       wrapMode: 1
@@ -3220,6 +3979,7 @@ ModelImporter:
     - serializedVersion: 16
       name: M_strafe_run_left
       takeName: 
+      internalID: 7400172
       firstFrame: 4712
       lastFrame: 4737
       wrapMode: 1
@@ -3248,6 +4008,7 @@ ModelImporter:
     - serializedVersion: 16
       name: M_strafe_run_right
       takeName: 
+      internalID: 7400174
       firstFrame: 4743
       lastFrame: 4768
       wrapMode: 1
@@ -3276,6 +4037,7 @@ ModelImporter:
     - serializedVersion: 16
       name: M_Strife_leftt
       takeName: 
+      internalID: 7400176
       firstFrame: 4773
       lastFrame: 4808
       wrapMode: 1
@@ -3304,6 +4066,7 @@ ModelImporter:
     - serializedVersion: 16
       name: M_Strife_right
       takeName: 
+      internalID: 7400178
       firstFrame: 4813
       lastFrame: 4848
       wrapMode: 1
@@ -3332,6 +4095,7 @@ ModelImporter:
     - serializedVersion: 16
       name: M_Swiming_Back
       takeName: 
+      internalID: 7400180
       firstFrame: 4853
       lastFrame: 4903
       wrapMode: 1
@@ -3360,6 +4124,7 @@ ModelImporter:
     - serializedVersion: 16
       name: M_Swiming_Breaststroke
       takeName: 
+      internalID: 7400182
       firstFrame: 4908
       lastFrame: 4963
       wrapMode: 1
@@ -3388,6 +4153,7 @@ ModelImporter:
     - serializedVersion: 16
       name: M_Swiming_Left
       takeName: 
+      internalID: 7400184
       firstFrame: 4968
       lastFrame: 5018
       wrapMode: 1
@@ -3416,6 +4182,7 @@ ModelImporter:
     - serializedVersion: 16
       name: M_Swiming_OnPlace
       takeName: 
+      internalID: 7400186
       firstFrame: 5023
       lastFrame: 5098
       wrapMode: 1
@@ -3444,6 +4211,7 @@ ModelImporter:
     - serializedVersion: 16
       name: M_Swiming_right
       takeName: 
+      internalID: 7400188
       firstFrame: 5103
       lastFrame: 5153
       wrapMode: 1
@@ -3472,6 +4240,7 @@ ModelImporter:
     - serializedVersion: 16
       name: M_Swimming_Crawl
       takeName: 
+      internalID: 7400190
       firstFrame: 5158
       lastFrame: 5188
       wrapMode: 1
@@ -3500,6 +4269,7 @@ ModelImporter:
     - serializedVersion: 16
       name: M_walk
       takeName: 
+      internalID: 7400192
       firstFrame: 5194
       lastFrame: 5228
       wrapMode: 1
@@ -3528,6 +4298,7 @@ ModelImporter:
     - serializedVersion: 16
       name: M_Walking_back_A
       takeName: 
+      internalID: 7400194
       firstFrame: 5233
       lastFrame: 5268
       wrapMode: 1
@@ -3556,6 +4327,7 @@ ModelImporter:
     - serializedVersion: 16
       name: M_Walking_back_B
       takeName: 
+      internalID: 7400196
       firstFrame: 5273
       lastFrame: 5308
       wrapMode: 1
@@ -3584,6 +4356,7 @@ ModelImporter:
     - serializedVersion: 16
       name: M_Walking_With_Tourch
       takeName: 
+      internalID: 7400198
       firstFrame: 5313
       lastFrame: 5416
       wrapMode: 1
@@ -3612,6 +4385,7 @@ ModelImporter:
     - serializedVersion: 16
       name: M_Combat_general_mode
       takeName: 
+      internalID: 7400200
       firstFrame: 5421
       lastFrame: 5471
       wrapMode: 1
@@ -3640,6 +4414,7 @@ ModelImporter:
     - serializedVersion: 16
       name: M_Backflip
       takeName: 
+      internalID: 7400202
       firstFrame: 5472
       lastFrame: 5507
       wrapMode: 1
@@ -3668,6 +4443,7 @@ ModelImporter:
     - serializedVersion: 16
       name: M_Dodge_Jump_Left_2X
       takeName: 
+      internalID: 7400204
       firstFrame: 5508
       lastFrame: 5533
       wrapMode: 1
@@ -3696,6 +4472,7 @@ ModelImporter:
     - serializedVersion: 16
       name: M_Dodge_Jump_Right_2X
       takeName: 
+      internalID: 7400206
       firstFrame: 5534
       lastFrame: 5559
       wrapMode: 1
@@ -3724,6 +4501,7 @@ ModelImporter:
     - serializedVersion: 16
       name: M_Roll_back
       takeName: 
+      internalID: 7400208
       firstFrame: 5560
       lastFrame: 5590
       wrapMode: 1
@@ -3752,6 +4530,7 @@ ModelImporter:
     - serializedVersion: 16
       name: M_Roll_forward
       takeName: 
+      internalID: 7400210
       firstFrame: 5591
       lastFrame: 5621
       wrapMode: 1
@@ -3780,6 +4559,7 @@ ModelImporter:
     - serializedVersion: 16
       name: M_Roll_left
       takeName: 
+      internalID: 7400212
       firstFrame: 5622
       lastFrame: 5652
       wrapMode: 1
@@ -3808,6 +4588,7 @@ ModelImporter:
     - serializedVersion: 16
       name: M_Roll_right
       takeName: 
+      internalID: 7400214
       firstFrame: 5653
       lastFrame: 5683
       wrapMode: 1
@@ -3836,6 +4617,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_Climbing_abyss_left
       takeName: 
+      internalID: 7400216
       firstFrame: 5689
       lastFrame: 5713
       wrapMode: 1
@@ -3864,6 +4646,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_Climbing_abyss_right
       takeName: 
+      internalID: 7400218
       firstFrame: 5718
       lastFrame: 5743
       wrapMode: 1
@@ -3892,6 +4675,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_Climbing_ladder_down
       takeName: 
+      internalID: 7400220
       firstFrame: 5748
       lastFrame: 5788
       wrapMode: 1
@@ -3920,6 +4704,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_Climbing_ladder_up
       takeName: 
+      internalID: 7400222
       firstFrame: 5793
       lastFrame: 5833
       wrapMode: 1
@@ -3948,6 +4733,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_Climbing_Leader_Finish
       takeName: 
+      internalID: 7400224
       firstFrame: 5838
       lastFrame: 5903
       wrapMode: 1
@@ -3976,6 +4762,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_Climbing_rope
       takeName: 
+      internalID: 7400226
       firstFrame: 5908
       lastFrame: 5938
       wrapMode: 1
@@ -4004,6 +4791,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_Climbing_wall
       takeName: 
+      internalID: 7400228
       firstFrame: 5948
       lastFrame: 5978
       wrapMode: 1
@@ -4032,6 +4820,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_Climbing_Wall_Finish
       takeName: 
+      internalID: 7400230
       firstFrame: 5983
       lastFrame: 6048
       wrapMode: 1
@@ -4060,6 +4849,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_Crawling
       takeName: 
+      internalID: 7400232
       firstFrame: 6054
       lastFrame: 6083
       wrapMode: 1
@@ -4088,6 +4878,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_falling_down
       takeName: 
+      internalID: 7400234
       firstFrame: 6088
       lastFrame: 6128
       wrapMode: 1
@@ -4116,6 +4907,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_fly_forward
       takeName: 
+      internalID: 7400236
       firstFrame: 6133
       lastFrame: 6233
       wrapMode: 1
@@ -4144,6 +4936,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_fly_left
       takeName: 
+      internalID: 7400238
       firstFrame: 6238
       lastFrame: 6338
       wrapMode: 1
@@ -4172,6 +4965,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_fly_right
       takeName: 
+      internalID: 7400240
       firstFrame: 6343
       lastFrame: 6443
       wrapMode: 1
@@ -4200,6 +4994,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_Jump_down
       takeName: 
+      internalID: 7400242
       firstFrame: 6448
       lastFrame: 6483
       wrapMode: 1
@@ -4228,6 +5023,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_Jump_runing_a
       takeName: 
+      internalID: 7400244
       firstFrame: 6488
       lastFrame: 6528
       wrapMode: 1
@@ -4256,6 +5052,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_Jump_standing
       takeName: 
+      internalID: 7400246
       firstFrame: 6533
       lastFrame: 6608
       wrapMode: 1
@@ -4267,8 +5064,8 @@ ModelImporter:
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
       keepOriginalOrientation: 1
       keepOriginalPositionY: 1
       keepOriginalPositionXZ: 0
@@ -4284,6 +5081,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_Jump_standing_start
       takeName: 
+      internalID: 7400248
       firstFrame: 6613
       lastFrame: 6658
       wrapMode: 1
@@ -4312,6 +5110,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_Jump_standing_loop
       takeName: 
+      internalID: 7400250
       firstFrame: 6659
       lastFrame: 6662
       wrapMode: 1
@@ -4340,6 +5139,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_Jump_standing_end
       takeName: 
+      internalID: 7400252
       firstFrame: 6663
       lastFrame: 6688
       wrapMode: 1
@@ -4368,6 +5168,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_Jump_Walking
       takeName: 
+      internalID: 7400254
       firstFrame: 6693
       lastFrame: 6723
       wrapMode: 1
@@ -4379,7 +5180,7 @@ ModelImporter:
       loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
-      loopBlendPositionY: 0
+      loopBlendPositionY: 1
       loopBlendPositionXZ: 0
       keepOriginalOrientation: 1
       keepOriginalPositionY: 1
@@ -4396,6 +5197,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_Jump_Walking_Start
       takeName: 
+      internalID: 7400256
       firstFrame: 6728
       lastFrame: 6739
       wrapMode: 1
@@ -4424,6 +5226,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_Jump_Walking_Loop
       takeName: 
+      internalID: 7400258
       firstFrame: 6740
       lastFrame: 6742
       wrapMode: 1
@@ -4452,6 +5255,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_Jump_Walking_End
       takeName: 
+      internalID: 7400260
       firstFrame: 6743
       lastFrame: 6758
       wrapMode: 1
@@ -4480,6 +5284,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_passing_under_obstacles
       takeName: 
+      internalID: 7400262
       firstFrame: 6763
       lastFrame: 6805
       wrapMode: 1
@@ -4508,6 +5313,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_Run
       takeName: 
+      internalID: 7400264
       firstFrame: 6810
       lastFrame: 6832
       wrapMode: 1
@@ -4536,6 +5342,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_Run_Jump
       takeName: 
+      internalID: 7400266
       firstFrame: 6837
       lastFrame: 6870
       wrapMode: 1
@@ -4564,6 +5371,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_Run_Jump_start
       takeName: 
+      internalID: 7400268
       firstFrame: 6875
       lastFrame: 6890
       wrapMode: 1
@@ -4592,6 +5400,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_Run_Jump_loop
       takeName: 
+      internalID: 7400270
       firstFrame: 6895
       lastFrame: 6898
       wrapMode: 1
@@ -4620,6 +5429,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_Run_Jump_end
       takeName: 
+      internalID: 7400272
       firstFrame: 6903
       lastFrame: 6916
       wrapMode: 1
@@ -4648,6 +5458,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_Sneaking
       takeName: 
+      internalID: 7400274
       firstFrame: 6922
       lastFrame: 6972
       wrapMode: 1
@@ -4676,6 +5487,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_strafe_run_left
       takeName: 
+      internalID: 7400276
       firstFrame: 6978
       lastFrame: 7003
       wrapMode: 1
@@ -4704,6 +5516,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_strafe_run_right
       takeName: 
+      internalID: 7400278
       firstFrame: 7009
       lastFrame: 7034
       wrapMode: 1
@@ -4732,6 +5545,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_Strife_leftt
       takeName: 
+      internalID: 7400280
       firstFrame: 7040
       lastFrame: 7074
       wrapMode: 1
@@ -4760,6 +5574,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_Strife_right
       takeName: 
+      internalID: 7400282
       firstFrame: 7080
       lastFrame: 7114
       wrapMode: 1
@@ -4788,6 +5603,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_Swiming_Back
       takeName: 
+      internalID: 7400284
       firstFrame: 7120
       lastFrame: 7169
       wrapMode: 1
@@ -4816,6 +5632,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_Swiming_Breaststroke
       takeName: 
+      internalID: 7400286
       firstFrame: 7174
       lastFrame: 7229
       wrapMode: 1
@@ -4844,6 +5661,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_Swiming_Left
       takeName: 
+      internalID: 7400288
       firstFrame: 7235
       lastFrame: 7284
       wrapMode: 1
@@ -4872,6 +5690,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_Swiming_right
       takeName: 
+      internalID: 7400290
       firstFrame: 7290
       lastFrame: 7339
       wrapMode: 1
@@ -4900,6 +5719,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_Swimming_Crawl
       takeName: 
+      internalID: 7400292
       firstFrame: 7345
       lastFrame: 7374
       wrapMode: 1
@@ -4928,6 +5748,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_Turn_Left_90t
       takeName: 
+      internalID: 7400294
       firstFrame: 7380
       lastFrame: 7404
       wrapMode: 1
@@ -4956,6 +5777,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_Turn_Right_90t
       takeName: 
+      internalID: 7400296
       firstFrame: 7410
       lastFrame: 7434
       wrapMode: 1
@@ -4984,6 +5806,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_walk
       takeName: 
+      internalID: 7400298
       firstFrame: 7440
       lastFrame: 7474
       wrapMode: 1
@@ -5012,6 +5835,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_Walking_back_A
       takeName: 
+      internalID: 7400300
       firstFrame: 7480
       lastFrame: 7514
       wrapMode: 1
@@ -5040,6 +5864,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_Walking_back_B
       takeName: 
+      internalID: 7400302
       firstFrame: 7520
       lastFrame: 7554
       wrapMode: 1
@@ -5068,6 +5893,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_Walking_With_Tourch
       takeName: 
+      internalID: 7400304
       firstFrame: 7559
       lastFrame: 7662
       wrapMode: 1
@@ -5096,6 +5922,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_Roll_back
       takeName: 
+      internalID: 7400306
       firstFrame: 7667
       lastFrame: 7697.0005
       wrapMode: 1
@@ -5124,6 +5951,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_Roll_forward
       takeName: 
+      internalID: 7400308
       firstFrame: 7702
       lastFrame: 7732
       wrapMode: 1
@@ -5152,6 +5980,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_Roll_left
       takeName: 
+      internalID: 7400310
       firstFrame: 7737.9995
       lastFrame: 7767
       wrapMode: 1
@@ -5180,6 +6009,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_Roll_right
       takeName: 
+      internalID: 7400312
       firstFrame: 7772.0005
       lastFrame: 7802.0005
       wrapMode: 1
@@ -5208,6 +6038,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_Backflip
       takeName: 
+      internalID: 7400314
       firstFrame: 7808
       lastFrame: 7842
       wrapMode: 1
@@ -5236,6 +6067,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_Dodge_Jump_Left_2X
       takeName: 
+      internalID: 7400316
       firstFrame: 7848
       lastFrame: 7872
       wrapMode: 1
@@ -5264,6 +6096,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_Dodge_Jump_Right_2X
       takeName: 
+      internalID: 7400318
       firstFrame: 7877.0005
       lastFrame: 7902
       wrapMode: 1
@@ -5292,6 +6125,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_walk_turn_left_90
       takeName: 
+      internalID: 7400002
       firstFrame: 7908
       lastFrame: 7942
       wrapMode: 1
@@ -5320,6 +6154,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_walk_turn_right_90
       takeName: Take 001
+      internalID: 7400322
       firstFrame: 7949
       lastFrame: 7983
       wrapMode: 0
@@ -5566,6 +6401,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_Run_Turn_Left_90
       takeName: Take 001
+      internalID: 7400000
       firstFrame: 7988.9995
       lastFrame: 8011
       wrapMode: 0
@@ -5812,6 +6648,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_Run_Turn_Right_90
       takeName: Take 001
+      internalID: 7400324
       firstFrame: 8016.0005
       lastFrame: 8037.9995
       wrapMode: 0
@@ -6058,6 +6895,7 @@ ModelImporter:
     - serializedVersion: 16
       name: M_Push_Object
       takeName: Take 001
+      internalID: 7400326
       firstFrame: 8043
       lastFrame: 8103
       wrapMode: 0
@@ -6304,6 +7142,7 @@ ModelImporter:
     - serializedVersion: 16
       name: RM_Push_Object
       takeName: Take 001
+      internalID: 7400328
       firstFrame: 8108
       lastFrame: 8168
       wrapMode: 0
@@ -6550,6 +7389,7 @@ ModelImporter:
     - serializedVersion: 16
       name: S_Sitinhg_Talking_A
       takeName: Take 001
+      internalID: 7400330
       firstFrame: 8172.9995
       lastFrame: 8308
       wrapMode: 0
@@ -6796,6 +7636,7 @@ ModelImporter:
     - serializedVersion: 16
       name: S_Prayer
       takeName: Take 001
+      internalID: 7400332
       firstFrame: 8313
       lastFrame: 8413
       wrapMode: 0
@@ -7042,6 +7883,7 @@ ModelImporter:
     - serializedVersion: 16
       name: S_IDLE_A
       takeName: Take 001
+      internalID: 7400334
       firstFrame: 8418
       lastFrame: 8518
       wrapMode: 0
@@ -7288,6 +8130,7 @@ ModelImporter:
     - serializedVersion: 16
       name: S_IDLE_B
       takeName: Take 001
+      internalID: 7400336
       firstFrame: 8523
       lastFrame: 8623
       wrapMode: 0
@@ -7534,6 +8377,7 @@ ModelImporter:
     - serializedVersion: 16
       name: S_IDLE_C
       takeName: Take 001
+      internalID: 7400338
       firstFrame: 8628
       lastFrame: 8728
       wrapMode: 0
@@ -7780,6 +8624,7 @@ ModelImporter:
     - serializedVersion: 16
       name: S_IDLE_D
       takeName: Take 001
+      internalID: 7400340
       firstFrame: 8733
       lastFrame: 8833
       wrapMode: 0
@@ -8037,18 +8882,19 @@ ModelImporter:
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 0
-    previousCalculatedGlobalScale: 0.01
-    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -8057,10 +8903,11 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human:
     - boneName: Bip01 Pelvis
       humanName: Hips
@@ -8890,6 +9737,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 0.01
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0

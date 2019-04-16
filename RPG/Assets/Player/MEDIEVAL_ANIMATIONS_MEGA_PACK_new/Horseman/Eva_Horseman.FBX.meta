@@ -1,613 +1,1826 @@
 fileFormatVersion: 2
 guid: b55e60934b83ef242ac8f2b546bbf87b
 ModelImporter:
-  serializedVersion: 23
-  fileIDToRecycleName:
-    100000: Bip01 L Foot
-    100002: Bip01 R Toe0
-    100004: Bip01 L Finger3
-    100006: Bip01 L Finger2
-    100008: Bip01 L Finger1
-    100010: bone_bow
-    100012: Bip01 L Calf
-    100014: Bip01 L Thigh
-    100016: Bip01 R Calf
-    100018: Bip01 R Foot
-    100020: Bip01 L Finger0
-    100022: Bip01 L Hand
-    100024: Bip01 L Forearm
-    100026: Bip01 R Finger4
-    100028: Bip01 R Finger3
-    100030: Bip01 R Finger2
-    100032: Bip01 R Finger1
-    100034: Spear
-    100036: Pirate_pistol01
-    100038: Man_Sword_hand
-    100040: Throwing_Spear
-    100042: Arrow
-    100044: Bip01 R Finger0
-    100046: Bow_Hand
-    100048: //RootNode
-    100050: Adam_body
-    100052: Bip01 R Thigh
-    100054: Bip01 L Toe0
-    100056: Bip01 L Finger4
-    100058: Bip01 R Hand
-    100060: Bip01 R Forearm
-    100062: H_Helmet
-    100064: Bip01 zeye_left
-    100066: Bip01 zJaw
-    100068: Bip01 Head
-    100070: Bip01 Neck
-    100072: Spear_01
-    100074: Pirate_pistol
-    100076: Man_Sword_Back
-    100078: Arrow01
-    100080: Arrow08
-    100082: Arrow07
-    100084: Arrow06
-    100086: Arrow05
-    100088: Arrow04
-    100090: Arrow03
-    100092: Arrow02
-    100094: Quiver
-    100096: Bow_Back
-    100098: Bip01 Spine1
-    100100: Bip01 Spine
-    100102: Bip01 Pelvis
-    100104: Bip01
-    100106: Bip01 right_Wmount
-    100108: Bip01 left_Wmount
-    100110: Bip01 LUpArmTwist1
-    100112: Bip01 LUpArmTwist
-    100114: Bip01 L ForeTwist1
-    100116: Bip01 L ForeTwist
-    100118: Bip01 shield_mount
-    100120: Bip01 L Finger42
-    100122: Bip01 L Finger41
-    100124: Bip01 L Finger32
-    100126: Bip01 L Finger31
-    100128: Bip01 L Finger22
-    100130: Bip01 L Finger21
-    100132: Bip01 L Finger12
-    100134: Bip01 L Finger11
-    100136: Bow_animation_controller
-    100138: Bip01 Rhand_WeaponOpp
-    100140: Bip01 L Finger02
-    100142: Bip01 L Finger01
-    100144: Bip01 L UpperArm
-    100146: Bip01 L Clavicle
-    100148: Bip01 RUpArmTwist
-    100150: Bip01 RUpArmTwist1
-    100152: Bip01 R ForeTwist
-    100154: Bip01 R ForeTwist1
-    100156: Bip01 R Finger42
-    100158: Bip01 R Finger41
-    100160: Bip01 R Finger32
-    100162: Bip01 R Finger31
-    100164: Bip01 R Finger22
-    100166: Bip01 R Finger21
-    100168: Bip01 R Finger12
-    100170: Bip01 R Finger11
-    100172: Bip01 Rhand_Weapon
-    100174: Bip01 R Finger02
-    100176: Bip01 R Finger01
-    100178: Bip01 R UpperArm
-    100180: Bip01 R Clavicle
-    100182: Bip01 zz_eye_right_lookA
-    100184: Bip01 zz_eye_left_lookAt
-    100186: Bip01 zeye_right
-    100188: Bip01 back_shield_mount
-    100190: Throwing_Spear_01
-    100192: Bip01 back_right_Wmount
-    100194: Bip01 back_left_Wmount
-    100196: Arrow09
-    100198: Arrow10
-    100200: Arrow11
-    100202: Arrow12
-    100204: Arrow13
-    100206: Arrow14
-    100208: Arrow15
-    100210: Arrow16
-    100212: Arrow17
-    100214: Bip02
-    100216: Bip02 back_left_Wmount
-    100218: Bip02 back_right_Wmount
-    100220: Bip02 back_shield_mount
-    100222: Bip02 Head
-    100224: Bip02 L Calf
-    100226: Bip02 L Clavicle
-    100228: Bip02 L Finger0
-    100230: Bip02 L Finger01
-    100232: Bip02 L Finger02
-    100234: Bip02 L Finger1
-    100236: Bip02 L Finger11
-    100238: Bip02 L Finger12
-    100240: Bip02 L Finger2
-    100242: Bip02 L Finger21
-    100244: Bip02 L Finger22
-    100246: Bip02 L Finger3
-    100248: Bip02 L Finger31
-    100250: Bip02 L Finger32
-    100252: Bip02 L Finger4
-    100254: Bip02 L Finger41
-    100256: Bip02 L Finger42
-    100258: Bip02 L Foot
-    100260: Bip02 L Forearm
-    100262: Bip02 L ForeTwist
-    100264: Bip02 L ForeTwist1
-    100266: Bip02 L Hand
-    100268: Bip02 L Thigh
-    100270: Bip02 L Toe0
-    100272: Bip02 L UpperArm
-    100274: Bip02 left_Wmount
-    100276: Bip02 LUpArmTwist
-    100278: Bip02 LUpArmTwist1
-    100280: Bip02 Neck
-    100282: Bip02 Pelvis
-    100284: Bip02 R Calf
-    100286: Bip02 R Clavicle
-    100288: Bip02 R Finger0
-    100290: Bip02 R Finger01
-    100292: Bip02 R Finger02
-    100294: Bip02 R Finger1
-    100296: Bip02 R Finger11
-    100298: Bip02 R Finger12
-    100300: Bip02 R Finger2
-    100302: Bip02 R Finger21
-    100304: Bip02 R Finger22
-    100306: Bip02 R Finger3
-    100308: Bip02 R Finger31
-    100310: Bip02 R Finger32
-    100312: Bip02 R Finger4
-    100314: Bip02 R Finger41
-    100316: Bip02 R Finger42
-    100318: Bip02 R Foot
-    100320: Bip02 R Forearm
-    100322: Bip02 R ForeTwist
-    100324: Bip02 R ForeTwist1
-    100326: Bip02 R Hand
-    100328: Bip02 R Thigh
-    100330: Bip02 R Toe0
-    100332: Bip02 R UpperArm
-    100334: Bip02 Rhand_Weapon
-    100336: Bip02 Rhand_WeaponOpp
-    100338: Bip02 right_Wmount
-    100340: Bip02 RUpArmTwist
-    100342: Bip02 RUpArmTwist1
-    100344: Bip02 shield_mount
-    100346: Bip02 Spine
-    100348: Bip02 Spine1
-    100350: Bip02 zeye_left
-    100352: Bip02 zeye_right
-    100354: Bip02 zJaw
-    100356: Bip02 zz_eye_left_lookAt
-    100358: Bip02 zz_eye_right_lookA
-    100360: Bip02 zzz_breast_left
-    100362: Bip02 zzz_breast_right
-    100364: bone_bow02
-    100366: Bow_animation_controller02
-    100368: Bow_Back01
-    100370: Bow_Hand02
-    100372: Box02
-    100374: Eva
-    100376: Pirate_pistol02
-    100378: Pirate_pistol04
-    100380: Quiver01
-    100382: Spear_woman_01
-    100384: Spear_woman_02
-    100386: Sword_Back01
-    100388: Sword_hand01
-    100390: Throwing_Sear_01
-    100392: Throwing_Sear_02
-    400000: Bip01 L Foot
-    400002: Bip01 R Toe0
-    400004: Bip01 L Finger3
-    400006: Bip01 L Finger2
-    400008: Bip01 L Finger1
-    400010: bone_bow
-    400012: Bip01 L Calf
-    400014: Bip01 L Thigh
-    400016: Bip01 R Calf
-    400018: Bip01 R Foot
-    400020: Bip01 L Finger0
-    400022: Bip01 L Hand
-    400024: Bip01 L Forearm
-    400026: Bip01 R Finger4
-    400028: Bip01 R Finger3
-    400030: Bip01 R Finger2
-    400032: Bip01 R Finger1
-    400034: Spear
-    400036: Pirate_pistol01
-    400038: Man_Sword_hand
-    400040: Throwing_Spear
-    400042: Arrow
-    400044: Bip01 R Finger0
-    400046: Bow_Hand
-    400048: //RootNode
-    400050: Adam_body
-    400052: Bip01 R Thigh
-    400054: Bip01 L Toe0
-    400056: Bip01 L Finger4
-    400058: Bip01 R Hand
-    400060: Bip01 R Forearm
-    400062: H_Helmet
-    400064: Bip01 zeye_left
-    400066: Bip01 zJaw
-    400068: Bip01 Head
-    400070: Bip01 Neck
-    400072: Spear_01
-    400074: Pirate_pistol
-    400076: Man_Sword_Back
-    400078: Arrow01
-    400080: Arrow08
-    400082: Arrow07
-    400084: Arrow06
-    400086: Arrow05
-    400088: Arrow04
-    400090: Arrow03
-    400092: Arrow02
-    400094: Quiver
-    400096: Bow_Back
-    400098: Bip01 Spine1
-    400100: Bip01 Spine
-    400102: Bip01 Pelvis
-    400104: Bip01
-    400106: Bip01 right_Wmount
-    400108: Bip01 left_Wmount
-    400110: Bip01 LUpArmTwist1
-    400112: Bip01 LUpArmTwist
-    400114: Bip01 L ForeTwist1
-    400116: Bip01 L ForeTwist
-    400118: Bip01 shield_mount
-    400120: Bip01 L Finger42
-    400122: Bip01 L Finger41
-    400124: Bip01 L Finger32
-    400126: Bip01 L Finger31
-    400128: Bip01 L Finger22
-    400130: Bip01 L Finger21
-    400132: Bip01 L Finger12
-    400134: Bip01 L Finger11
-    400136: Bow_animation_controller
-    400138: Bip01 Rhand_WeaponOpp
-    400140: Bip01 L Finger02
-    400142: Bip01 L Finger01
-    400144: Bip01 L UpperArm
-    400146: Bip01 L Clavicle
-    400148: Bip01 RUpArmTwist
-    400150: Bip01 RUpArmTwist1
-    400152: Bip01 R ForeTwist
-    400154: Bip01 R ForeTwist1
-    400156: Bip01 R Finger42
-    400158: Bip01 R Finger41
-    400160: Bip01 R Finger32
-    400162: Bip01 R Finger31
-    400164: Bip01 R Finger22
-    400166: Bip01 R Finger21
-    400168: Bip01 R Finger12
-    400170: Bip01 R Finger11
-    400172: Bip01 Rhand_Weapon
-    400174: Bip01 R Finger02
-    400176: Bip01 R Finger01
-    400178: Bip01 R UpperArm
-    400180: Bip01 R Clavicle
-    400182: Bip01 zz_eye_right_lookA
-    400184: Bip01 zz_eye_left_lookAt
-    400186: Bip01 zeye_right
-    400188: Bip01 back_shield_mount
-    400190: Throwing_Spear_01
-    400192: Bip01 back_right_Wmount
-    400194: Bip01 back_left_Wmount
-    400196: Arrow09
-    400198: Arrow10
-    400200: Arrow11
-    400202: Arrow12
-    400204: Arrow13
-    400206: Arrow14
-    400208: Arrow15
-    400210: Arrow16
-    400212: Arrow17
-    400214: Bip02
-    400216: Bip02 back_left_Wmount
-    400218: Bip02 back_right_Wmount
-    400220: Bip02 back_shield_mount
-    400222: Bip02 Head
-    400224: Bip02 L Calf
-    400226: Bip02 L Clavicle
-    400228: Bip02 L Finger0
-    400230: Bip02 L Finger01
-    400232: Bip02 L Finger02
-    400234: Bip02 L Finger1
-    400236: Bip02 L Finger11
-    400238: Bip02 L Finger12
-    400240: Bip02 L Finger2
-    400242: Bip02 L Finger21
-    400244: Bip02 L Finger22
-    400246: Bip02 L Finger3
-    400248: Bip02 L Finger31
-    400250: Bip02 L Finger32
-    400252: Bip02 L Finger4
-    400254: Bip02 L Finger41
-    400256: Bip02 L Finger42
-    400258: Bip02 L Foot
-    400260: Bip02 L Forearm
-    400262: Bip02 L ForeTwist
-    400264: Bip02 L ForeTwist1
-    400266: Bip02 L Hand
-    400268: Bip02 L Thigh
-    400270: Bip02 L Toe0
-    400272: Bip02 L UpperArm
-    400274: Bip02 left_Wmount
-    400276: Bip02 LUpArmTwist
-    400278: Bip02 LUpArmTwist1
-    400280: Bip02 Neck
-    400282: Bip02 Pelvis
-    400284: Bip02 R Calf
-    400286: Bip02 R Clavicle
-    400288: Bip02 R Finger0
-    400290: Bip02 R Finger01
-    400292: Bip02 R Finger02
-    400294: Bip02 R Finger1
-    400296: Bip02 R Finger11
-    400298: Bip02 R Finger12
-    400300: Bip02 R Finger2
-    400302: Bip02 R Finger21
-    400304: Bip02 R Finger22
-    400306: Bip02 R Finger3
-    400308: Bip02 R Finger31
-    400310: Bip02 R Finger32
-    400312: Bip02 R Finger4
-    400314: Bip02 R Finger41
-    400316: Bip02 R Finger42
-    400318: Bip02 R Foot
-    400320: Bip02 R Forearm
-    400322: Bip02 R ForeTwist
-    400324: Bip02 R ForeTwist1
-    400326: Bip02 R Hand
-    400328: Bip02 R Thigh
-    400330: Bip02 R Toe0
-    400332: Bip02 R UpperArm
-    400334: Bip02 Rhand_Weapon
-    400336: Bip02 Rhand_WeaponOpp
-    400338: Bip02 right_Wmount
-    400340: Bip02 RUpArmTwist
-    400342: Bip02 RUpArmTwist1
-    400344: Bip02 shield_mount
-    400346: Bip02 Spine
-    400348: Bip02 Spine1
-    400350: Bip02 zeye_left
-    400352: Bip02 zeye_right
-    400354: Bip02 zJaw
-    400356: Bip02 zz_eye_left_lookAt
-    400358: Bip02 zz_eye_right_lookA
-    400360: Bip02 zzz_breast_left
-    400362: Bip02 zzz_breast_right
-    400364: bone_bow02
-    400366: Bow_animation_controller02
-    400368: Bow_Back01
-    400370: Bow_Hand02
-    400372: Box02
-    400374: Eva
-    400376: Pirate_pistol02
-    400378: Pirate_pistol04
-    400380: Quiver01
-    400382: Spear_woman_01
-    400384: Spear_woman_02
-    400386: Sword_Back01
-    400388: Sword_hand01
-    400390: Throwing_Sear_01
-    400392: Throwing_Sear_02
-    2300000: bone_bow
-    2300002: Spear
-    2300004: Pirate_pistol01
-    2300006: Man_Sword_hand
-    2300008: Throwing_Spear
-    2300010: Arrow
-    2300012: H_Helmet
-    2300014: Spear_01
-    2300016: Pirate_pistol
-    2300018: Man_Sword_Back
-    2300020: Arrow01
-    2300022: Arrow08
-    2300024: Arrow07
-    2300026: Arrow06
-    2300028: Arrow05
-    2300030: Arrow04
-    2300032: Arrow03
-    2300034: Arrow02
-    2300036: Quiver
-    2300038: Bow_Back
-    2300040: Bow_animation_controller
-    2300042: Throwing_Spear_01
-    2300044: Arrow09
-    2300046: Arrow10
-    2300048: Arrow11
-    2300050: Arrow12
-    2300052: Arrow13
-    2300054: Arrow14
-    2300056: Arrow15
-    2300058: Arrow16
-    2300060: Arrow17
-    2300062: bone_bow02
-    2300064: Bow_animation_controller02
-    2300066: Bow_Back01
-    2300068: Box02
-    2300070: Pirate_pistol02
-    2300072: Pirate_pistol04
-    2300074: Quiver01
-    2300076: Spear_woman_01
-    2300078: Spear_woman_02
-    2300080: Sword_Back01
-    2300082: Sword_hand01
-    2300084: Throwing_Sear_01
-    2300086: Throwing_Sear_02
-    3300000: bone_bow
-    3300002: Spear
-    3300004: Pirate_pistol01
-    3300006: Man_Sword_hand
-    3300008: Throwing_Spear
-    3300010: Arrow
-    3300012: H_Helmet
-    3300014: Spear_01
-    3300016: Pirate_pistol
-    3300018: Man_Sword_Back
-    3300020: Arrow01
-    3300022: Arrow08
-    3300024: Arrow07
-    3300026: Arrow06
-    3300028: Arrow05
-    3300030: Arrow04
-    3300032: Arrow03
-    3300034: Arrow02
-    3300036: Quiver
-    3300038: Bow_Back
-    3300040: Bow_animation_controller
-    3300042: Throwing_Spear_01
-    3300044: Arrow09
-    3300046: Arrow10
-    3300048: Arrow11
-    3300050: Arrow12
-    3300052: Arrow13
-    3300054: Arrow14
-    3300056: Arrow15
-    3300058: Arrow16
-    3300060: Arrow17
-    3300062: bone_bow02
-    3300064: Bow_animation_controller02
-    3300066: Bow_Back01
-    3300068: Box02
-    3300070: Pirate_pistol02
-    3300072: Pirate_pistol04
-    3300074: Quiver01
-    3300076: Spear_woman_01
-    3300078: Spear_woman_02
-    3300080: Sword_Back01
-    3300082: Sword_hand01
-    3300084: Throwing_Sear_01
-    3300086: Throwing_Sear_02
-    4300000: Bow_Back
-    4300002: Quiver
-    4300004: Arrow02
-    4300006: Arrow03
-    4300008: Arrow04
-    4300010: Arrow05
-    4300012: Arrow06
-    4300014: Arrow07
-    4300016: Arrow08
-    4300018: Arrow01
-    4300020: Throwing_Spear_01
-    4300022: Man_Sword_Back
-    4300024: Pirate_pistol
-    4300026: Spear_01
-    4300028: H_Helmet
-    4300030: Arrow
-    4300032: Throwing_Spear
-    4300034: Man_Sword_hand
-    4300036: Pirate_pistol01
-    4300038: Spear
-    4300040: bone_bow
-    4300042: Bow_animation_controller
-    4300044: Adam_body
-    4300046: Bow_Hand
-    4300048: Eva
-    4300050: bone_bow02
-    4300052: Bow_animation_controller02
-    4300054: Arrow17
-    4300056: Spear_woman_01
-    4300058: Sword_hand01
-    4300060: Pirate_pistol02
-    4300062: Throwing_Sear_01
-    4300064: Box02
-    4300066: Bow_Back01
-    4300068: Quiver01
-    4300070: Arrow09
-    4300072: Arrow10
-    4300074: Arrow11
-    4300076: Arrow12
-    4300078: Arrow13
-    4300080: Arrow14
-    4300082: Arrow15
-    4300084: Arrow16
-    4300086: Spear_woman_02
-    4300088: Sword_Back01
-    4300090: Throwing_Sear_02
-    4300092: Pirate_pistol04
-    4300094: Bow_Hand02
-    7400000: Take 001
-    7400002: MECANIM
-    7400004: Horseman_G_Dismounting
-    7400006: Horseman_G_Mounting_up
-    7400008: Horseman_G_Explanation
-    7400010: Horseman_G_Idle
-    7400012: Horseman_G_looking_around
-    7400014: Horseman_G_Say_No
-    7400016: Horseman_G_Talking
-    7400018: Horseman_G_War_Cry
-    7400020: Horseman_G_Riding_Galloping_Horse
-    7400022: Horseman_G_Jumping_on_Horse
-    7400024: Horseman_G_Taking_Hit
-    7400026: Horseman_G_Riding_Troting_Horse
-    7400028: Horseman_G_Riding_Walkig_Horse
-    7400030: Horseman_G_Death_A
-    7400032: Horseman_G_Death_B
-    7400034: Horseman_G_Death_with_Horse
-    7400036: Horseman_Archer_Take_Bow_Out
-    7400038: Horseman_Archer_Charge
-    7400040: Horseman_Archer_Aim_Back
-    7400042: Horseman_Archer_Aim_Left
-    7400044: Horseman_Archer_Aim_Right
-    7400046: Horseman_Archer_Aim_Stright
-    7400048: Horseman_Archer_fire_loop_back
-    7400050: Horseman_Archer_fire_loop_left
-    7400052: Horseman_Archer_fire_loop_right
-    7400054: Horseman_Archer_fire_loop_stright
-    7400056: Horseman_Archer_Put_Bow_Back
-    7400058: Horseman_Archer_Right_Left_Turn
-    7400060: Horseman_Archer_Put_Bow_Back
-    7400062: Horseman_Gun_Take_Out
-    7400064: Horseman_Gun_aim_stright
-    7400066: Horseman_Gun_fire_stright
-    7400068: Horseman_Gun_aim_back
-    7400070: Horseman_Gun_fire_back
-    7400072: Horseman_Gun_aim_left
-    7400074: Horseman_Gun_fire_left
-    7400076: Horseman_Gun_aim_right
-    7400078: Horseman_Gun_fire_right
-    7400080: Horseman_Gun_Put_Back
-    7400082: Horseman_Spear_Take_Out_Knight_Style
-    7400084: Horseman_Spear_Galloping_Knight_style
-    7400086: Horseman_Spear_Trust_high_Knight_style
-    7400088: Horseman_Spear_Trust_low_Knight_style
-    7400090: Horseman_Spear_Getting_Hit
-    7400092: Horseman_Spear_Point_right_Knight_style
-    7400094: Horseman_Spear_Point_Left_Knight_style
-    7400096: Horseman_Spear_Put_Back_Knight_Style
-    7400098: Horseman_Spear_Take_Out
-    7400100: Horseman_Spear_Galloping_Throwing
-    7400102: Horseman_Spear_Hit_left
-    7400104: Horseman_Spear_Hit_right
-    7400106: Horseman_Spear_throw_left
-    7400108: Horseman_Spear_throw_right
-    7400110: Horseman_Spear_throw_stright
-    7400112: Horseman_Spear_throw_Up
-    7400114: Horseman_Spear_Put_Back
-    7400116: Horseman_Sword_Take_Out
-    7400118: Horseman_Sword_Galloping
-    7400120: Horseman_Sword_Left_blow
-    7400122: Horseman_Sword_Left_UP_blow
-    7400124: Horseman_Sword_Right_blow
-    7400126: Horseman_Sword_Right_UP_blow
-    7400128: Horseman_Sword_Put_Back
-    7400130: MECANIM
-    7400132: Horseman_Archer_Combat
-    7400134: Horseman_Gun_Combat
-    9500000: //RootNode
-    11100000: //RootNode
-    13700000: Bow_Hand
-    13700002: Adam_body
-    13700004: Bow_Hand02
-    13700006: Eva
-    2186277476908879412: ImportLogs
+  serializedVersion: 25
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: Bip01 L Foot
+  - first:
+      1: 100002
+    second: Bip01 R Toe0
+  - first:
+      1: 100004
+    second: Bip01 L Finger3
+  - first:
+      1: 100006
+    second: Bip01 L Finger2
+  - first:
+      1: 100008
+    second: Bip01 L Finger1
+  - first:
+      1: 100010
+    second: bone_bow
+  - first:
+      1: 100012
+    second: Bip01 L Calf
+  - first:
+      1: 100014
+    second: Bip01 L Thigh
+  - first:
+      1: 100016
+    second: Bip01 R Calf
+  - first:
+      1: 100018
+    second: Bip01 R Foot
+  - first:
+      1: 100020
+    second: Bip01 L Finger0
+  - first:
+      1: 100022
+    second: Bip01 L Hand
+  - first:
+      1: 100024
+    second: Bip01 L Forearm
+  - first:
+      1: 100026
+    second: Bip01 R Finger4
+  - first:
+      1: 100028
+    second: Bip01 R Finger3
+  - first:
+      1: 100030
+    second: Bip01 R Finger2
+  - first:
+      1: 100032
+    second: Bip01 R Finger1
+  - first:
+      1: 100034
+    second: Spear
+  - first:
+      1: 100036
+    second: Pirate_pistol01
+  - first:
+      1: 100038
+    second: Man_Sword_hand
+  - first:
+      1: 100040
+    second: Throwing_Spear
+  - first:
+      1: 100042
+    second: Arrow
+  - first:
+      1: 100044
+    second: Bip01 R Finger0
+  - first:
+      1: 100046
+    second: Bow_Hand
+  - first:
+      1: 100048
+    second: //RootNode
+  - first:
+      1: 100050
+    second: Adam_body
+  - first:
+      1: 100052
+    second: Bip01 R Thigh
+  - first:
+      1: 100054
+    second: Bip01 L Toe0
+  - first:
+      1: 100056
+    second: Bip01 L Finger4
+  - first:
+      1: 100058
+    second: Bip01 R Hand
+  - first:
+      1: 100060
+    second: Bip01 R Forearm
+  - first:
+      1: 100062
+    second: H_Helmet
+  - first:
+      1: 100064
+    second: Bip01 zeye_left
+  - first:
+      1: 100066
+    second: Bip01 zJaw
+  - first:
+      1: 100068
+    second: Bip01 Head
+  - first:
+      1: 100070
+    second: Bip01 Neck
+  - first:
+      1: 100072
+    second: Spear_01
+  - first:
+      1: 100074
+    second: Pirate_pistol
+  - first:
+      1: 100076
+    second: Man_Sword_Back
+  - first:
+      1: 100078
+    second: Arrow01
+  - first:
+      1: 100080
+    second: Arrow08
+  - first:
+      1: 100082
+    second: Arrow07
+  - first:
+      1: 100084
+    second: Arrow06
+  - first:
+      1: 100086
+    second: Arrow05
+  - first:
+      1: 100088
+    second: Arrow04
+  - first:
+      1: 100090
+    second: Arrow03
+  - first:
+      1: 100092
+    second: Arrow02
+  - first:
+      1: 100094
+    second: Quiver
+  - first:
+      1: 100096
+    second: Bow_Back
+  - first:
+      1: 100098
+    second: Bip01 Spine1
+  - first:
+      1: 100100
+    second: Bip01 Spine
+  - first:
+      1: 100102
+    second: Bip01 Pelvis
+  - first:
+      1: 100104
+    second: Bip01
+  - first:
+      1: 100106
+    second: Bip01 right_Wmount
+  - first:
+      1: 100108
+    second: Bip01 left_Wmount
+  - first:
+      1: 100110
+    second: Bip01 LUpArmTwist1
+  - first:
+      1: 100112
+    second: Bip01 LUpArmTwist
+  - first:
+      1: 100114
+    second: Bip01 L ForeTwist1
+  - first:
+      1: 100116
+    second: Bip01 L ForeTwist
+  - first:
+      1: 100118
+    second: Bip01 shield_mount
+  - first:
+      1: 100120
+    second: Bip01 L Finger42
+  - first:
+      1: 100122
+    second: Bip01 L Finger41
+  - first:
+      1: 100124
+    second: Bip01 L Finger32
+  - first:
+      1: 100126
+    second: Bip01 L Finger31
+  - first:
+      1: 100128
+    second: Bip01 L Finger22
+  - first:
+      1: 100130
+    second: Bip01 L Finger21
+  - first:
+      1: 100132
+    second: Bip01 L Finger12
+  - first:
+      1: 100134
+    second: Bip01 L Finger11
+  - first:
+      1: 100136
+    second: Bow_animation_controller
+  - first:
+      1: 100138
+    second: Bip01 Rhand_WeaponOpp
+  - first:
+      1: 100140
+    second: Bip01 L Finger02
+  - first:
+      1: 100142
+    second: Bip01 L Finger01
+  - first:
+      1: 100144
+    second: Bip01 L UpperArm
+  - first:
+      1: 100146
+    second: Bip01 L Clavicle
+  - first:
+      1: 100148
+    second: Bip01 RUpArmTwist
+  - first:
+      1: 100150
+    second: Bip01 RUpArmTwist1
+  - first:
+      1: 100152
+    second: Bip01 R ForeTwist
+  - first:
+      1: 100154
+    second: Bip01 R ForeTwist1
+  - first:
+      1: 100156
+    second: Bip01 R Finger42
+  - first:
+      1: 100158
+    second: Bip01 R Finger41
+  - first:
+      1: 100160
+    second: Bip01 R Finger32
+  - first:
+      1: 100162
+    second: Bip01 R Finger31
+  - first:
+      1: 100164
+    second: Bip01 R Finger22
+  - first:
+      1: 100166
+    second: Bip01 R Finger21
+  - first:
+      1: 100168
+    second: Bip01 R Finger12
+  - first:
+      1: 100170
+    second: Bip01 R Finger11
+  - first:
+      1: 100172
+    second: Bip01 Rhand_Weapon
+  - first:
+      1: 100174
+    second: Bip01 R Finger02
+  - first:
+      1: 100176
+    second: Bip01 R Finger01
+  - first:
+      1: 100178
+    second: Bip01 R UpperArm
+  - first:
+      1: 100180
+    second: Bip01 R Clavicle
+  - first:
+      1: 100182
+    second: Bip01 zz_eye_right_lookA
+  - first:
+      1: 100184
+    second: Bip01 zz_eye_left_lookAt
+  - first:
+      1: 100186
+    second: Bip01 zeye_right
+  - first:
+      1: 100188
+    second: Bip01 back_shield_mount
+  - first:
+      1: 100190
+    second: Throwing_Spear_01
+  - first:
+      1: 100192
+    second: Bip01 back_right_Wmount
+  - first:
+      1: 100194
+    second: Bip01 back_left_Wmount
+  - first:
+      1: 100196
+    second: Arrow09
+  - first:
+      1: 100198
+    second: Arrow10
+  - first:
+      1: 100200
+    second: Arrow11
+  - first:
+      1: 100202
+    second: Arrow12
+  - first:
+      1: 100204
+    second: Arrow13
+  - first:
+      1: 100206
+    second: Arrow14
+  - first:
+      1: 100208
+    second: Arrow15
+  - first:
+      1: 100210
+    second: Arrow16
+  - first:
+      1: 100212
+    second: Arrow17
+  - first:
+      1: 100214
+    second: Bip02
+  - first:
+      1: 100216
+    second: Bip02 back_left_Wmount
+  - first:
+      1: 100218
+    second: Bip02 back_right_Wmount
+  - first:
+      1: 100220
+    second: Bip02 back_shield_mount
+  - first:
+      1: 100222
+    second: Bip02 Head
+  - first:
+      1: 100224
+    second: Bip02 L Calf
+  - first:
+      1: 100226
+    second: Bip02 L Clavicle
+  - first:
+      1: 100228
+    second: Bip02 L Finger0
+  - first:
+      1: 100230
+    second: Bip02 L Finger01
+  - first:
+      1: 100232
+    second: Bip02 L Finger02
+  - first:
+      1: 100234
+    second: Bip02 L Finger1
+  - first:
+      1: 100236
+    second: Bip02 L Finger11
+  - first:
+      1: 100238
+    second: Bip02 L Finger12
+  - first:
+      1: 100240
+    second: Bip02 L Finger2
+  - first:
+      1: 100242
+    second: Bip02 L Finger21
+  - first:
+      1: 100244
+    second: Bip02 L Finger22
+  - first:
+      1: 100246
+    second: Bip02 L Finger3
+  - first:
+      1: 100248
+    second: Bip02 L Finger31
+  - first:
+      1: 100250
+    second: Bip02 L Finger32
+  - first:
+      1: 100252
+    second: Bip02 L Finger4
+  - first:
+      1: 100254
+    second: Bip02 L Finger41
+  - first:
+      1: 100256
+    second: Bip02 L Finger42
+  - first:
+      1: 100258
+    second: Bip02 L Foot
+  - first:
+      1: 100260
+    second: Bip02 L Forearm
+  - first:
+      1: 100262
+    second: Bip02 L ForeTwist
+  - first:
+      1: 100264
+    second: Bip02 L ForeTwist1
+  - first:
+      1: 100266
+    second: Bip02 L Hand
+  - first:
+      1: 100268
+    second: Bip02 L Thigh
+  - first:
+      1: 100270
+    second: Bip02 L Toe0
+  - first:
+      1: 100272
+    second: Bip02 L UpperArm
+  - first:
+      1: 100274
+    second: Bip02 left_Wmount
+  - first:
+      1: 100276
+    second: Bip02 LUpArmTwist
+  - first:
+      1: 100278
+    second: Bip02 LUpArmTwist1
+  - first:
+      1: 100280
+    second: Bip02 Neck
+  - first:
+      1: 100282
+    second: Bip02 Pelvis
+  - first:
+      1: 100284
+    second: Bip02 R Calf
+  - first:
+      1: 100286
+    second: Bip02 R Clavicle
+  - first:
+      1: 100288
+    second: Bip02 R Finger0
+  - first:
+      1: 100290
+    second: Bip02 R Finger01
+  - first:
+      1: 100292
+    second: Bip02 R Finger02
+  - first:
+      1: 100294
+    second: Bip02 R Finger1
+  - first:
+      1: 100296
+    second: Bip02 R Finger11
+  - first:
+      1: 100298
+    second: Bip02 R Finger12
+  - first:
+      1: 100300
+    second: Bip02 R Finger2
+  - first:
+      1: 100302
+    second: Bip02 R Finger21
+  - first:
+      1: 100304
+    second: Bip02 R Finger22
+  - first:
+      1: 100306
+    second: Bip02 R Finger3
+  - first:
+      1: 100308
+    second: Bip02 R Finger31
+  - first:
+      1: 100310
+    second: Bip02 R Finger32
+  - first:
+      1: 100312
+    second: Bip02 R Finger4
+  - first:
+      1: 100314
+    second: Bip02 R Finger41
+  - first:
+      1: 100316
+    second: Bip02 R Finger42
+  - first:
+      1: 100318
+    second: Bip02 R Foot
+  - first:
+      1: 100320
+    second: Bip02 R Forearm
+  - first:
+      1: 100322
+    second: Bip02 R ForeTwist
+  - first:
+      1: 100324
+    second: Bip02 R ForeTwist1
+  - first:
+      1: 100326
+    second: Bip02 R Hand
+  - first:
+      1: 100328
+    second: Bip02 R Thigh
+  - first:
+      1: 100330
+    second: Bip02 R Toe0
+  - first:
+      1: 100332
+    second: Bip02 R UpperArm
+  - first:
+      1: 100334
+    second: Bip02 Rhand_Weapon
+  - first:
+      1: 100336
+    second: Bip02 Rhand_WeaponOpp
+  - first:
+      1: 100338
+    second: Bip02 right_Wmount
+  - first:
+      1: 100340
+    second: Bip02 RUpArmTwist
+  - first:
+      1: 100342
+    second: Bip02 RUpArmTwist1
+  - first:
+      1: 100344
+    second: Bip02 shield_mount
+  - first:
+      1: 100346
+    second: Bip02 Spine
+  - first:
+      1: 100348
+    second: Bip02 Spine1
+  - first:
+      1: 100350
+    second: Bip02 zeye_left
+  - first:
+      1: 100352
+    second: Bip02 zeye_right
+  - first:
+      1: 100354
+    second: Bip02 zJaw
+  - first:
+      1: 100356
+    second: Bip02 zz_eye_left_lookAt
+  - first:
+      1: 100358
+    second: Bip02 zz_eye_right_lookA
+  - first:
+      1: 100360
+    second: Bip02 zzz_breast_left
+  - first:
+      1: 100362
+    second: Bip02 zzz_breast_right
+  - first:
+      1: 100364
+    second: bone_bow02
+  - first:
+      1: 100366
+    second: Bow_animation_controller02
+  - first:
+      1: 100368
+    second: Bow_Back01
+  - first:
+      1: 100370
+    second: Bow_Hand02
+  - first:
+      1: 100372
+    second: Box02
+  - first:
+      1: 100374
+    second: Eva
+  - first:
+      1: 100376
+    second: Pirate_pistol02
+  - first:
+      1: 100378
+    second: Pirate_pistol04
+  - first:
+      1: 100380
+    second: Quiver01
+  - first:
+      1: 100382
+    second: Spear_woman_01
+  - first:
+      1: 100384
+    second: Spear_woman_02
+  - first:
+      1: 100386
+    second: Sword_Back01
+  - first:
+      1: 100388
+    second: Sword_hand01
+  - first:
+      1: 100390
+    second: Throwing_Sear_01
+  - first:
+      1: 100392
+    second: Throwing_Sear_02
+  - first:
+      4: 400000
+    second: Bip01 L Foot
+  - first:
+      4: 400002
+    second: Bip01 R Toe0
+  - first:
+      4: 400004
+    second: Bip01 L Finger3
+  - first:
+      4: 400006
+    second: Bip01 L Finger2
+  - first:
+      4: 400008
+    second: Bip01 L Finger1
+  - first:
+      4: 400010
+    second: bone_bow
+  - first:
+      4: 400012
+    second: Bip01 L Calf
+  - first:
+      4: 400014
+    second: Bip01 L Thigh
+  - first:
+      4: 400016
+    second: Bip01 R Calf
+  - first:
+      4: 400018
+    second: Bip01 R Foot
+  - first:
+      4: 400020
+    second: Bip01 L Finger0
+  - first:
+      4: 400022
+    second: Bip01 L Hand
+  - first:
+      4: 400024
+    second: Bip01 L Forearm
+  - first:
+      4: 400026
+    second: Bip01 R Finger4
+  - first:
+      4: 400028
+    second: Bip01 R Finger3
+  - first:
+      4: 400030
+    second: Bip01 R Finger2
+  - first:
+      4: 400032
+    second: Bip01 R Finger1
+  - first:
+      4: 400034
+    second: Spear
+  - first:
+      4: 400036
+    second: Pirate_pistol01
+  - first:
+      4: 400038
+    second: Man_Sword_hand
+  - first:
+      4: 400040
+    second: Throwing_Spear
+  - first:
+      4: 400042
+    second: Arrow
+  - first:
+      4: 400044
+    second: Bip01 R Finger0
+  - first:
+      4: 400046
+    second: Bow_Hand
+  - first:
+      4: 400048
+    second: //RootNode
+  - first:
+      4: 400050
+    second: Adam_body
+  - first:
+      4: 400052
+    second: Bip01 R Thigh
+  - first:
+      4: 400054
+    second: Bip01 L Toe0
+  - first:
+      4: 400056
+    second: Bip01 L Finger4
+  - first:
+      4: 400058
+    second: Bip01 R Hand
+  - first:
+      4: 400060
+    second: Bip01 R Forearm
+  - first:
+      4: 400062
+    second: H_Helmet
+  - first:
+      4: 400064
+    second: Bip01 zeye_left
+  - first:
+      4: 400066
+    second: Bip01 zJaw
+  - first:
+      4: 400068
+    second: Bip01 Head
+  - first:
+      4: 400070
+    second: Bip01 Neck
+  - first:
+      4: 400072
+    second: Spear_01
+  - first:
+      4: 400074
+    second: Pirate_pistol
+  - first:
+      4: 400076
+    second: Man_Sword_Back
+  - first:
+      4: 400078
+    second: Arrow01
+  - first:
+      4: 400080
+    second: Arrow08
+  - first:
+      4: 400082
+    second: Arrow07
+  - first:
+      4: 400084
+    second: Arrow06
+  - first:
+      4: 400086
+    second: Arrow05
+  - first:
+      4: 400088
+    second: Arrow04
+  - first:
+      4: 400090
+    second: Arrow03
+  - first:
+      4: 400092
+    second: Arrow02
+  - first:
+      4: 400094
+    second: Quiver
+  - first:
+      4: 400096
+    second: Bow_Back
+  - first:
+      4: 400098
+    second: Bip01 Spine1
+  - first:
+      4: 400100
+    second: Bip01 Spine
+  - first:
+      4: 400102
+    second: Bip01 Pelvis
+  - first:
+      4: 400104
+    second: Bip01
+  - first:
+      4: 400106
+    second: Bip01 right_Wmount
+  - first:
+      4: 400108
+    second: Bip01 left_Wmount
+  - first:
+      4: 400110
+    second: Bip01 LUpArmTwist1
+  - first:
+      4: 400112
+    second: Bip01 LUpArmTwist
+  - first:
+      4: 400114
+    second: Bip01 L ForeTwist1
+  - first:
+      4: 400116
+    second: Bip01 L ForeTwist
+  - first:
+      4: 400118
+    second: Bip01 shield_mount
+  - first:
+      4: 400120
+    second: Bip01 L Finger42
+  - first:
+      4: 400122
+    second: Bip01 L Finger41
+  - first:
+      4: 400124
+    second: Bip01 L Finger32
+  - first:
+      4: 400126
+    second: Bip01 L Finger31
+  - first:
+      4: 400128
+    second: Bip01 L Finger22
+  - first:
+      4: 400130
+    second: Bip01 L Finger21
+  - first:
+      4: 400132
+    second: Bip01 L Finger12
+  - first:
+      4: 400134
+    second: Bip01 L Finger11
+  - first:
+      4: 400136
+    second: Bow_animation_controller
+  - first:
+      4: 400138
+    second: Bip01 Rhand_WeaponOpp
+  - first:
+      4: 400140
+    second: Bip01 L Finger02
+  - first:
+      4: 400142
+    second: Bip01 L Finger01
+  - first:
+      4: 400144
+    second: Bip01 L UpperArm
+  - first:
+      4: 400146
+    second: Bip01 L Clavicle
+  - first:
+      4: 400148
+    second: Bip01 RUpArmTwist
+  - first:
+      4: 400150
+    second: Bip01 RUpArmTwist1
+  - first:
+      4: 400152
+    second: Bip01 R ForeTwist
+  - first:
+      4: 400154
+    second: Bip01 R ForeTwist1
+  - first:
+      4: 400156
+    second: Bip01 R Finger42
+  - first:
+      4: 400158
+    second: Bip01 R Finger41
+  - first:
+      4: 400160
+    second: Bip01 R Finger32
+  - first:
+      4: 400162
+    second: Bip01 R Finger31
+  - first:
+      4: 400164
+    second: Bip01 R Finger22
+  - first:
+      4: 400166
+    second: Bip01 R Finger21
+  - first:
+      4: 400168
+    second: Bip01 R Finger12
+  - first:
+      4: 400170
+    second: Bip01 R Finger11
+  - first:
+      4: 400172
+    second: Bip01 Rhand_Weapon
+  - first:
+      4: 400174
+    second: Bip01 R Finger02
+  - first:
+      4: 400176
+    second: Bip01 R Finger01
+  - first:
+      4: 400178
+    second: Bip01 R UpperArm
+  - first:
+      4: 400180
+    second: Bip01 R Clavicle
+  - first:
+      4: 400182
+    second: Bip01 zz_eye_right_lookA
+  - first:
+      4: 400184
+    second: Bip01 zz_eye_left_lookAt
+  - first:
+      4: 400186
+    second: Bip01 zeye_right
+  - first:
+      4: 400188
+    second: Bip01 back_shield_mount
+  - first:
+      4: 400190
+    second: Throwing_Spear_01
+  - first:
+      4: 400192
+    second: Bip01 back_right_Wmount
+  - first:
+      4: 400194
+    second: Bip01 back_left_Wmount
+  - first:
+      4: 400196
+    second: Arrow09
+  - first:
+      4: 400198
+    second: Arrow10
+  - first:
+      4: 400200
+    second: Arrow11
+  - first:
+      4: 400202
+    second: Arrow12
+  - first:
+      4: 400204
+    second: Arrow13
+  - first:
+      4: 400206
+    second: Arrow14
+  - first:
+      4: 400208
+    second: Arrow15
+  - first:
+      4: 400210
+    second: Arrow16
+  - first:
+      4: 400212
+    second: Arrow17
+  - first:
+      4: 400214
+    second: Bip02
+  - first:
+      4: 400216
+    second: Bip02 back_left_Wmount
+  - first:
+      4: 400218
+    second: Bip02 back_right_Wmount
+  - first:
+      4: 400220
+    second: Bip02 back_shield_mount
+  - first:
+      4: 400222
+    second: Bip02 Head
+  - first:
+      4: 400224
+    second: Bip02 L Calf
+  - first:
+      4: 400226
+    second: Bip02 L Clavicle
+  - first:
+      4: 400228
+    second: Bip02 L Finger0
+  - first:
+      4: 400230
+    second: Bip02 L Finger01
+  - first:
+      4: 400232
+    second: Bip02 L Finger02
+  - first:
+      4: 400234
+    second: Bip02 L Finger1
+  - first:
+      4: 400236
+    second: Bip02 L Finger11
+  - first:
+      4: 400238
+    second: Bip02 L Finger12
+  - first:
+      4: 400240
+    second: Bip02 L Finger2
+  - first:
+      4: 400242
+    second: Bip02 L Finger21
+  - first:
+      4: 400244
+    second: Bip02 L Finger22
+  - first:
+      4: 400246
+    second: Bip02 L Finger3
+  - first:
+      4: 400248
+    second: Bip02 L Finger31
+  - first:
+      4: 400250
+    second: Bip02 L Finger32
+  - first:
+      4: 400252
+    second: Bip02 L Finger4
+  - first:
+      4: 400254
+    second: Bip02 L Finger41
+  - first:
+      4: 400256
+    second: Bip02 L Finger42
+  - first:
+      4: 400258
+    second: Bip02 L Foot
+  - first:
+      4: 400260
+    second: Bip02 L Forearm
+  - first:
+      4: 400262
+    second: Bip02 L ForeTwist
+  - first:
+      4: 400264
+    second: Bip02 L ForeTwist1
+  - first:
+      4: 400266
+    second: Bip02 L Hand
+  - first:
+      4: 400268
+    second: Bip02 L Thigh
+  - first:
+      4: 400270
+    second: Bip02 L Toe0
+  - first:
+      4: 400272
+    second: Bip02 L UpperArm
+  - first:
+      4: 400274
+    second: Bip02 left_Wmount
+  - first:
+      4: 400276
+    second: Bip02 LUpArmTwist
+  - first:
+      4: 400278
+    second: Bip02 LUpArmTwist1
+  - first:
+      4: 400280
+    second: Bip02 Neck
+  - first:
+      4: 400282
+    second: Bip02 Pelvis
+  - first:
+      4: 400284
+    second: Bip02 R Calf
+  - first:
+      4: 400286
+    second: Bip02 R Clavicle
+  - first:
+      4: 400288
+    second: Bip02 R Finger0
+  - first:
+      4: 400290
+    second: Bip02 R Finger01
+  - first:
+      4: 400292
+    second: Bip02 R Finger02
+  - first:
+      4: 400294
+    second: Bip02 R Finger1
+  - first:
+      4: 400296
+    second: Bip02 R Finger11
+  - first:
+      4: 400298
+    second: Bip02 R Finger12
+  - first:
+      4: 400300
+    second: Bip02 R Finger2
+  - first:
+      4: 400302
+    second: Bip02 R Finger21
+  - first:
+      4: 400304
+    second: Bip02 R Finger22
+  - first:
+      4: 400306
+    second: Bip02 R Finger3
+  - first:
+      4: 400308
+    second: Bip02 R Finger31
+  - first:
+      4: 400310
+    second: Bip02 R Finger32
+  - first:
+      4: 400312
+    second: Bip02 R Finger4
+  - first:
+      4: 400314
+    second: Bip02 R Finger41
+  - first:
+      4: 400316
+    second: Bip02 R Finger42
+  - first:
+      4: 400318
+    second: Bip02 R Foot
+  - first:
+      4: 400320
+    second: Bip02 R Forearm
+  - first:
+      4: 400322
+    second: Bip02 R ForeTwist
+  - first:
+      4: 400324
+    second: Bip02 R ForeTwist1
+  - first:
+      4: 400326
+    second: Bip02 R Hand
+  - first:
+      4: 400328
+    second: Bip02 R Thigh
+  - first:
+      4: 400330
+    second: Bip02 R Toe0
+  - first:
+      4: 400332
+    second: Bip02 R UpperArm
+  - first:
+      4: 400334
+    second: Bip02 Rhand_Weapon
+  - first:
+      4: 400336
+    second: Bip02 Rhand_WeaponOpp
+  - first:
+      4: 400338
+    second: Bip02 right_Wmount
+  - first:
+      4: 400340
+    second: Bip02 RUpArmTwist
+  - first:
+      4: 400342
+    second: Bip02 RUpArmTwist1
+  - first:
+      4: 400344
+    second: Bip02 shield_mount
+  - first:
+      4: 400346
+    second: Bip02 Spine
+  - first:
+      4: 400348
+    second: Bip02 Spine1
+  - first:
+      4: 400350
+    second: Bip02 zeye_left
+  - first:
+      4: 400352
+    second: Bip02 zeye_right
+  - first:
+      4: 400354
+    second: Bip02 zJaw
+  - first:
+      4: 400356
+    second: Bip02 zz_eye_left_lookAt
+  - first:
+      4: 400358
+    second: Bip02 zz_eye_right_lookA
+  - first:
+      4: 400360
+    second: Bip02 zzz_breast_left
+  - first:
+      4: 400362
+    second: Bip02 zzz_breast_right
+  - first:
+      4: 400364
+    second: bone_bow02
+  - first:
+      4: 400366
+    second: Bow_animation_controller02
+  - first:
+      4: 400368
+    second: Bow_Back01
+  - first:
+      4: 400370
+    second: Bow_Hand02
+  - first:
+      4: 400372
+    second: Box02
+  - first:
+      4: 400374
+    second: Eva
+  - first:
+      4: 400376
+    second: Pirate_pistol02
+  - first:
+      4: 400378
+    second: Pirate_pistol04
+  - first:
+      4: 400380
+    second: Quiver01
+  - first:
+      4: 400382
+    second: Spear_woman_01
+  - first:
+      4: 400384
+    second: Spear_woman_02
+  - first:
+      4: 400386
+    second: Sword_Back01
+  - first:
+      4: 400388
+    second: Sword_hand01
+  - first:
+      4: 400390
+    second: Throwing_Sear_01
+  - first:
+      4: 400392
+    second: Throwing_Sear_02
+  - first:
+      23: 2300000
+    second: bone_bow
+  - first:
+      23: 2300002
+    second: Spear
+  - first:
+      23: 2300004
+    second: Pirate_pistol01
+  - first:
+      23: 2300006
+    second: Man_Sword_hand
+  - first:
+      23: 2300008
+    second: Throwing_Spear
+  - first:
+      23: 2300010
+    second: Arrow
+  - first:
+      23: 2300012
+    second: H_Helmet
+  - first:
+      23: 2300014
+    second: Spear_01
+  - first:
+      23: 2300016
+    second: Pirate_pistol
+  - first:
+      23: 2300018
+    second: Man_Sword_Back
+  - first:
+      23: 2300020
+    second: Arrow01
+  - first:
+      23: 2300022
+    second: Arrow08
+  - first:
+      23: 2300024
+    second: Arrow07
+  - first:
+      23: 2300026
+    second: Arrow06
+  - first:
+      23: 2300028
+    second: Arrow05
+  - first:
+      23: 2300030
+    second: Arrow04
+  - first:
+      23: 2300032
+    second: Arrow03
+  - first:
+      23: 2300034
+    second: Arrow02
+  - first:
+      23: 2300036
+    second: Quiver
+  - first:
+      23: 2300038
+    second: Bow_Back
+  - first:
+      23: 2300040
+    second: Bow_animation_controller
+  - first:
+      23: 2300042
+    second: Throwing_Spear_01
+  - first:
+      23: 2300044
+    second: Arrow09
+  - first:
+      23: 2300046
+    second: Arrow10
+  - first:
+      23: 2300048
+    second: Arrow11
+  - first:
+      23: 2300050
+    second: Arrow12
+  - first:
+      23: 2300052
+    second: Arrow13
+  - first:
+      23: 2300054
+    second: Arrow14
+  - first:
+      23: 2300056
+    second: Arrow15
+  - first:
+      23: 2300058
+    second: Arrow16
+  - first:
+      23: 2300060
+    second: Arrow17
+  - first:
+      23: 2300062
+    second: bone_bow02
+  - first:
+      23: 2300064
+    second: Bow_animation_controller02
+  - first:
+      23: 2300066
+    second: Bow_Back01
+  - first:
+      23: 2300068
+    second: Box02
+  - first:
+      23: 2300070
+    second: Pirate_pistol02
+  - first:
+      23: 2300072
+    second: Pirate_pistol04
+  - first:
+      23: 2300074
+    second: Quiver01
+  - first:
+      23: 2300076
+    second: Spear_woman_01
+  - first:
+      23: 2300078
+    second: Spear_woman_02
+  - first:
+      23: 2300080
+    second: Sword_Back01
+  - first:
+      23: 2300082
+    second: Sword_hand01
+  - first:
+      23: 2300084
+    second: Throwing_Sear_01
+  - first:
+      23: 2300086
+    second: Throwing_Sear_02
+  - first:
+      33: 3300000
+    second: bone_bow
+  - first:
+      33: 3300002
+    second: Spear
+  - first:
+      33: 3300004
+    second: Pirate_pistol01
+  - first:
+      33: 3300006
+    second: Man_Sword_hand
+  - first:
+      33: 3300008
+    second: Throwing_Spear
+  - first:
+      33: 3300010
+    second: Arrow
+  - first:
+      33: 3300012
+    second: H_Helmet
+  - first:
+      33: 3300014
+    second: Spear_01
+  - first:
+      33: 3300016
+    second: Pirate_pistol
+  - first:
+      33: 3300018
+    second: Man_Sword_Back
+  - first:
+      33: 3300020
+    second: Arrow01
+  - first:
+      33: 3300022
+    second: Arrow08
+  - first:
+      33: 3300024
+    second: Arrow07
+  - first:
+      33: 3300026
+    second: Arrow06
+  - first:
+      33: 3300028
+    second: Arrow05
+  - first:
+      33: 3300030
+    second: Arrow04
+  - first:
+      33: 3300032
+    second: Arrow03
+  - first:
+      33: 3300034
+    second: Arrow02
+  - first:
+      33: 3300036
+    second: Quiver
+  - first:
+      33: 3300038
+    second: Bow_Back
+  - first:
+      33: 3300040
+    second: Bow_animation_controller
+  - first:
+      33: 3300042
+    second: Throwing_Spear_01
+  - first:
+      33: 3300044
+    second: Arrow09
+  - first:
+      33: 3300046
+    second: Arrow10
+  - first:
+      33: 3300048
+    second: Arrow11
+  - first:
+      33: 3300050
+    second: Arrow12
+  - first:
+      33: 3300052
+    second: Arrow13
+  - first:
+      33: 3300054
+    second: Arrow14
+  - first:
+      33: 3300056
+    second: Arrow15
+  - first:
+      33: 3300058
+    second: Arrow16
+  - first:
+      33: 3300060
+    second: Arrow17
+  - first:
+      33: 3300062
+    second: bone_bow02
+  - first:
+      33: 3300064
+    second: Bow_animation_controller02
+  - first:
+      33: 3300066
+    second: Bow_Back01
+  - first:
+      33: 3300068
+    second: Box02
+  - first:
+      33: 3300070
+    second: Pirate_pistol02
+  - first:
+      33: 3300072
+    second: Pirate_pistol04
+  - first:
+      33: 3300074
+    second: Quiver01
+  - first:
+      33: 3300076
+    second: Spear_woman_01
+  - first:
+      33: 3300078
+    second: Spear_woman_02
+  - first:
+      33: 3300080
+    second: Sword_Back01
+  - first:
+      33: 3300082
+    second: Sword_hand01
+  - first:
+      33: 3300084
+    second: Throwing_Sear_01
+  - first:
+      33: 3300086
+    second: Throwing_Sear_02
+  - first:
+      43: 4300000
+    second: Bow_Back
+  - first:
+      43: 4300002
+    second: Quiver
+  - first:
+      43: 4300004
+    second: Arrow02
+  - first:
+      43: 4300006
+    second: Arrow03
+  - first:
+      43: 4300008
+    second: Arrow04
+  - first:
+      43: 4300010
+    second: Arrow05
+  - first:
+      43: 4300012
+    second: Arrow06
+  - first:
+      43: 4300014
+    second: Arrow07
+  - first:
+      43: 4300016
+    second: Arrow08
+  - first:
+      43: 4300018
+    second: Arrow01
+  - first:
+      43: 4300020
+    second: Throwing_Spear_01
+  - first:
+      43: 4300022
+    second: Man_Sword_Back
+  - first:
+      43: 4300024
+    second: Pirate_pistol
+  - first:
+      43: 4300026
+    second: Spear_01
+  - first:
+      43: 4300028
+    second: H_Helmet
+  - first:
+      43: 4300030
+    second: Arrow
+  - first:
+      43: 4300032
+    second: Throwing_Spear
+  - first:
+      43: 4300034
+    second: Man_Sword_hand
+  - first:
+      43: 4300036
+    second: Pirate_pistol01
+  - first:
+      43: 4300038
+    second: Spear
+  - first:
+      43: 4300040
+    second: bone_bow
+  - first:
+      43: 4300042
+    second: Bow_animation_controller
+  - first:
+      43: 4300044
+    second: Adam_body
+  - first:
+      43: 4300046
+    second: Bow_Hand
+  - first:
+      43: 4300048
+    second: Eva
+  - first:
+      43: 4300050
+    second: bone_bow02
+  - first:
+      43: 4300052
+    second: Bow_animation_controller02
+  - first:
+      43: 4300054
+    second: Arrow17
+  - first:
+      43: 4300056
+    second: Spear_woman_01
+  - first:
+      43: 4300058
+    second: Sword_hand01
+  - first:
+      43: 4300060
+    second: Pirate_pistol02
+  - first:
+      43: 4300062
+    second: Throwing_Sear_01
+  - first:
+      43: 4300064
+    second: Box02
+  - first:
+      43: 4300066
+    second: Bow_Back01
+  - first:
+      43: 4300068
+    second: Quiver01
+  - first:
+      43: 4300070
+    second: Arrow09
+  - first:
+      43: 4300072
+    second: Arrow10
+  - first:
+      43: 4300074
+    second: Arrow11
+  - first:
+      43: 4300076
+    second: Arrow12
+  - first:
+      43: 4300078
+    second: Arrow13
+  - first:
+      43: 4300080
+    second: Arrow14
+  - first:
+      43: 4300082
+    second: Arrow15
+  - first:
+      43: 4300084
+    second: Arrow16
+  - first:
+      43: 4300086
+    second: Spear_woman_02
+  - first:
+      43: 4300088
+    second: Sword_Back01
+  - first:
+      43: 4300090
+    second: Throwing_Sear_02
+  - first:
+      43: 4300092
+    second: Pirate_pistol04
+  - first:
+      43: 4300094
+    second: Bow_Hand02
+  - first:
+      74: 7400000
+    second: Take 001
+  - first:
+      74: 7400002
+    second: MECANIM
+  - first:
+      74: 7400004
+    second: Horseman_G_Dismounting
+  - first:
+      74: 7400006
+    second: Horseman_G_Mounting_up
+  - first:
+      74: 7400008
+    second: Horseman_G_Explanation
+  - first:
+      74: 7400010
+    second: Horseman_G_Idle
+  - first:
+      74: 7400012
+    second: Horseman_G_looking_around
+  - first:
+      74: 7400014
+    second: Horseman_G_Say_No
+  - first:
+      74: 7400016
+    second: Horseman_G_Talking
+  - first:
+      74: 7400018
+    second: Horseman_G_War_Cry
+  - first:
+      74: 7400020
+    second: Horseman_G_Riding_Galloping_Horse
+  - first:
+      74: 7400022
+    second: Horseman_G_Jumping_on_Horse
+  - first:
+      74: 7400024
+    second: Horseman_G_Taking_Hit
+  - first:
+      74: 7400026
+    second: Horseman_G_Riding_Troting_Horse
+  - first:
+      74: 7400028
+    second: Horseman_G_Riding_Walkig_Horse
+  - first:
+      74: 7400030
+    second: Horseman_G_Death_A
+  - first:
+      74: 7400032
+    second: Horseman_G_Death_B
+  - first:
+      74: 7400034
+    second: Horseman_G_Death_with_Horse
+  - first:
+      74: 7400036
+    second: Horseman_Archer_Take_Bow_Out
+  - first:
+      74: 7400038
+    second: Horseman_Archer_Charge
+  - first:
+      74: 7400040
+    second: Horseman_Archer_Aim_Back
+  - first:
+      74: 7400042
+    second: Horseman_Archer_Aim_Left
+  - first:
+      74: 7400044
+    second: Horseman_Archer_Aim_Right
+  - first:
+      74: 7400046
+    second: Horseman_Archer_Aim_Stright
+  - first:
+      74: 7400048
+    second: Horseman_Archer_fire_loop_back
+  - first:
+      74: 7400050
+    second: Horseman_Archer_fire_loop_left
+  - first:
+      74: 7400052
+    second: Horseman_Archer_fire_loop_right
+  - first:
+      74: 7400054
+    second: Horseman_Archer_fire_loop_stright
+  - first:
+      74: 7400056
+    second: Horseman_Archer_Put_Bow_Back
+  - first:
+      74: 7400058
+    second: Horseman_Archer_Right_Left_Turn
+  - first:
+      74: 7400060
+    second: Horseman_Archer_Put_Bow_Back
+  - first:
+      74: 7400062
+    second: Horseman_Gun_Take_Out
+  - first:
+      74: 7400064
+    second: Horseman_Gun_aim_stright
+  - first:
+      74: 7400066
+    second: Horseman_Gun_fire_stright
+  - first:
+      74: 7400068
+    second: Horseman_Gun_aim_back
+  - first:
+      74: 7400070
+    second: Horseman_Gun_fire_back
+  - first:
+      74: 7400072
+    second: Horseman_Gun_aim_left
+  - first:
+      74: 7400074
+    second: Horseman_Gun_fire_left
+  - first:
+      74: 7400076
+    second: Horseman_Gun_aim_right
+  - first:
+      74: 7400078
+    second: Horseman_Gun_fire_right
+  - first:
+      74: 7400080
+    second: Horseman_Gun_Put_Back
+  - first:
+      74: 7400082
+    second: Horseman_Spear_Take_Out_Knight_Style
+  - first:
+      74: 7400084
+    second: Horseman_Spear_Galloping_Knight_style
+  - first:
+      74: 7400086
+    second: Horseman_Spear_Trust_high_Knight_style
+  - first:
+      74: 7400088
+    second: Horseman_Spear_Trust_low_Knight_style
+  - first:
+      74: 7400090
+    second: Horseman_Spear_Getting_Hit
+  - first:
+      74: 7400092
+    second: Horseman_Spear_Point_right_Knight_style
+  - first:
+      74: 7400094
+    second: Horseman_Spear_Point_Left_Knight_style
+  - first:
+      74: 7400096
+    second: Horseman_Spear_Put_Back_Knight_Style
+  - first:
+      74: 7400098
+    second: Horseman_Spear_Take_Out
+  - first:
+      74: 7400100
+    second: Horseman_Spear_Galloping_Throwing
+  - first:
+      74: 7400102
+    second: Horseman_Spear_Hit_left
+  - first:
+      74: 7400104
+    second: Horseman_Spear_Hit_right
+  - first:
+      74: 7400106
+    second: Horseman_Spear_throw_left
+  - first:
+      74: 7400108
+    second: Horseman_Spear_throw_right
+  - first:
+      74: 7400110
+    second: Horseman_Spear_throw_stright
+  - first:
+      74: 7400112
+    second: Horseman_Spear_throw_Up
+  - first:
+      74: 7400114
+    second: Horseman_Spear_Put_Back
+  - first:
+      74: 7400116
+    second: Horseman_Sword_Take_Out
+  - first:
+      74: 7400118
+    second: Horseman_Sword_Galloping
+  - first:
+      74: 7400120
+    second: Horseman_Sword_Left_blow
+  - first:
+      74: 7400122
+    second: Horseman_Sword_Left_UP_blow
+  - first:
+      74: 7400124
+    second: Horseman_Sword_Right_blow
+  - first:
+      74: 7400126
+    second: Horseman_Sword_Right_UP_blow
+  - first:
+      74: 7400128
+    second: Horseman_Sword_Put_Back
+  - first:
+      74: 7400130
+    second: MECANIM
+  - first:
+      74: 7400132
+    second: Horseman_Archer_Combat
+  - first:
+      74: 7400134
+    second: Horseman_Gun_Combat
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      111: 11100000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: Bow_Hand
+  - first:
+      137: 13700002
+    second: Adam_body
+  - first:
+      137: 13700004
+    second: Bow_Hand02
+  - first:
+      137: 13700006
+    second: Eva
+  - first:
+      41386430: 2186277476908879412
+    second: ImportLogs
+  - first:
+      74: -1040480240010324091
+    second: MECANIM
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -678,6 +1891,7 @@ ModelImporter:
     - serializedVersion: 16
       name: MECANIM
       takeName: 
+      internalID: 7400002
       firstFrame: 0
       lastFrame: 10
       wrapMode: 1
@@ -706,6 +1920,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Horseman_G_Dismounting
       takeName: 
+      internalID: 7400004
       firstFrame: 15
       lastFrame: 65
       wrapMode: 1
@@ -734,6 +1949,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Horseman_G_Mounting_up
       takeName: 
+      internalID: 7400006
       firstFrame: 66
       lastFrame: 123
       wrapMode: 1
@@ -762,6 +1978,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Horseman_G_Explanation
       takeName: 
+      internalID: 7400008
       firstFrame: 124
       lastFrame: 169
       wrapMode: 1
@@ -790,6 +2007,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Horseman_G_Idle
       takeName: 
+      internalID: 7400010
       firstFrame: 170
       lastFrame: 270
       wrapMode: 1
@@ -818,6 +2036,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Horseman_G_looking_around
       takeName: 
+      internalID: 7400012
       firstFrame: 271
       lastFrame: 447
       wrapMode: 1
@@ -846,6 +2065,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Horseman_G_Say_No
       takeName: 
+      internalID: 7400014
       firstFrame: 448
       lastFrame: 498
       wrapMode: 1
@@ -874,6 +2094,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Horseman_G_Talking
       takeName: 
+      internalID: 7400016
       firstFrame: 499
       lastFrame: 544
       wrapMode: 1
@@ -902,6 +2123,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Horseman_G_War_Cry
       takeName: 
+      internalID: 7400018
       firstFrame: 545
       lastFrame: 595
       wrapMode: 1
@@ -930,6 +2152,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Horseman_G_Riding_Galloping_Horse
       takeName: 
+      internalID: 7400020
       firstFrame: 600
       lastFrame: 615
       wrapMode: 1
@@ -958,6 +2181,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Horseman_G_Jumping_on_Horse
       takeName: 
+      internalID: 7400022
       firstFrame: 616
       lastFrame: 651
       wrapMode: 1
@@ -986,6 +2210,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Horseman_G_Taking_Hit
       takeName: 
+      internalID: 7400024
       firstFrame: 652
       lastFrame: 687
       wrapMode: 1
@@ -1014,6 +2239,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Horseman_G_Riding_Troting_Horse
       takeName: 
+      internalID: 7400026
       firstFrame: 692
       lastFrame: 716
       wrapMode: 1
@@ -1042,6 +2268,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Horseman_G_Riding_Walkig_Horse
       takeName: 
+      internalID: 7400028
       firstFrame: 720
       lastFrame: 754
       wrapMode: 1
@@ -1070,6 +2297,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Horseman_G_Death_A
       takeName: 
+      internalID: 7400030
       firstFrame: 759
       lastFrame: 788
       wrapMode: 1
@@ -1098,6 +2326,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Horseman_G_Death_B
       takeName: 
+      internalID: 7400032
       firstFrame: 793
       lastFrame: 828
       wrapMode: 1
@@ -1126,6 +2355,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Horseman_G_Death_with_Horse
       takeName: 
+      internalID: 7400034
       firstFrame: 830
       lastFrame: 854
       wrapMode: 1
@@ -1154,6 +2384,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Horseman_Archer_Take_Bow_Out
       takeName: 
+      internalID: 7400036
       firstFrame: 859
       lastFrame: 894
       wrapMode: 1
@@ -1182,6 +2413,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Horseman_Archer_Combat
       takeName: 
+      internalID: 7400132
       firstFrame: 895
       lastFrame: 919
       wrapMode: 1
@@ -1210,6 +2442,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Horseman_Archer_Charge
       takeName: 
+      internalID: 7400038
       firstFrame: 920
       lastFrame: 980
       wrapMode: 1
@@ -1238,6 +2471,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Horseman_Archer_Aim_Stright
       takeName: 
+      internalID: 7400046
       firstFrame: 981
       lastFrame: 1005
       wrapMode: 1
@@ -1266,6 +2500,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Horseman_Archer_fire_loop_stright
       takeName: 
+      internalID: 7400054
       firstFrame: 1006
       lastFrame: 1076
       wrapMode: 1
@@ -1294,6 +2529,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Horseman_Archer_Aim_Back
       takeName: 
+      internalID: 7400040
       firstFrame: 1082
       lastFrame: 1105
       wrapMode: 1
@@ -1322,6 +2558,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Horseman_Archer_fire_loop_back
       takeName: 
+      internalID: 7400048
       firstFrame: 1106
       lastFrame: 1176
       wrapMode: 1
@@ -1350,6 +2587,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Horseman_Archer_Aim_Left
       takeName: 
+      internalID: 7400042
       firstFrame: 1182
       lastFrame: 1205
       wrapMode: 1
@@ -1378,6 +2616,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Horseman_Archer_fire_loop_left
       takeName: 
+      internalID: 7400050
       firstFrame: 1206
       lastFrame: 1276
       wrapMode: 1
@@ -1406,6 +2645,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Horseman_Archer_Aim_Right
       takeName: 
+      internalID: 7400044
       firstFrame: 1282
       lastFrame: 1305
       wrapMode: 1
@@ -1434,6 +2674,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Horseman_Archer_fire_loop_right
       takeName: 
+      internalID: 7400052
       firstFrame: 1306
       lastFrame: 1376
       wrapMode: 1
@@ -1462,6 +2703,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Horseman_Archer_Right_Left_Turn
       takeName: 
+      internalID: 7400058
       firstFrame: 1421
       lastFrame: 1517
       wrapMode: 1
@@ -1490,6 +2732,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Horseman_Archer_Put_Bow_Back
       takeName: 
+      internalID: 7400056
       firstFrame: 1522
       lastFrame: 1557
       wrapMode: 1
@@ -1518,6 +2761,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Horseman_Gun_Take_Out
       takeName: 
+      internalID: 7400062
       firstFrame: 1562
       lastFrame: 1597
       wrapMode: 1
@@ -1546,6 +2790,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Horseman_Gun_Combat
       takeName: 
+      internalID: 7400134
       firstFrame: 1598
       lastFrame: 1638
       wrapMode: 1
@@ -1574,6 +2819,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Horseman_Gun_aim_stright
       takeName: 
+      internalID: 7400064
       firstFrame: 1643
       lastFrame: 1683
       wrapMode: 1
@@ -1602,6 +2848,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Horseman_Gun_fire_stright
       takeName: 
+      internalID: 7400066
       firstFrame: 1684
       lastFrame: 1704
       wrapMode: 1
@@ -1630,6 +2877,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Horseman_Gun_aim_back
       takeName: 
+      internalID: 7400068
       firstFrame: 1710
       lastFrame: 1749
       wrapMode: 1
@@ -1658,6 +2906,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Horseman_Gun_fire_back
       takeName: 
+      internalID: 7400070
       firstFrame: 1750
       lastFrame: 1770
       wrapMode: 1
@@ -1686,6 +2935,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Horseman_Gun_aim_left
       takeName: 
+      internalID: 7400072
       firstFrame: 1776
       lastFrame: 1815
       wrapMode: 1
@@ -1714,6 +2964,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Horseman_Gun_fire_left
       takeName: 
+      internalID: 7400074
       firstFrame: 1816
       lastFrame: 1836
       wrapMode: 1
@@ -1742,6 +2993,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Horseman_Gun_aim_right
       takeName: 
+      internalID: 7400076
       firstFrame: 1842
       lastFrame: 1881
       wrapMode: 1
@@ -1770,6 +3022,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Horseman_Gun_fire_right
       takeName: 
+      internalID: 7400078
       firstFrame: 1882
       lastFrame: 1902
       wrapMode: 1
@@ -1798,6 +3051,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Horseman_Gun_Put_Back
       takeName: 
+      internalID: 7400080
       firstFrame: 1908
       lastFrame: 1941.9999
       wrapMode: 1
@@ -1826,6 +3080,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Horseman_Spear_Take_Out_Knight_Style
       takeName: 
+      internalID: 7400082
       firstFrame: 1947
       lastFrame: 1982
       wrapMode: 1
@@ -1854,6 +3109,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Horseman_Spear_Galloping_Knight_style
       takeName: 
+      internalID: 7400084
       firstFrame: 1983
       lastFrame: 1998
       wrapMode: 1
@@ -1882,6 +3138,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Horseman_Spear_Trust_high_Knight_style
       takeName: 
+      internalID: 7400086
       firstFrame: 1999
       lastFrame: 2014
       wrapMode: 1
@@ -1910,6 +3167,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Horseman_Spear_Trust_low_Knight_style
       takeName: 
+      internalID: 7400088
       firstFrame: 2014.9999
       lastFrame: 2029.9999
       wrapMode: 1
@@ -1938,6 +3196,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Horseman_Spear_Getting_Hit
       takeName: 
+      internalID: 7400090
       firstFrame: 2030.9999
       lastFrame: 2045.9999
       wrapMode: 1
@@ -1966,6 +3225,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Horseman_Spear_Point_right_Knight_style
       takeName: 
+      internalID: 7400092
       firstFrame: 2051
       lastFrame: 2066
       wrapMode: 1
@@ -1994,6 +3254,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Horseman_Spear_Point_Left_Knight_style
       takeName: 
+      internalID: 7400094
       firstFrame: 2071
       lastFrame: 2086
       wrapMode: 1
@@ -2022,6 +3283,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Horseman_Spear_Put_Back_Knight_Style
       takeName: 
+      internalID: 7400096
       firstFrame: 2091
       lastFrame: 2126
       wrapMode: 1
@@ -2050,6 +3312,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Horseman_Spear_Take_Out
       takeName: 
+      internalID: 7400098
       firstFrame: 2131
       lastFrame: 2166
       wrapMode: 1
@@ -2078,6 +3341,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Horseman_Spear_Galloping_Throwing
       takeName: 
+      internalID: 7400100
       firstFrame: 2167
       lastFrame: 2182
       wrapMode: 1
@@ -2106,6 +3370,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Horseman_Spear_Hit_left
       takeName: 
+      internalID: 7400102
       firstFrame: 2183
       lastFrame: 2218
       wrapMode: 1
@@ -2134,6 +3399,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Horseman_Spear_Hit_right
       takeName: 
+      internalID: 7400104
       firstFrame: 2219
       lastFrame: 2254
       wrapMode: 1
@@ -2162,6 +3428,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Horseman_Spear_throw_left
       takeName: 
+      internalID: 7400106
       firstFrame: 2255
       lastFrame: 2290
       wrapMode: 1
@@ -2190,6 +3457,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Horseman_Spear_throw_right
       takeName: 
+      internalID: 7400108
       firstFrame: 2291
       lastFrame: 2326
       wrapMode: 1
@@ -2218,6 +3486,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Horseman_Spear_throw_stright
       takeName: 
+      internalID: 7400110
       firstFrame: 2327
       lastFrame: 2362
       wrapMode: 1
@@ -2246,6 +3515,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Horseman_Spear_throw_Up
       takeName: 
+      internalID: 7400112
       firstFrame: 2363
       lastFrame: 2398
       wrapMode: 1
@@ -2274,6 +3544,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Horseman_Spear_Put_Back
       takeName: 
+      internalID: 7400114
       firstFrame: 2399
       lastFrame: 2434
       wrapMode: 1
@@ -2302,6 +3573,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Horseman_Sword_Take_Out
       takeName: 
+      internalID: 7400116
       firstFrame: 2440
       lastFrame: 2469
       wrapMode: 1
@@ -2330,6 +3602,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Horseman_Sword_Galloping
       takeName: 
+      internalID: 7400118
       firstFrame: 2470
       lastFrame: 2485
       wrapMode: 1
@@ -2358,6 +3631,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Horseman_Sword_Left_blow
       takeName: 
+      internalID: 7400120
       firstFrame: 2486
       lastFrame: 2521
       wrapMode: 1
@@ -2386,6 +3660,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Horseman_Sword_Left_UP_blow
       takeName: 
+      internalID: 7400122
       firstFrame: 2522
       lastFrame: 2557
       wrapMode: 1
@@ -2414,6 +3689,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Horseman_Sword_Right_blow
       takeName: 
+      internalID: 7400124
       firstFrame: 2558
       lastFrame: 2593
       wrapMode: 1
@@ -2442,6 +3718,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Horseman_Sword_Right_UP_blow
       takeName: 
+      internalID: 7400126
       firstFrame: 2594
       lastFrame: 2629
       wrapMode: 1
@@ -2470,6 +3747,7 @@ ModelImporter:
     - serializedVersion: 16
       name: Horseman_Sword_Put_Back
       takeName: 
+      internalID: 7400128
       firstFrame: 2630
       lastFrame: 2660
       wrapMode: 1
@@ -2498,6 +3776,7 @@ ModelImporter:
     - serializedVersion: 16
       name: MECANIM
       takeName: 
+      internalID: -1040480240010324091
       firstFrame: 2665
       lastFrame: 2675
       wrapMode: 1
@@ -2537,18 +3816,19 @@ ModelImporter:
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
     indexFormat: 1
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
     secondaryUVPackMargin: 4
     useFileScale: 0
-    previousCalculatedGlobalScale: 0.01
-    hasPreviousCalculatedGlobalScale: 1
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
@@ -2557,10 +3837,11 @@ ModelImporter:
     legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
     blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human:
     - boneName: Bip02 Pelvis
       humanName: Hips
@@ -3503,6 +4784,7 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 0.01
     rootMotionBoneName: 
     hasTranslationDoF: 0
     hasExtraRoot: 0
