@@ -32,8 +32,8 @@ public class Quest001Take : MonoBehaviour
         {
             if (distance <= 3) // check if the player is in range 
             {
-                Cursor.lockState = CursorLockMode.None;
-                Cursor.visible = true;
+                //Cursor.lockState = CursorLockMode.None;
+                //Cursor.visible = true;
                 actionDisplay.SetActive(false);
                 actionText.SetActive(false);
                 questUI.SetActive(true);
