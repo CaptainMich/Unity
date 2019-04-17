@@ -16,6 +16,7 @@ public class Quest001Take : MonoBehaviour
     {
         // constantly monitor the distance
         distance = PlayerCasting.distanceFromTarget;
+
     }
 
     void OnMouseOver()

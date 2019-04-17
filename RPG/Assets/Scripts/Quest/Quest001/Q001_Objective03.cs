@@ -72,4 +72,16 @@ public class Q001_Objective03 : MonoBehaviour
         light.SetActive(false);
     }
 
+    void OnTriggerEnter()
+    {
+        StartCoroutine(FinishObjective());
+    }
+
+    IEnumerator FinishObjective()
+    {
+        objective.SetActive(true);
+        yield return new WaitForSeconds(0.5f);
+        closeObjective = 1;
+    }
+
 }

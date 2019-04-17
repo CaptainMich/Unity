@@ -63,4 +63,16 @@ public class Q001_Objective02 : MonoBehaviour
         actionText.SetActive(false);
     }
 
+    void OnTriggerEnter()
+    {
+        StartCoroutine(FinishObjective());
+    }
+
+    IEnumerator FinishObjective()
+    {
+        objective.SetActive(true);
+        yield return new WaitForSeconds(0.5f);
+        closeObjective = 1;
+    }
+
 }

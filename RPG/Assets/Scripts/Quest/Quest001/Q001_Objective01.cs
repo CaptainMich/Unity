@@ -19,6 +19,7 @@ public class Q001_Objective01 : MonoBehaviour
                 closeObjective = 0; 
                 objective.SetActive(false);
             }
+
             else
             {
                 objective.transform.localScale -= new Vector3 (0.0f, 0.01f, 0.0f);
