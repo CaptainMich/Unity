@@ -62,6 +62,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Player\CameraCollision.cs" />
+    <Compile Include="Assets\Player\CameraFollow.cs" />
     <Compile Include="Assets\Player\PlayerCasting.cs" />
     <Compile Include="Assets\Player\PlayerMovement.cs" />
     <Compile Include="Assets\Player\ThirdPersonCam.cs" />
@@ -75,6 +77,7 @@
     <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
     <Compile Include="Assets\Scripts\CursorMode.cs" />
     <Compile Include="Assets\Scripts\CutScenes\Scene01.cs" />
+    <Compile Include="Assets\Scripts\Enemy\InflictDamage.cs" />
     <Compile Include="Assets\Scripts\GlobalExp.cs" />
     <Compile Include="Assets\Scripts\HealthMonitor.cs" />
     <Compile Include="Assets\Scripts\HeartCollect.cs" />

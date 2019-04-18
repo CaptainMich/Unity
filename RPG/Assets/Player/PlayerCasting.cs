@@ -13,6 +13,8 @@ public class PlayerCasting : MonoBehaviour
         RaycastHit hit; 
         if(Physics.Raycast (transform.position, transform.TransformDirection(Vector3.forward),out hit))
         {
+            Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * hit.distance, Color.yellow);
+            Debug.Log("Did Hit");
             toTarget = hit.distance;
             distanceFromTarget = toTarget;
         }

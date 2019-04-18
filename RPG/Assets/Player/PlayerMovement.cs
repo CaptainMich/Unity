@@ -101,6 +101,9 @@ public class PlayerMovement : MonoBehaviour
         inputH = Input.GetAxis("Horizontal");
         inputV = Input.GetAxis("Vertical");
 
+        float inputMouseH = Input.GetAxis("Mouse X");
+        float inputMouseV = Input.GetAxis("Mouse Y");
+
         anim.SetFloat("inputH", inputH);
         anim.SetFloat("inputV", inputV);
        
@@ -109,6 +112,7 @@ public class PlayerMovement : MonoBehaviour
 
         transform.Translate(0, 0, moveZ);
         transform.Rotate(0, moveY, 0);
+
 
         if (Input.GetKeyDown(KeyCode.R))
         {
