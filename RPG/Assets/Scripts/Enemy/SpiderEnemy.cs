@@ -5,6 +5,10 @@ using UnityEngine;
 public class SpiderEnemy : MonoBehaviour
 {
     public int enemyHealth = 10;
+    public GameObject spider;
+    public int spiderStatus;
+    public float baseExp = 10;
+    public float calculatedExp;
 
     void DeductPoints(int damageAmount)
     {
@@ -16,13 +20,17 @@ public class SpiderEnemy : MonoBehaviour
     {
         if (enemyHealth <= 0)
         {
+            if(spiderStatus == 0)
             StartCoroutine(DeathSpider());
-            Destroy(gameObject);
         }
     }
 
     IEnumerator DeathSpider()
     {
+        spiderStatus = 6;
+        calculatedExp = baseExp / GlobalLevel.currentLevel;
+        GlobalExp.currentExp +=  calculatedExp;
         yield return new WaitForSeconds(0.5f);
+        spider.GetComponent<Animation>().Play("die");
     }
 }

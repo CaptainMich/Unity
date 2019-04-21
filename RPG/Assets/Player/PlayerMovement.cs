@@ -9,7 +9,7 @@ public class PlayerMovement : MonoBehaviour
     public GameObject backShield;
     public GameObject handSword;
     public GameObject handShield;
-    private bool combatMode;
+    public static bool combatMode;
 
     public Rigidbody rb;
     public CapsuleCollider col;
