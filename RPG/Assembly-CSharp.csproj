@@ -78,11 +78,13 @@
     <Compile Include="Assets\Scripts\CursorMode.cs" />
     <Compile Include="Assets\Scripts\CutScenes\Scene01.cs" />
     <Compile Include="Assets\Scripts\Enemy\InflictDamage.cs" />
+    <Compile Include="Assets\Scripts\Enemy\SpiderAI.cs" />
     <Compile Include="Assets\Scripts\Enemy\SpiderEnemy.cs" />
     <Compile Include="Assets\Scripts\GlobalStatus\GlobalExp.cs" />
     <Compile Include="Assets\Scripts\GlobalStatus\GlobalLevel.cs" />
     <Compile Include="Assets\Scripts\GlobalStatus\HealthMonitor.cs" />
     <Compile Include="Assets\Scripts\GlobalStatus\HeartCollect.cs" />
+    <Compile Include="Assets\Scripts\NPC\NPC001.cs" />
     <Compile Include="Assets\Scripts\Quest\Quest001\Q001_Objective01.cs" />
     <Compile Include="Assets\Scripts\Quest\Quest001\Q001_Objective02.cs" />
     <Compile Include="Assets\Scripts\Quest\Quest001\Q001_Objective03.cs" />
