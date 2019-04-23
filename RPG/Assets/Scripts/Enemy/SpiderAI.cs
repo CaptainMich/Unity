@@ -16,6 +16,7 @@ public class SpiderAI : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        player.name = "player";
         allowedRange = 30;
     }
 
@@ -25,6 +26,9 @@ public class SpiderAI : MonoBehaviour
         transform.LookAt(player.transform);
         if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out shot))
         {
+            Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * shot.distance, Color.red);
+            Debug.Log("Did Hit " + shot.collider.name);
+
             targetDistance = shot.distance;
             if(targetDistance <= allowedRange)
             {
@@ -52,7 +56,8 @@ public class SpiderAI : MonoBehaviour
 
     void OnCollisionEnter(Collision col)
     {
-        attackTrigger = 1;
+        if(col.gameObject.name == "player")
+            attackTrigger = 1;
     }
 
     void OnCollisionExit(Collision other)
