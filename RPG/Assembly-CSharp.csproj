@@ -125,6 +125,7 @@
     <Compile Include="Assets\Scripts\Enemy\InflictDamage.cs" />
     <Compile Include="Assets\Scripts\Enemy\SpiderAI.cs" />
     <Compile Include="Assets\Scripts\Enemy\SpiderEnemy.cs" />
+    <Compile Include="Assets\Scripts\GlobalStatus\GlobalCash.cs" />
     <Compile Include="Assets\Scripts\GlobalStatus\GlobalExp.cs" />
     <Compile Include="Assets\Scripts\GlobalStatus\GlobalLevel.cs" />
     <Compile Include="Assets\Scripts\GlobalStatus\HealthMonitor.cs" />

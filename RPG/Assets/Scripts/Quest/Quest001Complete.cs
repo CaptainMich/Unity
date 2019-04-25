@@ -36,6 +36,7 @@ public class Quest001Complete : MonoBehaviour
             if (distance <= 3) // check if the player is in range 
             {
                 QuestManager.subQuestNumber = 0;
+                GlobalCash.goldAmount += 100;
                 exMark.SetActive(false);
                 GlobalExp.currentExp += 100;
                 actionDisplay.SetActive(false);
