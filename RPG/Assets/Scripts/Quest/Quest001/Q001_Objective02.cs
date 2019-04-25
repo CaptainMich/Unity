@@ -11,21 +11,27 @@ public class Q001_Objective02 : MonoBehaviour
     public GameObject actionDisplay;
     public GameObject actionText;
     public GameObject objective;
-    public int closeObjective; // to check if the objective is close or not
+    public bool closeObjective; // to check if the objective is close or not
     public GameObject takeSword; // to make the next objective active
+
+    void Start()
+    {
+        closeObjective = false;
+    }
+
 
     // Update is called once per frame
     void Update()
     {
         distance = PlayerCasting.distanceFromTarget;
 
-        if(closeObjective == 3)
+        if(closeObjective)
         {
             objective.SetActive(true);
             if (objective.transform.localScale.y <= 0.0f)
             {
                 // objective is now complete
-                closeObjective = 0;
+                closeObjective = false;
                 objective.SetActive(false);
             }
             else
@@ -35,9 +41,9 @@ public class Q001_Objective02 : MonoBehaviour
         }
     }
 
-    void OnMouseOver()
+    void OnTriggerStay()
     {
-        if(distance <= 3)
+        if (distance <= 3)
         {
             actionText.GetComponent<Text>().text = "Open Chest";
             actionText.SetActive(true);
@@ -46,34 +52,33 @@ public class Q001_Objective02 : MonoBehaviour
 
         if (Input.GetButtonDown("Action"))
         {
-            if(distance <= 3)
+            if (distance <= 3)
             {
                 this.GetComponent<BoxCollider>().enabled = false;
                 treasureChest.GetComponent<Animation>().Play("Q01ChestOpening");
-                takeSword.SetActive(true);
-                closeObjective = 3;
                 actionText.SetActive(false);
                 actionDisplay.SetActive(false);
+                StartCoroutine(FinishObjective());
             }
         }
     }
 
-    void OnMouseExit()
+    void OnTriggerExit(Collider other)
     {
         actionDisplay.SetActive(false);
         actionText.SetActive(false);
-    }
-
-    void OnTriggerEnter()
-    {
-        StartCoroutine(FinishObjective());
     }
 
     IEnumerator FinishObjective()
     {
         objective.SetActive(true);
         yield return new WaitForSeconds(0.5f);
-        closeObjective = 1;
+        closeObjective = true;
+
+        yield return new WaitForSeconds(1f);
+        takeSword.SetActive(true);
+
+
     }
 
 }

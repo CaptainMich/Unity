@@ -20,7 +20,7 @@ public class Quest001Complete : MonoBehaviour
         distance = PlayerCasting.distanceFromTarget;
     }
 
-    void OnMouseOver()
+    void OnTriggerStay()
     {
         // check if we are gonna activate the trigger 
         if (distance <= 3)
@@ -35,6 +35,7 @@ public class Quest001Complete : MonoBehaviour
         {
             if (distance <= 3) // check if the player is in range 
             {
+                QuestManager.subQuestNumber = 0;
                 exMark.SetActive(false);
                 GlobalExp.currentExp += 100;
                 actionDisplay.SetActive(false);
@@ -44,7 +45,7 @@ public class Quest001Complete : MonoBehaviour
         }
     }
 
-    void OnMouseExit()
+    void OnTriggerExit()
     {
         actionDisplay.SetActive(false);
         actionText.SetActive(false);

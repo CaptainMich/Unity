@@ -5,18 +5,23 @@ using UnityEngine;
 public class Q001_Objective01 : MonoBehaviour
 {
     public GameObject objective;
-    public int closeObjective;
+    public bool closeObjective;
+
+    void Start()
+    {
+        closeObjective = false;
+    }
 
     // Update is called once per frame
     void Update()
     {
         // make the objective shrink and disappear permanently
-        if(closeObjective == 1)
+        if(closeObjective)
         {
             if(objective.transform.localScale.y <= 0.0f)
             {
                 // objective is now complete
-                closeObjective = 0; 
+                closeObjective = false; 
                 objective.SetActive(false);
             }
 
@@ -29,6 +34,8 @@ public class Q001_Objective01 : MonoBehaviour
 
     void OnTriggerEnter()
     {
+        QuestManager.subQuestNumber = 2;
+        this.GetComponent<BoxCollider>().enabled = false;
         StartCoroutine(FinishObjective());
     }
 
@@ -36,6 +43,6 @@ public class Q001_Objective01 : MonoBehaviour
     {
         objective.SetActive(true);
         yield return new WaitForSeconds(0.5f);
-        closeObjective = 1;
+        closeObjective = true;
     }
 }

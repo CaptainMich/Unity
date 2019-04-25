@@ -19,6 +19,7 @@ public class Quest001Buttons : MonoBehaviour
 
     public void AcceptQuest()
     {
+        QuestManager.subQuestNumber = 1;
         player.SetActive(true);
         noticeCamera.SetActive(false);
         questUI.SetActive(false);

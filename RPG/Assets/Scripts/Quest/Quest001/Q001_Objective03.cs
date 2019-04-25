@@ -12,24 +12,29 @@ public class Q001_Objective03 : MonoBehaviour
     public GameObject actionDisplay;
     public GameObject actionText;
     public GameObject objective;
-    public int closeObjective; // to check if the objective is close or not
+    public bool closeObjective; // to check if the objective is close or not
     public GameObject chestBlock;
     public GameObject questComplete;
     public GameObject exMark;
     public GameObject light;
+
+    void Start()
+    {
+        closeObjective = false;
+    }
 
     // Update is called once per frame
     void Update()
     {
         distance = PlayerCasting.distanceFromTarget;
 
-        if(closeObjective == 3)
+        if(closeObjective)
         {
             objective.SetActive(false);
             if (objective.transform.localScale.y <= 0.0f)
             {
                 // objective is now complete
-                closeObjective = 0;
+                closeObjective = false;
                 objective.SetActive(false);
             }
             else
@@ -39,9 +44,9 @@ public class Q001_Objective03 : MonoBehaviour
         }
     }
 
-    void OnMouseOver()
+    void OnTriggerStay()
     {
-        if(distance <= 3)
+        if (distance <= 3)
         {
             actionText.GetComponent<Text>().text = "Take Sword";
             actionText.SetActive(true);
@@ -51,38 +56,34 @@ public class Q001_Objective03 : MonoBehaviour
 
         if (Input.GetButtonDown("Action"))
         {
-            if(distance <= 3)
+            if (distance <= 3)
             {
+                QuestManager.subQuestNumber = 4;
                 this.GetComponent<BoxCollider>().enabled = false;
                 fakeSword.SetActive(false);
                 realSword.SetActive(true);
                 chestBlock.SetActive(true);
-                closeObjective = 3;
                 actionText.SetActive(false);
                 actionDisplay.SetActive(false);
                 exMark.SetActive(true);
                 questComplete.SetActive(true);
+                StartCoroutine(FinishObjective());
             }
         }
     }
 
-    void OnMouseExit()
+    void OnTriggerExit()
     {
         actionDisplay.SetActive(false);
         actionText.SetActive(false);
         light.SetActive(false);
     }
 
-    void OnTriggerEnter()
-    {
-        StartCoroutine(FinishObjective());
-    }
-
     IEnumerator FinishObjective()
     {
         objective.SetActive(true);
         yield return new WaitForSeconds(0.5f);
-        closeObjective = 1;
+        closeObjective = true;
     }
 
 }

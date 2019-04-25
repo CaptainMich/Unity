@@ -21,7 +21,7 @@ public class NPC001 : MonoBehaviour
 
     }
 
-    void OnMouseOver()
+    void OnTriggerStay()
     {
         // check if we are gonna activate the trigger 
         if (distance <= 3)
@@ -46,7 +46,7 @@ public class NPC001 : MonoBehaviour
         }
     }
 
-    void OnMouseExit()
+    void OnTriggerExit()
     {
         actionDisplay.SetActive(false);
         actionText.SetActive(false);

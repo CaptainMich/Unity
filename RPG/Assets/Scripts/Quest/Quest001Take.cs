@@ -19,13 +19,15 @@ public class Quest001Take : MonoBehaviour
 
     }
 
-    void OnMouseOver()
+    void OnTriggerStay()
     {
+
         // check if we are gonna activate the trigger 
         if (distance <= 3)
         {
             actionDisplay.SetActive(true);
             actionText.SetActive(true);
+
         }
 
         // behaviour of pressing E key 
@@ -40,11 +42,12 @@ public class Quest001Take : MonoBehaviour
                 questUI.SetActive(true);
                 noticeCamera.SetActive(true);
                 player.SetActive(false);
+
             }
         }
     }
 
-    void OnMouseExit()
+    void OnTriggerExit()
     {
         actionDisplay.SetActive(false);
         actionText.SetActive(false);
