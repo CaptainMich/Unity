@@ -121,6 +121,7 @@
     <Compile Include="Assets\SampleScenes\Scripts\SlowMoButton.cs" />
     <Compile Include="Assets\Scripts\CursorMode.cs" />
     <Compile Include="Assets\Scripts\CutScenes\Scene01.cs" />
+    <Compile Include="Assets\Scripts\CutScenes\Scene01Skip.cs" />
     <Compile Include="Assets\Scripts\Enemy\InflictDamage.cs" />
     <Compile Include="Assets\Scripts\Enemy\SpiderAI.cs" />
     <Compile Include="Assets\Scripts\Enemy\SpiderEnemy.cs" />

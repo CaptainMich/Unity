@@ -38,5 +38,6 @@ public class Scene01 : MonoBehaviour
         fadeIn.SetActive(true);
         fadeOut.SetActive(false);
         camera3.SetActive(false);
+        yield return new WaitForSeconds(1);
     }
 }

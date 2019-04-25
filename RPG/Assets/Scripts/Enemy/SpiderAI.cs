@@ -11,6 +11,7 @@ public class SpiderAI : MonoBehaviour
     public float enemySpeed;
     public int attackTrigger;
     public RaycastHit shot;
+    public bool dealingDamage;
 
 
     // Start is called before the first frame update
@@ -18,6 +19,7 @@ public class SpiderAI : MonoBehaviour
     {
         player.name = "player";
         allowedRange = 30;
+        dealingDamage = false;
     }
 
     // Update is called once per frame
@@ -49,8 +51,12 @@ public class SpiderAI : MonoBehaviour
 
         if (attackTrigger == 1)
         {
-            enemySpeed = 0;
-            enemy.GetComponent<Animation>().Play("attack");
+            if (!dealingDamage)
+            {
+                enemySpeed = 0;
+                enemy.GetComponent<Animation>().Play("attack");
+                StartCoroutine(TakingDamage());
+            }
         }
     }
 
@@ -63,5 +69,20 @@ public class SpiderAI : MonoBehaviour
     void OnCollisionExit(Collision other)
     {
         attackTrigger = 0;
+    }
+
+    IEnumerator TakingDamage()
+    {
+        dealingDamage = true;
+        yield return new WaitForSeconds(0.5f);
+        
+        // check if the spider is alive
+        if(SpiderEnemy.globalSpider != 6)
+        {
+            HealthMonitor.healthValue -= 1;
+        }
+
+        yield return new WaitForSeconds(0.4f);
+        dealingDamage = false;
     }
 }

@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class HealthMonitor : MonoBehaviour
 {
@@ -21,14 +22,22 @@ public class HealthMonitor : MonoBehaviour
     {
         internalHealth = healthValue;
 
+        if (healthValue <= 0)
+        {
+            hearth1.SetActive(true);
+            SceneManager.LoadScene(1);
+        }
+
         if (healthValue == 1)
         {
             hearth1.SetActive(true);
+            hearth2.SetActive(false);
         }
 
         if (healthValue == 2)
         {
             hearth2.SetActive(true);
+            hearth3.SetActive(false);
         }
 
         if (healthValue == 3)
