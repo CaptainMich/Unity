@@ -10,6 +10,7 @@ public class Quest001Take : MonoBehaviour
     public GameObject questUI; // quest on screen readable in a full
     public GameObject player;
     public GameObject noticeCamera; // different camera to view the quest
+    public GameObject MiniMap;
 
     // Update is called once per frame
     void Update()
@@ -35,6 +36,7 @@ public class Quest001Take : MonoBehaviour
         {
             if (distance <= 3) // check if the player is in range 
             {
+                MiniMap.SetActive(false);
                 //Cursor.lockState = CursorLockMode.None;
                 //Cursor.visible = true;
                 actionDisplay.SetActive(false);

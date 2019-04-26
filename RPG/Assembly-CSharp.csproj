@@ -130,7 +130,8 @@
     <Compile Include="Assets\Scripts\GlobalStatus\GlobalLevel.cs" />
     <Compile Include="Assets\Scripts\GlobalStatus\HealthMonitor.cs" />
     <Compile Include="Assets\Scripts\GlobalStatus\HeartCollect.cs" />
-    <Compile Include="Assets\Scripts\NPC\NPC001.cs" />
+    <Compile Include="Assets\Scripts\NPC\NPC001_RedSamurai.cs" />
+    <Compile Include="Assets\Scripts\NPC\NPC002_Necromancer.cs" />
     <Compile Include="Assets\Scripts\Quest\Quest001\Q001_Objective01.cs" />
     <Compile Include="Assets\Scripts\Quest\Quest001\Q001_Objective02.cs" />
     <Compile Include="Assets\Scripts\Quest\Quest001\Q001_Objective03.cs" />
@@ -138,6 +139,7 @@
     <Compile Include="Assets\Scripts\Quest\Quest001Complete.cs" />
     <Compile Include="Assets\Scripts\Quest\Quest001Take.cs" />
     <Compile Include="Assets\Scripts\QuestManager.cs" />
+    <Compile Include="Assets\Scripts\Saving\SaveGold.cs" />
     <None Include="Assets\Player\MEDIEVAL_ANIMATIONS_MEGA_PACK_new\2Weapons\2W_motiondata.xml" />
     <None Include="Assets\Player\MEDIEVAL_ANIMATIONS_MEGA_PACK_new\Halberd\Halberd_motiondata.xml" />
     <None Include="Assets\MapMagic\Demo\Shaders\LeafFunctions.cginc" />

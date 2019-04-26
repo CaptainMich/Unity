@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
-public class NPC001 : MonoBehaviour
+public class NPC001_RedSamurai : MonoBehaviour
 {
     public float distance;
     public GameObject actionDisplay; // E key

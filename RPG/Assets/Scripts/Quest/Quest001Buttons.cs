@@ -16,9 +16,11 @@ public class Quest001Buttons : MonoBehaviour
     public GameObject exMark;
     public GameObject notice;
     public GameObject noticeTrigger;
+    public GameObject MiniMap;
 
     public void AcceptQuest()
     {
+        MiniMap.SetActive(true);
         QuestManager.subQuestNumber = 1;
         player.SetActive(true);
         noticeCamera.SetActive(false);
@@ -55,6 +57,7 @@ public class Quest001Buttons : MonoBehaviour
 
     public void DeclineQuest()
     {
+        MiniMap.SetActive(true);
         player.SetActive(true);
         noticeCamera.SetActive(false);
         questUI.SetActive(false);
